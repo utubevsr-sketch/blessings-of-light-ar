@@ -21,6 +21,10 @@ SHOTS = [
     ('incoming-set3-all.png', '?demo&set=2&bq=all&seed=5'),
     ('give-set5-all-of-set.png', '?demo=give&set=4&q=-1'),
     ('being-closeup-devotion.png', '?demo=being&set=2&seed=3&lvl=2'),
+    ('devas.png', '?demo=devas'),
+    ('rishis.png', '?demo=rishis'),
+    ('pitrus.png', '?demo=pitrus'),
+    ('labels.png', '?demo=labels'),
     ('preview.png', ''),
 ]
 only = sys.argv[3].split(',') if len(sys.argv) > 3 else None

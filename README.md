@@ -52,7 +52,8 @@ At **100% Harmony** comes the **Harmony Bloom**: every being glides into a ring 
 **Turn your left palm toward your face** and hold it for a moment: the menu appears just above your left hand. Turn the palm away and it fades. Press buttons with your right hand: point and pinch, or poke a button with your right index fingertip. A short hint reminds you of this when you first enter.
 
 - **Set 1 to Set 5**, the qualities with their colours, and **All of this set**: the quality of your blessings.
-- **Beings:** Few (6), Many (10, the default) or Multitude (16).
+- **Beings:** All three (the default), Devas, Rishis or Pitrus.
+- **How many:** Few (6), Many (10, the default) or Multitude (16).
 - **Pace:** Calm or Lively.
 - **Beings' qualities:** Same set as mine, or All sets (new beings take this).
 - **Sacred geometry:** On or Off.
@@ -63,6 +64,123 @@ At **100% Harmony** comes the **Harmony Bloom**: every being glides into a ring 
 Your choices are saved for next time.
 
 ![The menu on the left hand](screenshots/menu-on-hand.png)
+
+## Devas, Rishis and Pitrus
+
+The beings are not nameless: each is one of the **Devas, Rishis (Ṛṣis) and Pitrus (Pitṛs)** offered water in the Brahma-yajña **tarpaṇam**. A soft name floats under each being: the name in Devanagari, the IAST spelling below it, and a small tag (Deva, Ṛṣi or Pitṛ). Names fade with distance and when you look away, so the 360° view stays clear. Collectives (the Vedas, the Oceans) appear as one being. No personal ancestors are named: those belong to each family.
+
+Each being still carries one quality and its colour, and every layer of its blessing is in that colour. The group shows in the form, with only a subtle accent on the thread, crown, beads and shimmer.
+
+- **Devas** (thread over the left shoulder, *yajñopavītī*): tall, upright and the brightest, in the upper band (2.0 to 2.85 m). A crown of rays, and a fine thread of light from the left shoulder to the right hip. Their blessings leave from the **fingertips** (deva-tīrtha) as straight, brilliant bolts, a little faster.
+- **Rishis** (thread worn like a garland, *nivītī*): seated in padmāsana at mid-height (1.3 to 2.05 m), one hand raised. A crown of matted hair (jaṭā) burning upward like a still flame, a slowly turning **japa mālā of 108 bead-motes** (the meru bead brighter), the thread as a garland and a calm amber-white core. Their blessings leave from the side of the raised palm and travel slowly in a **spiral of wisdom-light**.
+- **Pitrus** (thread over the right shoulder, *prācīnāvītī*): lower, near the horizon (0.85 to 1.45 m), softer and more translucent, with a moonlit silvery shimmer over the quality colour and a thread from the right shoulder. Sesame-like dark specks and drops of water fall softly around them. Their blessings **pour in a gentle descending arc**, like water offered between thumb and forefinger (pitṛ-tīrtha), with soft ripples where they land.
+
+By default all three groups appear together, about 40% Devas, 35% Rishis and 25% Pitrus. The menu row **Beings: All three / Devas / Rishis / Pitrus** chooses (and is remembered). When a being ascends, the **next name in that group's tarpaṇam order** takes its place, so a session cycles through the lists.
+
+On screen:
+- A blessing that reaches you says who sent it: "Vasiṣṭha's blessing · Wisdom received" ("Blessing of the Samudrāḥ · …" for a collective; "… caught" when you catch it).
+- When you bless a being, its tarpaṇam line appears near it for about 2 s: "Prajāpatiṃ tarpayāmi", "Vasiṣṭhaṃ tarpayāmi", "Somaṃ tarpayāmi". A final -n takes its sandhi before *tarpayāmi*: "Vedāṃs tarpayāmi", "Agniṣvāttān pitṝṃs tarpayāmi".
+- An Anjali to all shows "Sarvān devān ṛṣīn pitṝṃś ca tarpayāmi". This line is a grammatical summary made for the game, not a line from the traditional text.
+
+![Devas](screenshots/devas.png)
+![Rishis](screenshots/rishis.png)
+![Pitrus](screenshots/pitrus.png)
+![Names and a tarpanam line](screenshots/labels.png)
+
+### The names, in tarpaṇam order
+
+**Devas** (Āśvalāyana Gṛhyasūtra 3.4, the Rigvedic list as recited in South India):
+
+| # | Name | IAST | Meaning | Offered as |
+| --- | --- | --- | --- | --- |
+| 1 | प्रजापति | Prajāpati | Lord of all beings | Prajāpatiṃ tarpayāmi |
+| 2 | ब्रह्मा | Brahmā | the Creator | Brahmāṇaṃ tarpayāmi |
+| 3 | वेदाः | Vedāḥ | the Vedas | Vedāṃs tarpayāmi |
+| 4 | ओंकार | Oṃkāra | the sacred syllable Om | Oṃkāraṃ tarpayāmi |
+| 5 | वषट्कार | Vaṣaṭkāra | the call Vaṣaṭ that carries the offering | Vaṣaṭkāraṃ tarpayāmi |
+| 6 | व्याहृतयः | Vyāhṛtayaḥ | the Vyāhṛtis: bhūḥ, bhuvaḥ, svaḥ | Vyāhṛtīḥ tarpayāmi |
+| 7 | सावित्री | Sāvitrī | the verse to the Sun, Savitṛ | Sāvitrīṃ tarpayāmi |
+| 8 | यज्ञाः | Yajñāḥ | the Sacrifices | Yajñāṃs tarpayāmi |
+| 9 | द्यावापृथिवी | Dyāvāpṛthivī | Heaven and Earth | Dyāvāpṛthivī tarpayāmi |
+| 10 | अन्तरिक्ष | Antarikṣa | the Mid-space between them | Antarikṣaṃ tarpayāmi |
+| 11 | अहोरात्राणि | Ahorātrāṇi | Days and Nights | Ahorātrāṇi tarpayāmi |
+| 12 | साङ्ख्याः | Sāṅkhyāḥ | the Sāṅkhya sages | Sāṅkhyāṃs tarpayāmi |
+| 13 | सिद्धाः | Siddhāḥ | the Perfected Ones | Siddhāṃs tarpayāmi |
+| 14 | समुद्राः | Samudrāḥ | the Oceans | Samudrāṃs tarpayāmi |
+| 15 | नद्यः | Nadyaḥ | the Rivers | Nadīḥ tarpayāmi |
+| 16 | गिरयः | Girayaḥ | the Mountains | Girīṃs tarpayāmi |
+| 17 | क्षेत्रौषधिवनस्पतिगन्धर्वाप्सरसः | Kṣetrauṣadhivanaspatigandharvāpsarasaḥ | fields, herbs, trees, Gandharvas and Apsarases | Kṣetrauṣadhivanaspatigandharvāpsarasaḥ tarpayāmi |
+| 18 | नागाः | Nāgāḥ | the Serpent beings | Nāgāṃs tarpayāmi |
+| 19 | साध्याः | Sādhyāḥ | the Sādhyas, celestials of quiet attainment | Sādhyāṃs tarpayāmi |
+
+**Rishis.** 1 to 12: Āśvalāyana (Rigvedic). 13 to 20, from Sanaka: the Kātyāyana (Śukla Yajurveda) tarpaṇa.
+
+| # | Name | IAST | Meaning | Offered as |
+| --- | --- | --- | --- | --- |
+| 1 | शतर्चिनः | Śatarcinaḥ | seers of the first book of the Ṛgveda | Śatarcinaḥ tarpayāmi |
+| 2 | माध्यमाः | Mādhyamāḥ | seers of the middle books | Mādhyamāṃs tarpayāmi |
+| 3 | गृत्समद | Gṛtsamada | seer of the second book | Gṛtsamadaṃ tarpayāmi |
+| 4 | विश्वामित्र | Viśvāmitra | seer of the third book and the Gāyatrī | Viśvāmitraṃ tarpayāmi |
+| 5 | वामदेव | Vāmadeva | seer of the fourth book | Vāmadevaṃ tarpayāmi |
+| 6 | अत्रि | Atri | seer of the fifth book | Atriṃ tarpayāmi |
+| 7 | भरद्वाज | Bharadvāja | seer of the sixth book | Bharadvājaṃ tarpayāmi |
+| 8 | वसिष्ठ | Vasiṣṭha | seer of the seventh book | Vasiṣṭhaṃ tarpayāmi |
+| 9 | प्रगाथाः | Pragāthāḥ | seers of the eighth book | Pragāthāṃs tarpayāmi |
+| 10 | पावमान्यः | Pāvamānyaḥ | seers of the purifying Soma hymns | Pāvamānīḥ tarpayāmi |
+| 11 | क्षुद्रसूक्ताः | Kṣudrasūktāḥ | seers of the short hymns | Kṣudrasūktāṃs tarpayāmi |
+| 12 | महासूक्ताः | Mahāsūktāḥ | seers of the long hymns | Mahāsūktāṃs tarpayāmi |
+| 13 | सनक | Sanaka | first of the four Kumāras | Sanakaṃ tarpayāmi |
+| 14 | सनन्दन | Sanandana | second of the Kumāras | Sanandanaṃ tarpayāmi |
+| 15 | सनातन | Sanātana | third of the Kumāras | Sanātanaṃ tarpayāmi |
+| 16 | सनत्कुमार | Sanatkumāra | fourth of the Kumāras | Sanatkumāraṃ tarpayāmi |
+| 17 | कपिल | Kapila | founder of Sāṅkhya | Kapilaṃ tarpayāmi |
+| 18 | आसुरि | Āsuri | disciple of Kapila | Āsuriṃ tarpayāmi |
+| 19 | वोढु | Voḍhu | teacher of Sāṅkhya | Voḍhuṃ tarpayāmi |
+| 20 | पञ्चशिख | Pañcaśikha | disciple of Āsuri | Pañcaśikhaṃ tarpayāmi |
+
+**Pitrus.** 1 to 7: the divine Pitṛs of the Kātyāyana tarpaṇa. 8 to 13: the Yama tarpaṇam (Yama himself is number 3).
+
+| # | Name | IAST | Meaning | Offered as |
+| --- | --- | --- | --- | --- |
+| 1 | कव्यवाडनल | Kavyavāḍanala | Agni who carries the offerings to the ancestors | Kavyavāḍanalaṃ tarpayāmi |
+| 2 | सोम | Soma | Soma, the moon, companion of the ancestors | Somaṃ tarpayāmi |
+| 3 | यम | Yama | Yama, lord of the departed | Yamaṃ tarpayāmi |
+| 4 | अर्यमा | Aryamā | chief of the ancestors | Aryamaṇaṃ tarpayāmi |
+| 5 | अग्निष्वात्ताः पितरः | Agniṣvāttāḥ pitaraḥ | ancestors tasted by Agni | Agniṣvāttān pitṝṃs tarpayāmi |
+| 6 | सोमपाः पितरः | Somapāḥ pitaraḥ | ancestors who drink Soma | Somapān pitṝṃs tarpayāmi |
+| 7 | बर्हिषदः पितरः | Barhiṣadaḥ pitaraḥ | ancestors seated on the sacred grass | Barhiṣadaḥ pitṝṃs tarpayāmi |
+| 8 | धर्मराज | Dharmarāja | Yama as king of dharma | Dharmarājaṃ tarpayāmi |
+| 9 | मृत्यु | Mṛtyu | Death | Mṛtyuṃ tarpayāmi |
+| 10 | अन्तक | Antaka | the Ender | Antakaṃ tarpayāmi |
+| 11 | वैवस्वत | Vaivasvata | son of Vivasvān, the Sun | Vaivasvataṃ tarpayāmi |
+| 12 | काल | Kāla | Time | Kālaṃ tarpayāmi |
+| 13 | चित्रगुप्त | Citragupta | keeper of the record of deeds | Citraguptaṃ tarpayāmi |
+
+### What was checked, and against what
+
+The forms were checked against published texts:
+- Āśvalāyana Gṛhyasūtra 3.4 (Oldenberg's translation): https://www.wisdomlib.org/hinduism/book/asvalayana-grihya-sutra/d/doc116592.html
+- A South Indian Rig Veda Deva-Ṛṣi-Pitṛ tarpaṇam booklet: https://saveca.ca/Rig%20Veda%20Deva%20Rishi%20Tharpanam%20-%20For%20Avani%20Avittam.pdf
+- The Kāñcī Kāmakoṭi Yama-tarpaṇam (Devanagari): https://kamakoti.github.io/prakashanam/VDSP/YamaTarpanam/YamaTarpanam-devanagari.pdf
+- A Kātyāyana-style tarpaṇa vidhi: https://sanskritbhasi.blogspot.com/2012/10/blog-post.html
+
+sanskritdocuments.org could not be reached (it blocks automated access).
+
+Changes made after checking:
+- **Gāyatrī removed** from the Devas: it is not in the Rigvedic Deva list (Sāvitrī is).
+- **The Gandharvas and Apsarases** are part of one compound in the Rigvedic list, Kṣetrauṣadhivanaspatigandharvāpsarasaḥ ("fields, herbs, trees, Gandharvas and Apsarases"), and appear that way.
+- **Dyāvāpṛthivī** keeps the Vedic dual accusative *dyāvāpṛthivī* (not the later *dyāvāpṛthivyau*).
+- **The first Pitṛ is Kavyavāḍanala** (accusative *kavyavāḍanalaṃ*), not "Kavyavāhanam analaṃ".
+- **Pāvamānyaḥ, Kṣudrasūktāḥ and Mahāsūktāḥ** were added between Pragāthāḥ and Sanaka, as in the Rigvedic Ṛṣi list.
+- **Sandhi before *tarpayāmi*** is applied (-n becomes -ṃs).
+- **Voḍhu** is confirmed (वोढु), and the six Yama names are confirmed in order.
+
+Notes:
+- The Rigvedic Deva tarpaṇam has no Viṣṇu, Rudra, Agni, Vāyu, Sūrya or Soma. Brahmā, Viṣṇu and Rudra open the Kātyāyana list instead, so they were not added.
+- The tradition labels are as the sources give them: Sanaka to Pañcaśikha and Kavyavāḍanala to the Barhiṣadaḥ pitaraḥ come from the Kātyāyana tarpaṇa, not the Rigvedic one.
+- Also in the Rigvedic Deva list but not made into beings here: Devāḥ, Ṛṣayaḥ, Sarvāṇi chandāṃsi, Vayāṃsi, Gāvaḥ, Viprāḥ, Yakṣāḥ, Rakṣāṃsi and Bhūtāni. They can be added.
+
+**Devanagari on the Quest:** names are drawn with the font stack Noto Sans Devanagari, Kohinoor/Devanagari MT and others. Android, on which the Quest Browser runs, normally ships Noto Sans Devanagari. If no Devanagari font is found, the app notices and shows the IAST name larger instead, so a name never turns into empty boxes. A small subset font could be embedded if the Quest turns out to lack one.
 
 ## What you see
 
@@ -101,8 +219,10 @@ The meters show at the lower right. For screenshots and checks:
 | `?demo=anjali` | Anjali seen from outside (`&stop=1.0` shows the ring gathering at the hands) |
 | `?demo=bloom` | The Harmony Bloom from a third-person view |
 | `?demo=menu` | A stand-in left palm turned toward you, showing the menu |
+| `?demo=devas`, `?demo=rishis`, `?demo=pitrus` | One group at a time, each sending a blessing in its own way |
+| `?demo=labels` | The floating names, and the tarpaṇam line of a being you have just blessed |
 | `?demo=smoke&xrhands` | Smoke test: fake WebXR hand joints and a WebXR 'select' (pinch) go through the same code the headset uses, for pinch, palm push, catch and Anjali. Sets `window.__smoke` |
-| `&set=0..4&q=0..4` (`q=-1` all of the set), `&bq=all`, `&n=0..2`, `&seed=`, `&stop=`, `&sacred=0`, `&noroom` | Your quality, beings' qualities, number of beings, random seed, freeze time, sacred geometry off, no stand-in room |
+| `&set=0..4&q=0..4` (`q=-1` all of the set), `&bq=all`, `&n=0..2`, `&only=0..3` (all three, Devas, Rishis, Pitrus), `&seed=`, `&stop=`, `&sacred=0`, `&noroom` | Your quality, beings' qualities, number of beings, random seed, freeze time, sacred geometry off, no stand-in room |
 
 `tools/check.py` runs every view in headless Chrome, fails on any console error, saves the screenshots in `screenshots/` and runs the smoke test:
 
@@ -127,12 +247,14 @@ All of these are first guesses, easy to change:
 - Harmony starts at 35%. Each blessing you give adds about 1 to 5.4% (more when giving and receiving are balanced over the last 30 s and when many different beings were blessed in the last 40 s); each blessing received adds about 1.4 to 3.4%; a charged Anjali adds 12%. With nothing happening for 8 s it settles slowly back toward 35%.
 - Harmony Bloom lasts 8 s, the beings form a ring 2.4 m around you, and Harmony restarts at 50%.
 - A being ascends after 3 blessings and a new one appears 3 to 5 s later.
+- The group mix (40% Devas, 35% Rishis, 25% Pitrus), the height bands of the groups, and the blessing speeds by group: Devas 1.25 times as fast, Rishis 0.7 times, Pitrus 0.8 times.
+- Names show clearly within about 4 m, fade out by 6.5 m, and show only within about 18 to 35 degrees of where you look.
 - The menu opens when the left palm faces your eyes (within about 50 degrees) for 0.3 s and closes 0.5 s after you turn away (as in Energy Flow).
 - Performance: with 16 beings there are about 100 draw calls plus effects; the flowing light of each being is drawn in one shader pass. Foveation is 0.5. To be checked on the headset; Few or Many is lighter.
 
 ## Glossary of divine names
 
-Every name in the code that the app defines itself is a divine name, from the Vishnu and Lalita Sahasranamas, the 108 names of Shiva and other names of the Divine, chosen to fit the meaning where possible. That covers variables, functions, classes, shader names and the app's own object keys. Three.js, WebXR, the browser, WebAudio and GLSL names cannot change, so they stay as they are: in particular WebXR joint names such as `wrist` and `handedness`. The quality data, the text you see, the URL parameters, the saved-settings keys and the smoke-test results are also unchanged. The full list (865 names) is at the top of [`main.js`](main.js). The main parts are:
+Every name in the code that the app defines itself is a divine name, from the Vishnu and Lalita Sahasranamas, the 108 names of Shiva and other names of the Divine, chosen to fit the meaning where possible. That covers variables, functions, classes, shader names and the app's own object keys. Three.js, WebXR, the browser, WebAudio and GLSL names cannot change, so they stay as they are: in particular WebXR joint names such as `wrist` and `handedness`. The quality data, the text you see, the URL parameters, the saved-settings keys and the smoke-test results are also unchanged. The full list (951 names) is at the top of [`main.js`](main.js). The main parts are:
 
 | Divine name | Was | What it does |
 | --- | --- | --- |
@@ -315,6 +437,30 @@ Every name in the code that the app defines itself is a divine name, from the Vi
 | `sarvadarshi` | `uBillboard` | faces you when set |
 | `vimuktatma` | `uScale` | size uniform |
 | `mahejya` | `uSacred` | sacred geometry on/off (uniform) |
+| `TARPANAVIDHI` | `TARPANA` | the Devas, Rishis and Pitrus of the tarpanam: Devanagari, IAST, gloss, tarpayāmi form |
+| `TRIVARGA` | `LINEAGES` | the three groups: Deva, Rishi, Pitru |
+| `GOTRANAMA` | `LINEAGE_TAG` | the small group tag under a name |
+| `GOTRAVIDHI` | `LINEAGE_MENU` | menu labels: All three / Devas / Rishis / Pitrus |
+| `TRIBHAGA` | `LINEAGE_MIX` | the default mix of the groups |
+| `UPAVARNA` | `LINEAGE_ACCENT` | each group's subtle accent colour (form only, never a blessing) |
+| `LOKATRAYA` | `LINEAGE_BAND` | height band of each group |
+| `SARVATARPANA` | `ANJALI_LINE` | the line shown for an Anjali to all |
+| `tarpanamantra` | `tarpanaLine` | builds "… tarpayāmi" with sandhi |
+| `namajapa` | `nameCursor` | where each group is in its tarpanam order |
+| `DEVALIPI` | `DEVANAGARI_FONT` | font stack for Devanagari names |
+| `ROMALIPI` | `IAST_FONT` | font stack for IAST names |
+| `japaveda` | `malaGeo` | the 108 beads of a Rishi's mala |
+| `japamala` | `malaMat` | the turning japa mala of a Rishi |
+| `tilaveda` | `fallGeo` | falling sesame and water around a Pitru |
+| `tila` | `sesameMat` | dark sesame specks |
+| `jalabindu` | `dropMat` | drops of water |
+| `lipidarshana` | `hasDevanagari` | checks that a Devanagari font is present |
+| `namankana` | `drawName` | draws a being's floating name |
+| `gotravarana` | `pickLineage` | picks the group the mix needs most |
+| `namavali` | `nextName` | the next name in a group's tarpanam order |
+| `gotrasamskara` | `syncLineage` | swaps beings when the Beings menu changes |
+| `prasadadata` | `blessingFrom` | "Vasiṣṭha's blessing · " text |
+| `tarpanavakya` | `offerLine` | shows a being's tarpanam line when you bless it |
 
 Page elements (index.html): `dwarakadhisha` is the Enter AR button and `margabandhu` the desktop hint (as in Energy Flow); `leelamaya` is the body class in demo mode.
 
