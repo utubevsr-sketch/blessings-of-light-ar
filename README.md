@@ -67,120 +67,274 @@ Your choices are saved for next time.
 
 ## Devas, Rishis and Pitrus
 
-The beings are not nameless: each is one of the **Devas, Rishis (Ṛṣis) and Pitrus (Pitṛs)** offered water in the Brahma-yajña **tarpaṇam**. A soft name floats under each being: the name in Devanagari, the IAST spelling below it, and a small tag (Deva, Ṛṣi or Pitṛ). Names fade with distance and when you look away, so the 360° view stays clear. Collectives (the Vedas, the Oceans) appear as one being. No personal ancestors are named: those belong to each family.
+The beings are not nameless. Each is one of the **Devas, Rishis (Ṛṣis) and Pitrus (Pitṛs)** of the tarpaṇam. The names come from the **Yajurveda Bodhāyana-sūtra tarpaṇam, "Amma Alive" form**, as given in "Treta Ugadi Puṇyakāla Tarpaṇam" on the Gurukulam channel (https://www.youtube.com/watch?v=dwKx50BQWr0):
+- The **Devas** and **Rishis** follow its Brahma-yajña Deva and Ṛṣi tarpaṇam.
+- The **Pitrus** are the **24 Pitṛ categories** of its main tarpaṇam. They are categories, not personal names, so no one's own ancestor is named.
+
+The lists follow that source exactly and in its order. They replace the earlier Rigvedic (Āśvalāyana) lists.
+
+A soft name floats under each being: the name in Devanagari, the IAST spelling below it, and a small tag (Deva or Ṛṣi; for a Pitṛ, the tag carries the meaning, such as "Pitṛ · paternal grandfathers"). Names fade with distance and when you look away, so the 360° view stays clear. Collectives (the Vasus, the Seven Seers) appear as one being. Feminine beings (the goddesses, the consorts, the grandmothers and the wives) take a slenderer, more flowing form.
 
 Each being still carries one quality and its colour, and every layer of its blessing is in that colour. The group shows in the form, with only a subtle accent on the thread, crown, beads and shimmer.
 
-- **Devas** (thread over the left shoulder, *yajñopavītī*): tall, upright and the brightest, in the upper band (2.0 to 2.85 m). A crown of rays, and a fine thread of light from the left shoulder to the right hip. Their blessings leave from the **fingertips** (deva-tīrtha) as straight, brilliant bolts, a little faster.
-- **Rishis** (thread worn like a garland, *nivītī*): seated in padmāsana at mid-height (1.3 to 2.05 m), one hand raised. A crown of matted hair (jaṭā) burning upward like a still flame, a slowly turning **japa mālā of 108 bead-motes** (the meru bead brighter), the thread as a garland and a calm amber-white core. Their blessings leave from the side of the raised palm and travel slowly in a **spiral of wisdom-light**.
-- **Pitrus** (thread over the right shoulder, *prācīnāvītī*): lower, near the horizon (0.85 to 1.45 m), softer and more translucent, with a moonlit silvery shimmer over the quality colour and a thread from the right shoulder. Sesame-like dark specks and drops of water fall softly around them. Their blessings **pour in a gentle descending arc**, like water offered between thumb and forefinger (pitṛ-tīrtha), with soft ripples where they land.
+- **Devas** (thread over the left shoulder, *yajñopavītī*): tall, upright and the brightest, in the upper band. A crown of rays, and a fine thread of light from the left shoulder to the right hip. Their blessings leave from the **fingertips** (deva-tīrtha) as straight, brilliant bolts.
+- **Rishis** (thread worn like a garland, *nivītī*): seated in padmāsana at mid-height, one hand raised. A crown of matted hair (jaṭā) burning upward like a still flame, a slowly turning **japa mālā of 108 bead-motes** and a calm amber-white core. Their blessings leave from the side of the raised palm in a slow **spiral of wisdom-light**.
+- **Pitrus** (thread over the right shoulder, *prācīnāvītī*): lower, near the horizon, softer and more translucent, with a moonlit silvery shimmer and sesame-like dark specks and drops of water falling around them. Their blessings **pour in a gentle descending arc**, like water offered between thumb and forefinger (pitṛ-tīrtha), with soft ripples where they land.
 
-By default all three groups appear together, about 40% Devas, 35% Rishis and 25% Pitrus. The menu row **Beings: All three / Devas / Rishis / Pitrus** chooses (and is remembered). When a being ascends, the **next name in that group's tarpaṇam order** takes its place, so a session cycles through the lists.
+By default all three groups appear together, about 40% Devas, 35% Rishis and 25% Pitrus. The menu row **Beings: All three / Devas / Rishis / Pitrus** chooses (and is remembered). When a being ascends, the **next name in that group's tarpaṇam order** takes its place, so a session cycles through the lists. Names that occur more than once in the tarpaṇam (Agni, Prajāpati, Soma, Rudra, Vāyu, Varuṇa, Yama, Brahmā, Viṣṇu, Indra) keep each occurrence in its place in the order, but never appear twice on screen at once.
 
 On screen:
-- A blessing that reaches you says who sent it: "Vasiṣṭha's blessing · Wisdom received" ("Blessing of the Samudrāḥ · …" for a collective; "… caught" when you catch it).
-- When you bless a being, its tarpaṇam line appears near it for about 2 s: "Prajāpatiṃ tarpayāmi", "Vasiṣṭhaṃ tarpayāmi", "Somaṃ tarpayāmi". A final -n takes its sandhi before *tarpayāmi*: "Vedāṃs tarpayāmi", "Agniṣvāttān pitṝṃs tarpayāmi".
-- An Anjali to all shows "Sarvān devān ṛṣīn pitṝṃś ca tarpayāmi". This line is a grammatical summary made for the game, not a line from the traditional text.
+- A blessing that reaches you says who sent it, for example "Vasiṣṭha's blessing · Wisdom received", "Blessing of the Ṛṣayaḥ · …" for a collective, or "Blessing of your paternal grandfathers · …" for a Pitṛ.
+- When you bless a being, its line appears near it for about 2 s:
+  - Devas and Rishis: "Agniṃ tarpayāmi", "Vasiṣṭhaṃ tarpayāmi". A final -n takes its sandhi: "Vasūṃs tarpayāmi".
+  - Pitrus: "Pitāmahān svadhā namas tarpayāmi".
+- An Anjali to all shows "Sarvān devān ṛṣīn pitṝn tarpayāmi".
 
 ![Devas](screenshots/devas.png)
 ![Rishis](screenshots/rishis.png)
 ![Pitrus](screenshots/pitrus.png)
-![Names and a tarpanam line](screenshots/labels.png)
+![Names and a tarpaṇam line](screenshots/labels.png)
 
 ### The names, in tarpaṇam order
 
-**Devas** (Āśvalāyana Gṛhyasūtra 3.4, the Rigvedic list as recited in South India):
+The source gives most names in plain spelling; here they have proper IAST and Devanagari, with the accusative as offered.
+
+Choices made where the source leaves room:
+- The eight forms of Śiva are offered as "Bhavaṃ devaṃ" and so on.
+- Their consorts and sons are offered as separate beings ("Bhavasya devasya patnīṃ / sutaṃ tarpayāmi").
+- "Ratha" in the transcript is read as **Varada**.
+- "Kanva Bodhayana" is written **Kāṇva Bodhāyana**.
+
+**Devas** (151): the eastern, southern, western and northern doors with the Vasus, Rudras, Ādityas and Sādhyas; Brahmā and his circle; the elements, lights and worlds; Śiva's eight forms with their consorts, sons and attendants; Skanda; Gaṇapati; the twelve names of Viṣṇu, Śrī, Hrī and Puṣṭi, and Vainateya; Yama and Dharma; Viṣṇu's attendants, the sages, Vidyā, Durgā and Jyeṣṭhā; Dhanvantari.
 
 | # | Name | IAST | Meaning | Offered as |
 | --- | --- | --- | --- | --- |
-| 1 | प्रजापति | Prajāpati | Lord of all beings | Prajāpatiṃ tarpayāmi |
-| 2 | ब्रह्मा | Brahmā | the Creator | Brahmāṇaṃ tarpayāmi |
-| 3 | वेदाः | Vedāḥ | the Vedas | Vedāṃs tarpayāmi |
-| 4 | ओंकार | Oṃkāra | the sacred syllable Om | Oṃkāraṃ tarpayāmi |
-| 5 | वषट्कार | Vaṣaṭkāra | the call Vaṣaṭ that carries the offering | Vaṣaṭkāraṃ tarpayāmi |
-| 6 | व्याहृतयः | Vyāhṛtayaḥ | the Vyāhṛtis: bhūḥ, bhuvaḥ, svaḥ | Vyāhṛtīḥ tarpayāmi |
-| 7 | सावित्री | Sāvitrī | the verse to the Sun, Savitṛ | Sāvitrīṃ tarpayāmi |
-| 8 | यज्ञाः | Yajñāḥ | the Sacrifices | Yajñāṃs tarpayāmi |
-| 9 | द्यावापृथिवी | Dyāvāpṛthivī | Heaven and Earth | Dyāvāpṛthivī tarpayāmi |
-| 10 | अन्तरिक्ष | Antarikṣa | the Mid-space between them | Antarikṣaṃ tarpayāmi |
-| 11 | अहोरात्राणि | Ahorātrāṇi | Days and Nights | Ahorātrāṇi tarpayāmi |
-| 12 | साङ्ख्याः | Sāṅkhyāḥ | the Sāṅkhya sages | Sāṅkhyāṃs tarpayāmi |
-| 13 | सिद्धाः | Siddhāḥ | the Perfected Ones | Siddhāṃs tarpayāmi |
-| 14 | समुद्राः | Samudrāḥ | the Oceans | Samudrāṃs tarpayāmi |
-| 15 | नद्यः | Nadyaḥ | the Rivers | Nadīḥ tarpayāmi |
-| 16 | गिरयः | Girayaḥ | the Mountains | Girīṃs tarpayāmi |
-| 17 | क्षेत्रौषधिवनस्पतिगन्धर्वाप्सरसः | Kṣetrauṣadhivanaspatigandharvāpsarasaḥ | fields, herbs, trees, Gandharvas and Apsarases | Kṣetrauṣadhivanaspatigandharvāpsarasaḥ tarpayāmi |
-| 18 | नागाः | Nāgāḥ | the Serpent beings | Nāgāṃs tarpayāmi |
-| 19 | साध्याः | Sādhyāḥ | the Sādhyas, celestials of quiet attainment | Sādhyāṃs tarpayāmi |
+| 1 | अग्नि | Agni | Agni, fire | Agniṃ tarpayāmi |
+| 2 | प्रजापति | Prajāpati | lord of all beings | Prajāpatiṃ tarpayāmi |
+| 3 | सोम | Soma | Soma, the moon | Somaṃ tarpayāmi |
+| 4 | रुद्र | Rudra | Rudra | Rudraṃ tarpayāmi |
+| 5 | अदिति | Aditi | Aditi, mother of the gods | Aditiṃ tarpayāmi |
+| 6 | बृहस्पति | Bṛhaspati | teacher of the gods | Bṛhaspatiṃ tarpayāmi |
+| 7 | सर्पाः | Sarpāḥ | the Serpents | Sarpāṃs tarpayāmi |
+| 8 | वसवः | Vasavaḥ | the Vasus, with the deities of the eastern door | Vasūṃs tarpayāmi |
+| 9 | पितरः | Pitaraḥ | the Fathers, deities of the southern door | Pitṝṃs tarpayāmi |
+| 10 | अर्यमा | Aryamā | Aryaman | Aryamaṇaṃ tarpayāmi |
+| 11 | भग | Bhaga | Bhaga, giver of fortune | Bhagaṃ tarpayāmi |
+| 12 | सविता | Savitā | Savitṛ, the impelling Sun | Savitāraṃ tarpayāmi |
+| 13 | त्वष्टा | Tvaṣṭā | Tvaṣṭṛ, the divine shaper | Tvaṣṭāraṃ tarpayāmi |
+| 14 | वायु | Vāyu | Vāyu, the wind | Vāyuṃ tarpayāmi |
+| 15 | इन्द्राग्नी | Indrāgnī | Indra and Agni | Indrāgnī tarpayāmi |
+| 16 | रुद्राः | Rudrāḥ | the Rudras, with the deities of the southern door | Rudrāṃs tarpayāmi |
+| 17 | मित्र | Mitra | Mitra, friend of all | Mitraṃ tarpayāmi |
+| 18 | इन्द्र | Indra | Indra, king of the gods | Indraṃ tarpayāmi |
+| 19 | महापितरः | Mahāpitaraḥ | the Great Fathers | Mahāpitṝṃs tarpayāmi |
+| 20 | आपः | Āpaḥ | the Waters | Apaḥ tarpayāmi |
+| 21 | विश्वेदेवाः | Viśvedevāḥ | the All-gods | Viśvān devāṃs tarpayāmi |
+| 22 | ब्रह्मा | Brahmā | Brahmā, the Creator | Brahmāṇaṃ tarpayāmi |
+| 23 | विष्णु | Viṣṇu | Viṣṇu | Viṣṇuṃ tarpayāmi |
+| 24 | आदित्याः | Ādityāḥ | the Ādityas, with the deities of the western door | Ādityāṃs tarpayāmi |
+| 25 | वसवः | Vasavaḥ | the Vasus, deities of the northern door | Vasūṃs tarpayāmi |
+| 26 | वरुण | Varuṇa | Varuṇa, lord of the waters | Varuṇaṃ tarpayāmi |
+| 27 | अज एकपाद् | Aja Ekapād | the One-footed Unborn | Ajam Ekapādaṃ tarpayāmi |
+| 28 | अहिर्बुध्न्य | Ahirbudhnya | the Serpent of the Deep | Ahirbudhnyaṃ tarpayāmi |
+| 29 | पूषा | Pūṣā | Pūṣan, the nourisher | Pūṣaṇaṃ tarpayāmi |
+| 30 | अश्विनौ | Aśvinau | the twin Aśvins, divine healers | Aśvinau tarpayāmi |
+| 31 | यम | Yama | Yama | Yamaṃ tarpayāmi |
+| 32 | साध्याः | Sādhyāḥ | the Sādhyas, with the deities of the northern door | Sādhyāṃs tarpayāmi |
+| 33 | ब्रह्मा | Brahmā | Brahmā, first of his circle | Brahmāṇaṃ tarpayāmi |
+| 34 | प्रजापति | Prajāpati | Brahmā as lord of beings | Prajāpatiṃ tarpayāmi |
+| 35 | परमेष्ठी | Parameṣṭhī | who stands in the highest | Parameṣṭhinaṃ tarpayāmi |
+| 36 | हिरण्यगर्भ | Hiraṇyagarbha | the Golden Womb | Hiraṇyagarbhaṃ tarpayāmi |
+| 37 | चतुर्मुख | Caturmukha | the four-faced | Caturmukhaṃ tarpayāmi |
+| 38 | स्वयम्भू | Svayambhū | the Self-born | Svayambhuvaṃ tarpayāmi |
+| 39 | ब्रह्मपार्षदाः | Brahmapārṣadāḥ | Brahmā's attendants | Brahmapārṣadāṃs tarpayāmi |
+| 40 | ब्रह्मपार्षद्यः | Brahmapārṣadyaḥ | Brahmā's women attendants | Brahmapārṣadīḥ tarpayāmi |
+| 41 | अग्नि | Agni | Agni, fire | Agniṃ tarpayāmi |
+| 42 | वायु | Vāyu | Vāyu, the wind | Vāyuṃ tarpayāmi |
+| 43 | वरुण | Varuṇa | Varuṇa, the waters | Varuṇaṃ tarpayāmi |
+| 44 | सोम | Soma | Soma | Somaṃ tarpayāmi |
+| 45 | सूर्य | Sūrya | Sūrya, the Sun | Sūryaṃ tarpayāmi |
+| 46 | चन्द्रमाः | Candramāḥ | the Moon | Candramasaṃ tarpayāmi |
+| 47 | नक्षत्राणि | Nakṣatrāṇi | the Lunar Mansions | Nakṣatrāṇi tarpayāmi |
+| 48 | ज्योतींषि | Jyotīṃṣi | the Lights of heaven | Jyotīṃṣi tarpayāmi |
+| 49 | सद्योजात | Sadyojāta | the Instantly Born, face of Śiva | Sadyojātaṃ tarpayāmi |
+| 50 | ओं भूः पुरुष | Oṃ Bhūḥ Puruṣa | the Person of the earth | Oṃ Bhūḥ Puruṣaṃ tarpayāmi |
+| 51 | ओं भुवः पुरुष | Oṃ Bhuvaḥ Puruṣa | the Person of the mid-space | Oṃ Bhuvaḥ Puruṣaṃ tarpayāmi |
+| 52 | ओं सुवः पुरुष | Oṃ Suvaḥ Puruṣa | the Person of heaven | Oṃ Suvaḥ Puruṣaṃ tarpayāmi |
+| 53 | ओं भूर्भुवस्सुवः पुरुष | Oṃ Bhūrbhuvassuvaḥ Puruṣa | the Person of all three worlds | Oṃ Bhūrbhuvassuvaḥ Puruṣaṃ tarpayāmi |
+| 54 | ओं भूः | Oṃ Bhūḥ | the earth world | Oṃ Bhūḥ tarpayāmi |
+| 55 | ओं भुवः | Oṃ Bhuvaḥ | the mid-world | Oṃ Bhuvaḥ tarpayāmi |
+| 56 | ओं सुवः | Oṃ Suvaḥ | the heaven world | Oṃ Suvaḥ tarpayāmi |
+| 57 | ओं महः | Oṃ Mahaḥ | the world of greatness | Oṃ Mahaḥ tarpayāmi |
+| 58 | ओं जनः | Oṃ Janaḥ | the world of the born | Oṃ Janaḥ tarpayāmi |
+| 59 | ओं तपः | Oṃ Tapaḥ | the world of austerity | Oṃ Tapaḥ tarpayāmi |
+| 60 | ओं सत्यम् | Oṃ Satyam | the world of truth | Oṃ Satyaṃ tarpayāmi |
+| 61 | भव देव | Bhava Deva | Śiva as Bhava | Bhavaṃ devaṃ tarpayāmi |
+| 62 | शर्व देव | Śarva Deva | Śiva as Śarva | Śarvaṃ devaṃ tarpayāmi |
+| 63 | ईशान देव | Īśāna Deva | Śiva as Īśāna | Īśānaṃ devaṃ tarpayāmi |
+| 64 | पशुपति देव | Paśupati Deva | Śiva as Paśupati | Paśupatiṃ devaṃ tarpayāmi |
+| 65 | रुद्र देव | Rudra Deva | Śiva as Rudra | Rudraṃ devaṃ tarpayāmi |
+| 66 | उग्र देव | Ugra Deva | Śiva as Ugra | Ugraṃ devaṃ tarpayāmi |
+| 67 | भीम देव | Bhīma Deva | Śiva as Bhīma | Bhīmaṃ devaṃ tarpayāmi |
+| 68 | महान् देव | Mahān Deva | Śiva as Mahān | Mahāntaṃ devaṃ tarpayāmi |
+| 69 | भवस्य देवस्य पत्नी | Bhavasya Devasya Patnī | consort of Bhava | Bhavasya devasya patnīṃ tarpayāmi |
+| 70 | शर्वस्य देवस्य पत्नी | Śarvasya Devasya Patnī | consort of Śarva | Śarvasya devasya patnīṃ tarpayāmi |
+| 71 | ईशानस्य देवस्य पत्नी | Īśānasya Devasya Patnī | consort of Īśāna | Īśānasya devasya patnīṃ tarpayāmi |
+| 72 | पशुपतेः देवस्य पत्नी | Paśupateḥ Devasya Patnī | consort of Paśupati | Paśupateḥ devasya patnīṃ tarpayāmi |
+| 73 | रुद्रस्य देवस्य पत्नी | Rudrasya Devasya Patnī | consort of Rudra | Rudrasya devasya patnīṃ tarpayāmi |
+| 74 | उग्रस्य देवस्य पत्नी | Ugrasya Devasya Patnī | consort of Ugra | Ugrasya devasya patnīṃ tarpayāmi |
+| 75 | भीमस्य देवस्य पत्नी | Bhīmasya Devasya Patnī | consort of Bhīma | Bhīmasya devasya patnīṃ tarpayāmi |
+| 76 | महतः देवस्य पत्नी | Mahataḥ Devasya Patnī | consort of Mahān | Mahataḥ devasya patnīṃ tarpayāmi |
+| 77 | भवस्य देवस्य सुत | Bhavasya Devasya Suta | son of Bhava | Bhavasya devasya sutaṃ tarpayāmi |
+| 78 | शर्वस्य देवस्य सुत | Śarvasya Devasya Suta | son of Śarva | Śarvasya devasya sutaṃ tarpayāmi |
+| 79 | ईशानस्य देवस्य सुत | Īśānasya Devasya Suta | son of Īśāna | Īśānasya devasya sutaṃ tarpayāmi |
+| 80 | पशुपतेः देवस्य सुत | Paśupateḥ Devasya Suta | son of Paśupati | Paśupateḥ devasya sutaṃ tarpayāmi |
+| 81 | रुद्रस्य देवस्य सुत | Rudrasya Devasya Suta | son of Rudra | Rudrasya devasya sutaṃ tarpayāmi |
+| 82 | उग्रस्य देवस्य सुत | Ugrasya Devasya Suta | son of Ugra | Ugrasya devasya sutaṃ tarpayāmi |
+| 83 | भीमस्य देवस्य सुत | Bhīmasya Devasya Suta | son of Bhīma | Bhīmasya devasya sutaṃ tarpayāmi |
+| 84 | महतः देवस्य सुत | Mahataḥ Devasya Suta | son of Mahān | Mahataḥ devasya sutaṃ tarpayāmi |
+| 85 | रुद्राः | Rudrāḥ | the Rudras | Rudrāṃs tarpayāmi |
+| 86 | रुद्रपार्षदाः | Rudrapārṣadāḥ | Rudra's attendants | Rudrapārṣadāṃs tarpayāmi |
+| 87 | रुद्रपार्षद्यः | Rudrapārṣadyaḥ | Rudra's women attendants | Rudrapārṣadīḥ tarpayāmi |
+| 88 | सनत्कुमार | Sanatkumāra | the eternal youth | Sanatkumāraṃ tarpayāmi |
+| 89 | स्कन्द | Skanda | Skanda | Skandaṃ tarpayāmi |
+| 90 | इन्द्र | Indra | Indra | Indraṃ tarpayāmi |
+| 91 | षष्ठी | Ṣaṣṭhī | Ṣaṣṭhī, consort of Skanda | Ṣaṣṭhīṃ tarpayāmi |
+| 92 | षण्मुख | Ṣaṇmukha | the six-faced | Ṣaṇmukhaṃ tarpayāmi |
+| 93 | विशाख | Viśākha | Viśākha | Viśākhaṃ tarpayāmi |
+| 94 | जयन्त | Jayanta | the victorious | Jayantaṃ tarpayāmi |
+| 95 | महासेन | Mahāsena | commander of the gods | Mahāsenaṃ tarpayāmi |
+| 96 | स्कन्दपार्षदाः | Skandapārṣadāḥ | Skanda's attendants | Skandapārṣadāṃs tarpayāmi |
+| 97 | स्कन्दपार्षद्यः | Skandapārṣadyaḥ | Skanda's women attendants | Skandapārṣadīḥ tarpayāmi |
+| 98 | विघ्न | Vighna | lord of obstacles | Vighnaṃ tarpayāmi |
+| 99 | विनायक | Vināyaka | the remover | Vināyakaṃ tarpayāmi |
+| 100 | वीर | Vīra | the hero | Vīraṃ tarpayāmi |
+| 101 | शूर | Śūra | the valiant | Śūraṃ tarpayāmi |
+| 102 | वरद | Varada | giver of boons | Varadaṃ tarpayāmi |
+| 103 | हस्तिमुख | Hastimukha | the elephant-faced | Hastimukhaṃ tarpayāmi |
+| 104 | एकदन्त | Ekadanta | the one-tusked | Ekadantaṃ tarpayāmi |
+| 105 | लम्बोदर | Lambodara | the big-bellied | Lambodaraṃ tarpayāmi |
+| 106 | वक्रतुण्ड | Vakratuṇḍa | of the curved trunk | Vakratuṇḍaṃ tarpayāmi |
+| 107 | गणपति | Gaṇapati | lord of the hosts | Gaṇapatiṃ tarpayāmi |
+| 108 | विघ्नपार्षदाः | Vighnapārṣadāḥ | Gaṇapati's attendants | Vighnapārṣadāṃs tarpayāmi |
+| 109 | विघ्नपार्षद्यः | Vighnapārṣadyaḥ | Gaṇapati's women attendants | Vighnapārṣadīḥ tarpayāmi |
+| 110 | केशव | Keśava | name of Viṣṇu | Keśavaṃ tarpayāmi |
+| 111 | नारायण | Nārāyaṇa | name of Viṣṇu | Nārāyaṇaṃ tarpayāmi |
+| 112 | माधव | Mādhava | name of Viṣṇu | Mādhavaṃ tarpayāmi |
+| 113 | गोविन्द | Govinda | name of Viṣṇu | Govindaṃ tarpayāmi |
+| 114 | विष्णु | Viṣṇu | name of Viṣṇu | Viṣṇuṃ tarpayāmi |
+| 115 | मधुसूदन | Madhusūdana | name of Viṣṇu | Madhusūdanaṃ tarpayāmi |
+| 116 | त्रिविक्रम | Trivikrama | name of Viṣṇu | Trivikramaṃ tarpayāmi |
+| 117 | वामन | Vāmana | name of Viṣṇu | Vāmanaṃ tarpayāmi |
+| 118 | श्रीधर | Śrīdhara | name of Viṣṇu | Śrīdharaṃ tarpayāmi |
+| 119 | हृषीकेश | Hṛṣīkeśa | name of Viṣṇu | Hṛṣīkeśaṃ tarpayāmi |
+| 120 | पद्मनाभ | Padmanābha | name of Viṣṇu | Padmanābhaṃ tarpayāmi |
+| 121 | दामोदर | Dāmodara | name of Viṣṇu | Dāmodaraṃ tarpayāmi |
+| 122 | श्रीदेवी | Śrīdevī | Śrī, goddess of fortune | Śrīdevīṃ tarpayāmi |
+| 123 | ह्रीदेवी | Hrīdevī | Hrī, goddess of modesty | Hrīdevīṃ tarpayāmi |
+| 124 | पुष्टिदेवी | Puṣṭidevī | Puṣṭi, goddess of nourishment | Puṣṭidevīṃ tarpayāmi |
+| 125 | वैनतेय | Vainateya | Garuḍa | Vainateyaṃ tarpayāmi |
+| 126 | काल | Kāla | Time | Kālaṃ tarpayāmi |
+| 127 | नील | Nīla | the dark one | Nīlaṃ tarpayāmi |
+| 128 | मृत्यु | Mṛtyu | Death | Mṛtyuṃ tarpayāmi |
+| 129 | अन्तक | Antaka | the Ender | Antakaṃ tarpayāmi |
+| 130 | यम | Yama | Yama | Yamaṃ tarpayāmi |
+| 131 | यमराज | Yamarāja | King Yama | Yamarājaṃ tarpayāmi |
+| 132 | धर्म | Dharma | Dharma | Dharmaṃ tarpayāmi |
+| 133 | धर्मराज | Dharmarāja | king of dharma | Dharmarājaṃ tarpayāmi |
+| 134 | चित्र | Citra | the bright one | Citraṃ tarpayāmi |
+| 135 | चित्रगुप्त | Citragupta | keeper of the record of deeds | Citraguptaṃ tarpayāmi |
+| 136 | वैवस्वत | Vaivasvata | son of the Sun | Vaivasvataṃ tarpayāmi |
+| 137 | वैवस्वतपार्षदाः | Vaivasvatapārṣadāḥ | Yama's attendants | Vaivasvatapārṣadāṃs tarpayāmi |
+| 138 | वैवस्वतपार्षद्यः | Vaivasvatapārṣadyaḥ | Yama's women attendants | Vaivasvatapārṣadīḥ tarpayāmi |
+| 139 | विष्णु | Viṣṇu | Viṣṇu | Viṣṇuṃ tarpayāmi |
+| 140 | विष्णुपार्षदाः | Viṣṇupārṣadāḥ | Viṣṇu's attendants | Viṣṇupārṣadāṃs tarpayāmi |
+| 141 | विष्णुपार्षद्यः | Viṣṇupārṣadyaḥ | Viṣṇu's women attendants | Viṣṇupārṣadīḥ tarpayāmi |
+| 142 | भरद्वाज | Bharadvāja | the seer Bharadvāja | Bharadvājaṃ tarpayāmi |
+| 143 | गौतम | Gautama | the seer Gautama | Gautamaṃ tarpayāmi |
+| 144 | अत्रि | Atri | the seer Atri | Atriṃ tarpayāmi |
+| 145 | अङ्गिरस् | Aṅgiras | the seer Aṅgiras | Aṅgirasaṃ tarpayāmi |
+| 146 | विद्या | Vidyā | Knowledge | Vidyāṃ tarpayāmi |
+| 147 | दुर्गा | Durgā | Durgā | Durgāṃ tarpayāmi |
+| 148 | ज्येष्ठा | Jyeṣṭhā | Jyeṣṭhā, the elder goddess | Jyeṣṭhāṃ tarpayāmi |
+| 149 | धन्वन्तरि | Dhanvantari | physician of the gods | Dhanvantariṃ tarpayāmi |
+| 150 | धन्वन्तरिपार्षदाः | Dhanvantaripārṣadāḥ | Dhanvantari's attendants | Dhanvantaripārṣadāṃs tarpayāmi |
+| 151 | धन्वन्तरिपार्षद्यः | Dhanvantaripārṣadyaḥ | Dhanvantari's women attendants | Dhanvantaripārṣadīḥ tarpayāmi |
 
-**Rishis.** 1 to 12: Āśvalāyana (Rigvedic). 13 to 20, from Sanaka: the Kātyāyana (Śukla Yajurveda) tarpaṇa.
+**Rishis** (39): the classes and families of seers; the seers and authors of Sūtras; the Vedas, metres and all beings.
 
 | # | Name | IAST | Meaning | Offered as |
 | --- | --- | --- | --- | --- |
-| 1 | शतर्चिनः | Śatarcinaḥ | seers of the first book of the Ṛgveda | Śatarcinaḥ tarpayāmi |
-| 2 | माध्यमाः | Mādhyamāḥ | seers of the middle books | Mādhyamāṃs tarpayāmi |
-| 3 | गृत्समद | Gṛtsamada | seer of the second book | Gṛtsamadaṃ tarpayāmi |
-| 4 | विश्वामित्र | Viśvāmitra | seer of the third book and the Gāyatrī | Viśvāmitraṃ tarpayāmi |
-| 5 | वामदेव | Vāmadeva | seer of the fourth book | Vāmadevaṃ tarpayāmi |
-| 6 | अत्रि | Atri | seer of the fifth book | Atriṃ tarpayāmi |
-| 7 | भरद्वाज | Bharadvāja | seer of the sixth book | Bharadvājaṃ tarpayāmi |
-| 8 | वसिष्ठ | Vasiṣṭha | seer of the seventh book | Vasiṣṭhaṃ tarpayāmi |
-| 9 | प्रगाथाः | Pragāthāḥ | seers of the eighth book | Pragāthāṃs tarpayāmi |
-| 10 | पावमान्यः | Pāvamānyaḥ | seers of the purifying Soma hymns | Pāvamānīḥ tarpayāmi |
-| 11 | क्षुद्रसूक्ताः | Kṣudrasūktāḥ | seers of the short hymns | Kṣudrasūktāṃs tarpayāmi |
-| 12 | महासूक्ताः | Mahāsūktāḥ | seers of the long hymns | Mahāsūktāṃs tarpayāmi |
-| 13 | सनक | Sanaka | first of the four Kumāras | Sanakaṃ tarpayāmi |
-| 14 | सनन्दन | Sanandana | second of the Kumāras | Sanandanaṃ tarpayāmi |
-| 15 | सनातन | Sanātana | third of the Kumāras | Sanātanaṃ tarpayāmi |
-| 16 | सनत्कुमार | Sanatkumāra | fourth of the Kumāras | Sanatkumāraṃ tarpayāmi |
-| 17 | कपिल | Kapila | founder of Sāṅkhya | Kapilaṃ tarpayāmi |
-| 18 | आसुरि | Āsuri | disciple of Kapila | Āsuriṃ tarpayāmi |
-| 19 | वोढु | Voḍhu | teacher of Sāṅkhya | Voḍhuṃ tarpayāmi |
-| 20 | पञ्चशिख | Pañcaśikha | disciple of Āsuri | Pañcaśikhaṃ tarpayāmi |
+| 1 | ऋषयः | Ṛṣayaḥ | the Seers | Ṛṣaīṃs tarpayāmi |
+| 2 | महर्षयः | Maharṣayaḥ | the great Seers | Maharṣaīṃs tarpayāmi |
+| 3 | परमर्षयः | Paramarṣayaḥ | the supreme Seers | Paramarṣaīṃs tarpayāmi |
+| 4 | देवर्षयः | Devarṣayaḥ | the divine Seers | Devarṣaīṃs tarpayāmi |
+| 5 | ब्रह्मर्षयः | Brahmarṣayaḥ | the Brahmin Seers | Brahmarṣaīṃs tarpayāmi |
+| 6 | राजर्षयः | Rājarṣayaḥ | the royal Seers | Rājarṣaīṃs tarpayāmi |
+| 7 | वैश्यर्षयः | Vaiśyarṣayaḥ | the merchant Seers | Vaiśyarṣaīṃs tarpayāmi |
+| 8 | सूतर्षयः | Sūtarṣayaḥ | the bard Seers | Sūtarṣaīṃs tarpayāmi |
+| 9 | श्रुतर्षयः | Śrutarṣayaḥ | the Seers of hearing | Śrutarṣaīṃs tarpayāmi |
+| 10 | जनर्षयः | Janarṣayaḥ | the Seers of the people | Janarṣaīṃs tarpayāmi |
+| 11 | तपर्षयः | Taparṣayaḥ | the Seers of austerity | Taparṣaīṃs tarpayāmi |
+| 12 | सत्यर्षयः | Satyarṣayaḥ | the Seers of truth | Satyarṣaīṃs tarpayāmi |
+| 13 | सप्तर्षयः | Saptarṣayaḥ | the Seven Seers | Saptarṣaīṃs tarpayāmi |
+| 14 | काण्डर्षयः | Kāṇḍarṣayaḥ | the Seers of the Veda sections | Kāṇḍarṣaīṃs tarpayāmi |
+| 15 | ऋषिकाः | Ṛṣikāḥ | the lesser Seers | Ṛṣikāṃs tarpayāmi |
+| 16 | ऋषिपत्न्यः | Ṛṣipatnyaḥ | the Seers' wives | Ṛṣipatnīḥ tarpayāmi |
+| 17 | ऋषिपुत्राः | Ṛṣiputrāḥ | the Seers' sons | Ṛṣiputrāṃs tarpayāmi |
+| 18 | ऋषिपौत्राः | Ṛṣipautrāḥ | the Seers' grandsons | Ṛṣipautrāṃs tarpayāmi |
+| 19 | काण्व बोधायन | Kāṇva Bodhāyana | author of our Sūtra | Kāṇvaṃ Bodhāyanaṃ tarpayāmi |
+| 20 | आपस्तम्ब सूत्रकार | Āpastamba Sūtrakāra | Āpastamba, author of a Sūtra | Āpastambaṃ Sūtrakāraṃ tarpayāmi |
+| 21 | सत्याषाढ हिरण्यकेशिन् | Satyāṣāḍha Hiraṇyakeśin | Satyāṣāḍha, author of a Sūtra | Satyāṣāḍhaṃ Hiraṇyakeśinaṃ tarpayāmi |
+| 22 | वाजसनेय याज्ञवल्क्य | Vājasaneya Yājñavalkya | seer of the White Yajurveda | Vājasaneyaṃ Yājñavalkyaṃ tarpayāmi |
+| 23 | आश्वलायन शौनक | Āśvalāyana Śaunaka | teachers of the Ṛgveda Sūtra | Āśvalāyanaṃ Śaunakaṃ tarpayāmi |
+| 24 | व्यास | Vyāsa | arranger of the Vedas | Vyāsaṃ tarpayāmi |
+| 25 | वसिष्ठ | Vasiṣṭha | the seer Vasiṣṭha | Vasiṣṭhaṃ tarpayāmi |
+| 26 | प्रणव | Praṇava | the syllable Om | Praṇavaṃ tarpayāmi |
+| 27 | व्याहृतयः | Vyāhṛtayaḥ | the Vyāhṛtis: bhūḥ, bhuvaḥ, suvaḥ | Vyāhṛtīḥ tarpayāmi |
+| 28 | सावित्री | Sāvitrī | the verse to Savitṛ | Sāvitrīṃ tarpayāmi |
+| 29 | गायत्री | Gāyatrī | Gāyatrī, mother of the Vedas | Gāyatrīṃ tarpayāmi |
+| 30 | छन्दांसि | Chandāṃsi | the Metres | Chandāṃsi tarpayāmi |
+| 31 | सदसस्पति | Sadasaspati | lord of the assembly | Sadasaspatiṃ tarpayāmi |
+| 32 | ऋग्वेद | Ṛgveda | the Ṛgveda | Ṛgvedaṃ tarpayāmi |
+| 33 | यजुर्वेद | Yajurveda | the Yajurveda | Yajurvedaṃ tarpayāmi |
+| 34 | सामवेद | Sāmaveda | the Sāmaveda | Sāmavedaṃ tarpayāmi |
+| 35 | अथर्ववेद | Atharvaveda | the Atharvaveda | Atharvavedaṃ tarpayāmi |
+| 36 | अथर्वाङ्गिरसः | Atharvāṅgirasaḥ | the Atharvan and Aṅgiras hymns | Atharvāṅgirasaḥ tarpayāmi |
+| 37 | इतिहासपुराणानि | Itihāsapurāṇāni | the Epics and Purāṇas | Itihāsapurāṇāni tarpayāmi |
+| 38 | सर्पदेवजनाः | Sarpadevajanāḥ | the serpent and divine peoples | Sarpadevajanāṃs tarpayāmi |
+| 39 | सर्वभूतानि | Sarvabhūtāni | all beings | Sarvabhūtāni tarpayāmi |
 
-**Pitrus.** 1 to 7: the divine Pitṛs of the Kātyāyana tarpaṇa. 8 to 13: the Yama tarpaṇam (Yama himself is number 3).
+**Pitrus** (the 24 categories of the main tarpaṇam): the paternal line, the maternal line, then teachers, kinsmen and all souls.
 
 | # | Name | IAST | Meaning | Offered as |
 | --- | --- | --- | --- | --- |
-| 1 | कव्यवाडनल | Kavyavāḍanala | Agni who carries the offerings to the ancestors | Kavyavāḍanalaṃ tarpayāmi |
-| 2 | सोम | Soma | Soma, the moon, companion of the ancestors | Somaṃ tarpayāmi |
-| 3 | यम | Yama | Yama, lord of the departed | Yamaṃ tarpayāmi |
-| 4 | अर्यमा | Aryamā | chief of the ancestors | Aryamaṇaṃ tarpayāmi |
-| 5 | अग्निष्वात्ताः पितरः | Agniṣvāttāḥ pitaraḥ | ancestors tasted by Agni | Agniṣvāttān pitṝṃs tarpayāmi |
-| 6 | सोमपाः पितरः | Somapāḥ pitaraḥ | ancestors who drink Soma | Somapān pitṝṃs tarpayāmi |
-| 7 | बर्हिषदः पितरः | Barhiṣadaḥ pitaraḥ | ancestors seated on the sacred grass | Barhiṣadaḥ pitṝṃs tarpayāmi |
-| 8 | धर्मराज | Dharmarāja | Yama as king of dharma | Dharmarājaṃ tarpayāmi |
-| 9 | मृत्यु | Mṛtyu | Death | Mṛtyuṃ tarpayāmi |
-| 10 | अन्तक | Antaka | the Ender | Antakaṃ tarpayāmi |
-| 11 | वैवस्वत | Vaivasvata | son of Vivasvān, the Sun | Vaivasvataṃ tarpayāmi |
-| 12 | काल | Kāla | Time | Kālaṃ tarpayāmi |
-| 13 | चित्रगुप्त | Citragupta | keeper of the record of deeds | Citraguptaṃ tarpayāmi |
+| 1 | पितॄन् | Pitṝn | fathers | Pitṝn svadhā namas tarpayāmi |
+| 2 | पितामहान् | Pitāmahān | paternal grandfathers | Pitāmahān svadhā namas tarpayāmi |
+| 3 | प्रपितामहान् | Prapitāmahān | paternal great-grandfathers | Prapitāmahān svadhā namas tarpayāmi |
+| 4 | पितामहीः | Pitāmahīḥ | paternal grandmothers | Pitāmahīḥ svadhā namas tarpayāmi |
+| 5 | पितुः पितामहीः | Pituḥ Pitāmahīḥ | paternal great-grandmothers | Pituḥ Pitāmahīḥ svadhā namas tarpayāmi |
+| 6 | पितुः प्रपितामहीः | Pituḥ Prapitāmahīḥ | paternal great-great-grandmothers | Pituḥ Prapitāmahīḥ svadhā namas tarpayāmi |
+| 7 | मातामहान् | Mātāmahān | maternal grandfathers | Mātāmahān svadhā namas tarpayāmi |
+| 8 | मातुः पितामहान् | Mātuḥ Pitāmahān | maternal great-grandfathers | Mātuḥ Pitāmahān svadhā namas tarpayāmi |
+| 9 | मातुः प्रपितामहान् | Mātuḥ Prapitāmahān | maternal great-great-grandfathers | Mātuḥ Prapitāmahān svadhā namas tarpayāmi |
+| 10 | मातामहीः | Mātāmahīḥ | maternal grandmothers | Mātāmahīḥ svadhā namas tarpayāmi |
+| 11 | मातुः पितामहीः | Mātuḥ Pitāmahīḥ | maternal great-grandmothers | Mātuḥ Pitāmahīḥ svadhā namas tarpayāmi |
+| 12 | मातुः प्रपितामहीः | Mātuḥ Prapitāmahīḥ | maternal great-great-grandmothers | Mātuḥ Prapitāmahīḥ svadhā namas tarpayāmi |
+| 13 | आचार्यान् | Ācāryān | teachers | Ācāryān svadhā namas tarpayāmi |
+| 14 | आचार्यपत्नीः | Ācāryapatnīḥ | teachers' wives | Ācāryapatnīḥ svadhā namas tarpayāmi |
+| 15 | गुरून् | Gurūn | gurus | Gurūn svadhā namas tarpayāmi |
+| 16 | गुरुपत्नीः | Gurupatnīḥ | gurus' wives | Gurupatnīḥ svadhā namas tarpayāmi |
+| 17 | सखीन् | Sakhīn | friends | Sakhīn svadhā namas tarpayāmi |
+| 18 | सखिपत्नीः | Sakhipatnīḥ | friends' wives | Sakhipatnīḥ svadhā namas tarpayāmi |
+| 19 | ज्ञातीन् | Jñātīn | kinsmen | Jñātīn svadhā namas tarpayāmi |
+| 20 | ज्ञातिपत्नीः | Jñātipatnīḥ | kinsmen's wives | Jñātipatnīḥ svadhā namas tarpayāmi |
+| 21 | अमात्यान् | Amātyān | associates and companions | Amātyān svadhā namas tarpayāmi |
+| 22 | अमात्यपत्नीः | Amātyapatnīḥ | companions' wives | Amātyapatnīḥ svadhā namas tarpayāmi |
+| 23 | सर्वान् | Sarvān | all departed men | Sarvān svadhā namas tarpayāmi |
+| 24 | सर्वाः | Sarvāḥ | all departed women | Sarvāḥ svadhā namas tarpayāmi |
 
-### What was checked, and against what
-
-The forms were checked against published texts:
-- Āśvalāyana Gṛhyasūtra 3.4 (Oldenberg's translation): https://www.wisdomlib.org/hinduism/book/asvalayana-grihya-sutra/d/doc116592.html
-- A South Indian Rig Veda Deva-Ṛṣi-Pitṛ tarpaṇam booklet: https://saveca.ca/Rig%20Veda%20Deva%20Rishi%20Tharpanam%20-%20For%20Avani%20Avittam.pdf
-- The Kāñcī Kāmakoṭi Yama-tarpaṇam (Devanagari): https://kamakoti.github.io/prakashanam/VDSP/YamaTarpanam/YamaTarpanam-devanagari.pdf
-- A Kātyāyana-style tarpaṇa vidhi: https://sanskritbhasi.blogspot.com/2012/10/blog-post.html
-
-sanskritdocuments.org could not be reached (it blocks automated access).
-
-Changes made after checking:
-- **Gāyatrī removed** from the Devas: it is not in the Rigvedic Deva list (Sāvitrī is).
-- **The Gandharvas and Apsarases** are part of one compound in the Rigvedic list, Kṣetrauṣadhivanaspatigandharvāpsarasaḥ ("fields, herbs, trees, Gandharvas and Apsarases"), and appear that way.
-- **Dyāvāpṛthivī** keeps the Vedic dual accusative *dyāvāpṛthivī* (not the later *dyāvāpṛthivyau*).
-- **The first Pitṛ is Kavyavāḍanala** (accusative *kavyavāḍanalaṃ*), not "Kavyavāhanam analaṃ".
-- **Pāvamānyaḥ, Kṣudrasūktāḥ and Mahāsūktāḥ** were added between Pragāthāḥ and Sanaka, as in the Rigvedic Ṛṣi list.
-- **Sandhi before *tarpayāmi*** is applied (-n becomes -ṃs).
-- **Voḍhu** is confirmed (वोढु), and the six Yama names are confirmed in order.
-
-Notes:
-- The Rigvedic Deva tarpaṇam has no Viṣṇu, Rudra, Agni, Vāyu, Sūrya or Soma. Brahmā, Viṣṇu and Rudra open the Kātyāyana list instead, so they were not added.
-- The tradition labels are as the sources give them: Sanaka to Pañcaśikha and Kavyavāḍanala to the Barhiṣadaḥ pitaraḥ come from the Kātyāyana tarpaṇa, not the Rigvedic one.
-- Also in the Rigvedic Deva list but not made into beings here: Devāḥ, Ṛṣayaḥ, Sarvāṇi chandāṃsi, Vayāṃsi, Gāvaḥ, Viprāḥ, Yakṣāḥ, Rakṣāṃsi and Bhūtāni. They can be added.
-
-**Devanagari on the Quest:** names are drawn with the font stack Noto Sans Devanagari, Kohinoor/Devanagari MT and others. Android, on which the Quest Browser runs, normally ships Noto Sans Devanagari. If no Devanagari font is found, the app notices and shows the IAST name larger instead, so a name never turns into empty boxes. A small subset font could be embedded if the Quest turns out to lack one.
+**Devanagari on the Quest:** names are drawn with the font stack Noto Sans Devanagari, Kohinoor/Devanagari MT and others. Android, on which the Quest Browser runs, normally ships Noto Sans Devanagari. If no Devanagari font is found, the app notices and shows the IAST name larger instead, so a name never turns into empty boxes.
 
 ## What you see
 
@@ -247,14 +401,14 @@ All of these are first guesses, easy to change:
 - Harmony starts at 35%. Each blessing you give adds about 1 to 5.4% (more when giving and receiving are balanced over the last 30 s and when many different beings were blessed in the last 40 s); each blessing received adds about 1.4 to 3.4%; a charged Anjali adds 12%. With nothing happening for 8 s it settles slowly back toward 35%.
 - Harmony Bloom lasts 8 s, the beings form a ring 2.4 m around you, and Harmony restarts at 50%.
 - A being ascends after 3 blessings and a new one appears 3 to 5 s later.
-- The group mix (40% Devas, 35% Rishis, 25% Pitrus), the height bands of the groups, and the blessing speeds by group: Devas 1.25 times as fast, Rishis 0.7 times, Pitrus 0.8 times.
+- The group mix (40% Devas, 35% Rishis, 25% Pitrus), the height bands of the groups (Devas 2.0 to 2.85 m, Rishis 1.3 to 2.05 m, Pitrus 0.85 to 1.45 m), and the blessing speeds by group: Devas 1.25 times as fast, Rishis 0.7 times, Pitrus 0.8 times.
 - Names show clearly within about 4 m, fade out by 6.5 m, and show only within about 18 to 35 degrees of where you look.
 - The menu opens when the left palm faces your eyes (within about 50 degrees) for 0.3 s and closes 0.5 s after you turn away (as in Energy Flow).
 - Performance: with 16 beings there are about 100 draw calls plus effects; the flowing light of each being is drawn in one shader pass. Foveation is 0.5. To be checked on the headset; Few or Many is lighter.
 
 ## Glossary of divine names
 
-Every name in the code that the app defines itself is a divine name, from the Vishnu and Lalita Sahasranamas, the 108 names of Shiva and other names of the Divine, chosen to fit the meaning where possible. That covers variables, functions, classes, shader names and the app's own object keys. Three.js, WebXR, the browser, WebAudio and GLSL names cannot change, so they stay as they are: in particular WebXR joint names such as `wrist` and `handedness`. The quality data, the text you see, the URL parameters, the saved-settings keys and the smoke-test results are also unchanged. The full list (951 names) is at the top of [`main.js`](main.js). The main parts are:
+Every name in the code that the app defines itself is a divine name, from the Vishnu and Lalita Sahasranamas, the 108 names of Shiva and other names of the Divine, chosen to fit the meaning where possible. That covers variables, functions, classes, shader names and the app's own object keys. Three.js, WebXR, the browser, WebAudio and GLSL names cannot change, so they stay as they are: in particular WebXR joint names such as `wrist` and `handedness`. The quality data, the text you see, the URL parameters, the saved-settings keys and the smoke-test results are also unchanged. The full list (952 names) is at the top of [`main.js`](main.js). The main parts are:
 
 | Divine name | Was | What it does |
 | --- | --- | --- |

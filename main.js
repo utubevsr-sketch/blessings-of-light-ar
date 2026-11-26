@@ -216,7 +216,7 @@
 //
 // Shader names, helpers and the rest:
 //   abhu                     (DEMO_MENU)  constant
-//   abrahmakitajanani        (uKind)  shader uniform
+//   abrahmakitajanani        (uImp)  shader uniform
 //   achyuta                  (FALL_N)  constant
 //   adhishthana              (FALL_VERT)  constant
 //   adhokshaja               (H)  parameter / local
@@ -231,7 +231,7 @@
 //   akshara                  (PW)  parameter / local
 //   akula                    (presence)  object property
 //   amaraprabhu              (R)  constant, GLSL name
-//   ambika                   (uSize)  shader uniform
+//   ambika                   (uSeed)  shader uniform
 //   ameyatma                 (S)  constant
 //   amitashana               (SHOWER_N)  constant
 //   amogha                   (TRAIL_N)  constant
@@ -275,13 +275,13 @@
 //   bahushira                (aFall)  shader attribute
 //   bhadramurti              (qual)  parameter / local
 //   bhadrapriya              (qIndex)  parameter / local
-//   bhagamalini              (uGroup)  shader uniform
-//   bhagavati                (uHarm)  shader uniform
+//   bhagamalini              (uGrace)  shader uniform
+//   bhagavati                (uGroup)  shader uniform
 //   bhairavi                 (uGlow)  shader uniform
-//   bhaktamanasahamsika      (ya)  parameter / local
+//   bhaktamanasahamsika      (y1)  parameter / local
 //   bhaktasaubhagya          (qualities)  parameter / local
 //   bhaktigamya              (quat)  parameter / local
-//   bhaktimatkalpalatika     (waveMat)  constant
+//   bhaktimatkalpalatika     (waveGeo)  constant
 //   bhaktipriya              (quality)  parameter / local, object property
 //   bhaktivashya             (r)  parameter / local, GLSL name
 //   bhandaputra              (pin)  constant
@@ -297,7 +297,7 @@
 //   bhayapaha                (r0)  parameter / local, GLSL name
 //   bhedanashini             (shed)  object property
 //   bhima                    (aP1)  shader attribute
-//   bhogini                  (uRipple)  shader uniform
+//   bhogini                  (uR)  shader uniform
 //   bhojana                  (aSh)  shader attribute
 //   bhokta                   (aTr)  shader attribute
 //   bhrajishnu               (aTr2)  shader attribute
@@ -308,10 +308,11 @@
 //   BHUTABHAVYA              (add)  constant
 //   bhutadi                  (age)  constant, object property
 //   bhutamaheshvara          (ahead)  parameter / local
-//   bhuvaneshvari            (uSeed)  shader uniform
+//   bhuvaneshvari            (uRipple)  shader uniform
 //   bija                     (alive)  constant
+//   bindumandalavasini       (z)  parameter / local
 //   bisatantu                (py)  parameter / local
-//   brahmadyanandasantati    (x1)  parameter / local
+//   brahmadyanandasantati    (x0)  constant
 //   brahmagranthi            (progress)  object property
 //   brahmarupa               (uBOn)  shader uniform
 //   brahmopendra             (pointsMat)  constant
@@ -330,10 +331,10 @@
 //   chaturdamshtra           (angOf)  constant
 //   chaturvyuha              (anjaliAt)  object property
 //   chidagni                 (o1)  variable
-//   chidekarasarupini        (x)  parameter / local, GLSL name
+//   chidekarasarupini        (wristJ)  parameter / local
 //   chinmayi                 (tongue)  GLSL name
 //   chintamani               (palm)  constant, object property
-//   chiti                    (wrap)  function, object property
+//   chiti                    (worldLock)  function, object property
 //   daksha                   (anjaliRelease)  object property
 //   damana                   (anjaliT)  constant
 //   damodara                 (apart)  constant
@@ -384,23 +385,23 @@
 //   gurutama                 (bestAng)  parameter / local
 //   hamsa                    (bestGap)  parameter / local
 //   haranetra                (poked)  parameter / local
-//   haribrahmendrasevita     (uStreak)  shader uniform
+//   haribrahmendrasevita     (uSize)  shader uniform
 //   havirhari                (bez)  GLSL name
 //   hetu                     (bezT)  GLSL name
-//   heyopadeya               (update)  object property
+//   heyopadeya               (until)  object property
 //   hiranyanabha             (bi)  GLSL name
-//   hridya                   (until)  object property
-//   hrimati                  (uWind)  shader uniform
-//   hrimkari                 (uWash)  shader uniform
+//   hridya                   (uWind)  shader uniform
+//   hrimati                  (uWash)  shader uniform
+//   hrimkari                 (uTrail)  shader uniform
 //   ishana                   (blend)  object property
 //   ishta                    (bless)  object property
 //   ishvari                  (uDir)  shader uniform
 //   jagadadija               (blessBackAt)  object property
 //   jagarini                 (tt)  GLSL name
-//   jagatikanda              (vUv2)  shader varying
+//   jagatikanda              (vUv)  shader varying
 //   jagatsetu                (blessed)  constant
 //   jahnu                    (bloomPos)  object property
-//   jalandharasthita         (yv)  GLSL name
+//   jalandharasthita         (yu)  constant
 //   janardana                (body)  GLSL name
 //   janeshvara               (bolt)  constant
 //   jaya                     (branch)  parameter / local
@@ -410,26 +411,26 @@
 //   jvalamalini              (phase2)  object property
 //   jyeshtha                 (bus)  parameter / local
 //   kadamba                  (palmColors)  constant
-//   kadambakusumapriya       (vSeed)  shader varying
-//   kadambaripriya           (vY)  shader varying
+//   kadambakusumapriya       (vS)  shader varying
+//   kadambaripriya           (vW)  shader varying
 //   kala                     (button)  constant
-//   kalalapa                 (vW)  shader varying
-//   kalavati                 (vVis)  shader varying
-//   kalyani                  (vUv)  shader varying
+//   kalalapa                 (vVis)  shader varying
+//   kalavati                 (vV)  shader varying
+//   kalyani                  (vSeed)  shader varying
 //   kamadayini               (part)  constant
 //   kamagni                  (pointAt)  object property
 //   kamaha                   (buttons)  variable
-//   kamakalarupa             (vS)  shader varying
+//   kamakalarupa             (vQ)  shader varying
 //   kamakrit                 (c)  constant, GLSL name, object property
 //   kamakshi                 (p3)  GLSL name
 //   kamakuta                 (ow)  constant
 //   kamaprada                (ca)  GLSL name
-//   kamapujita               (yb)  parameter / local
+//   kamapujita               (yaw)  variable
 //   kameshajnata             (out)  parameter / local
 //   kameshvaramukha          (place)  function, object property
-//   kameshvarapranadi        (yaw)  variable
+//   kameshvarapranadi        (ya)  parameter / local
 //   kameshvari               (p2)  parameter / local
-//   kamya                    (vQ)  shader varying
+//   kamya                    (vPhase)  shader varying
 //   kanakangada              (outside)  GLSL name
 //   kanta                    (camPos)  parameter / local
 //   kapindra                 (canFire)  object property
@@ -437,7 +438,7 @@
 //   karanguli                (plasma)  object property
 //   karpuravitika            (origin)  constant
 //   karta                    (cands)  constant
-//   karunarasasagara         (vV)  shader varying
+//   karunarasasagara         (vUv2)  shader varying
 //   kaulini                  (posePhantomArms)  function
 //   kavi                     (canvas)  constant
 //   keshava                  (capsule)  GLSL name
@@ -454,12 +455,12 @@
 //   krodhashamani            (seen)  constant
 //   kshama                   (centre)  object property
 //   kshara                   (centres)  constant
-//   kshayavriddhivinirmukta  (vn)  constant
+//   kshayavriddhivinirmukta  (vis)  GLSL name
 //   kshetrajna               (cents)  parameter / local
-//   kshetrakshetrajnapalini  (vis)  GLSL name
-//   kshetrapalasamarchita    (vt)  GLSL name
-//   kshetrasvarupa           (vh)  GLSL name
-//   kshetreshi               (vib)  constant
+//   kshetrakshetrajnapalini  (vib)  constant
+//   kshetrapalasamarchita    (vn)  constant
+//   kshetrasvarupa           (vg)  parameter / local
+//   kshetreshi               (vh)  GLSL name
 //   kshobhana                (ch)  variable, GLSL name
 //   kulamrita                (pool)  constant, object property
 //   kulangana                (pose)  parameter / local
@@ -476,7 +477,7 @@
 //   MADHAVA                  (circle)  constant
 //   madhu                    (ck)  constant
 //   madhusudana              (click)  object property
-//   madhyama                 (y0)  parameter / local
+//   madhyama                 (y)  constant, GLSL name
 //   mahabala                 (col)  constant, GLSL name, object property
 //   mahabhaga                (colorList)  parameter / local
 //   mahabhairava             (th)  GLSL name
@@ -535,23 +536,23 @@
 //   muktanam                 (cy)  parameter / local
 //   muladhara                (prof)  GLSL name
 //   nabhyalavala             (ox)  object property
-//   nadarupa                 (uTint)  shader uniform
+//   nadarupa                 (uT0)  shader uniform
 //   nahusha                  (d)  constant, GLSL name, object property
 //   naikamaya                (data)  constant
 //   naikarupa                (dd)  constant
 //   naikatma                 (delay)  parameter / local
 //   nakshatranemi            (demoAim)  constant
 //   nakshatri                (devanagariOK)  variable
-//   namarupavivarjita        (uTrail)  shader uniform
+//   namarupavivarjita        (uTint)  shader uniform
 //   nara                     (dir)  parameter / local, object property
 //   narasimha                (dirty)  object property
-//   narayani                 (uT0)  shader uniform
+//   narayani                 (uStreak)  shader uniform
 //   naya                     (dist)  constant
 //   neta                     (down)  parameter / local, GLSL name
 //   neya                     (dq)  GLSL name
 //   nidhiravyaya             (dragging)  parameter / local
 //   nihsamshaya              (sesame)  object property
-//   nijajnarupanigama        (uOrbs)  shader uniform
+//   nijajnarupanigama        (uLen)  shader uniform
 //   nijaruna                 (opacity)  parameter / local
 //   nijasallapa              (osc)  constant
 //   niketana                 (tint)  parameter / local, GLSL name
@@ -603,10 +604,10 @@
 //   nivrittatma              (drawFn)  parameter / local
 //   niyama                   (drone)  variable
 //   nyaya                    (drops)  object property
-//   odyanapithanilaya        (z)  parameter / local
+//   odyanapithanilaya        (yv)  GLSL name
 //   padmagarbha              (dt)  parameter / local
 //   padmanabha               (dummy)  constant
-//   padmanabhasahodari       (uHead)  shader uniform
+//   padmanabhasahodari       (uHarm)  shader uniform
 //   padmanayana              (title)  parameter / local
 //   padmanibhekshana         (dur)  parameter / local, object property
 //   padmaragasamaprabha      (tn)  GLSL name
@@ -617,8 +618,8 @@
 //   panchapretasanasina      (tn2)  GLSL name
 //   panchatanmatra           (onArrive)  object property
 //   papanashini              (sc)  constant
-//   para                     (xAxis)  parameter / local
-//   paradevata               (y)  constant, GLSL name
+//   para                     (x1)  parameter / local
+//   paradevata               (xrSession)  constant
 //   paramagati               (dy)  parameter / local
 //   paramananda              (tr)  constant
 //   Paramaspashta            (dz)  parameter / local
@@ -628,8 +629,8 @@
 //   pararddhi                (edge)  GLSL name
 //   parigraha                (effectsGroup)  constant
 //   parvati                  (tips)  constant, object property
-//   pashupashavimochini      (white)  parameter / local
-//   pashyanti                (xrSession)  constant
+//   pashupashavimochini      (waveMat)  constant
+//   pashyanti                (xr)  constant
 //   pavana                   (emit)  object property
 //   Pavitra                  (end)  constant, object property
 //   prabhuta                 (endAt)  object property
@@ -648,18 +649,18 @@
 //   pratardana               (fade)  object property
 //   prathita                 (fadeDelay)  object property
 //   pratishthita             (fadeEnds)  GLSL name
-//   pratyakchitirupa         (xr)  constant
+//   pratyakchitirupa         (xAxis)  parameter / local
 //   Pratyaya                 (fadeLow)  GLSL name
 //   prithu                   (fakeJoints)  object property
 //   Punarvasu                (fall)  GLSL name
 //   pundarikaksha            (fan)  GLSL name
-//   punyapunyaphalaprada     (uP0)  shader uniform
+//   punyapunyaphalaprada     (uOrbs)  shader uniform
 //   purandara                (far)  parameter / local
 //   puratana                 (fast)  object property
-//   purna                    (uR)  shader uniform
+//   purna                    (uPulse)  shader uniform
 //   purujit                  (fg)  constant
 //   purusattama              (fib)  GLSL name
-//   purusharthaprada         (uPulse)  shader uniform
+//   purusharthaprada         (uPrana)  shader uniform
 //   purusheshvara            (fil)  GLSL name
 //   purushottama             (fill)  GLSL name
 //   pushkaraksha             (fit)  constant
@@ -667,22 +668,22 @@
 //   PUTATMA                  (flash)  GLSL name
 //   ragamathani              (rows)  constant
 //   ragasvarupa              (ok)  constant, GLSL name, object property
-//   rajarajarchita           (updatePath)  object property
-//   rajivalochana            (v)  parameter / local, GLSL name, object property
-//   rakenduvadana            (vCol)  shader varying
-//   rakini                   (upper)  constant, object property
-//   rakshakari               (vN)  shader varying
-//   rakshasaghni             (vNear)  shader varying
+//   rajarajarchita           (update)  object property
+//   rajivalochana            (uv)  parameter / local
+//   rakenduvadana            (vAlpha)  shader varying
+//   rakini                   (updatePath)  object property
+//   rakshakari               (vL)  shader varying
+//   rakshasaghni             (vN)  shader varying
 //   rama                     (flashAt)  object property
-//   ramamani                 (vP)  shader varying
-//   ramanalampata            (vPhase)  shader varying
-//   ramani                   (v2)  parameter / local
-//   ramya                    (uv)  parameter / local
-//   ranatkinkinimekhala      (vAlpha)  shader varying
-//   ranjani                  (v1)  constant
-//   rasya                    (vA)  shader varying
-//   ratipriya                (vL)  shader varying
-//   ratirupa                 (vFloor)  shader varying
+//   ramamani                 (vNear)  shader varying
+//   ramanalampata            (vP)  shader varying
+//   ramani                   (v1)  constant
+//   ramya                    (upper)  constant, object property
+//   ranatkinkinimekhala      (vA)  shader varying
+//   ranjani                  (v)  parameter / local, GLSL name, object property
+//   rasya                    (v2)  parameter / local
+//   ratipriya                (vFloor)  shader varying
+//   ratirupa                 (vCol)  shader varying
 //   ratnagarbha              (flashMat)  constant
 //   ratnagraiveya            (outgoing)  object property
 //   Riddha                   (flick)  constant
@@ -697,24 +698,24 @@
 //   sadhvi                   (rays2)  GLSL name
 //   saha                     (font)  parameter / local
 //   sahasrajit               (forearm)  constant, object property
-//   sahasrakshi              (uImp)  shader uniform
+//   sahasrakshi              (uHold)  shader uniform
 //   sahasramshu              (forearmDown)  constant
 //   sahasramurdha            (frame)  parameter / local
 //   sahasrapat               (frames)  parameter / local
 //   sahasrarambuja           (pushAt)  object property
-//   sahasrashirshavadana     (uHold)  shader uniform
+//   sahasrashirshavadana     (uHelix)  shader uniform
 //   sahishnu                 (from)  parameter / local
-//   sakalagamasandoha        (uP2)  shader uniform
+//   sakalagamasandoha        (uP1)  shader uniform
 //   sakshi                   (front)  constant
 //   sama                     (fu)  constant
-//   samahlada                (windup)  object property
+//   samahlada                (wind)  GLSL name, object property
 //   samanadhika              (spokes)  GLSL name
 //   Samatma                  (full)  GLSL name
 //   samayachara              (prev)  parameter / local
 //   samayajna                (g)  constant, GLSL name
 //   samayantastha            (press)  function, object property
 //   samharini                (uBright)  shader uniform
-//   samhritasheshapashanda   (whoosh)  object property
+//   samhritasheshapashanda   (white)  parameter / local
 //   samiha                   (gain)  constant
 //   samirana                 (gap)  parameter / local
 //   samitinjaya              (gate)  constant
@@ -729,7 +730,7 @@
 //   sandhiman                (glow)  constant, GLSL name, object property
 //   sandrakaruna             (spin)  GLSL name
 //   sangraha                 (gn)  parameter / local
-//   santapta                 (wind)  GLSL name, object property
+//   santapta                 (width)  parameter / local
 //   sarga                    (goal)  constant
 //   sarva                    (got)  parameter / local
 //   sarvadarshana            (grad)  parameter / local
@@ -788,16 +789,16 @@
 //   shrimata                 (note)  object property
 //   shrinagara               (pal)  constant
 //   shringamadhya            (pace)  constant
-//   shringararasasampurna    (yu)  constant
+//   shringararasasampurna    (yb)  parameter / local
 //   shrinivasa               (hp)  GLSL name
 //   shrividya                (poly)  constant
 //   shrutisagara             (hr)  GLSL name
-//   shrutisimantasindhuri    (uP1)  shader uniform
+//   shrutisimantasindhuri    (uP0)  shader uniform
 //   Shubhekshana             (hue)  GLSL name
 //   shuchi                   (hw)  constant
 //   shuchishrava             (hy)  constant
 //   shuddhavidya             (orbs)  object property
-//   shuktisamputamauktika    (uPrana)  shader uniform
+//   shuktisamputamauktika    (uP2)  shader uniform
 //   shura                    (i)  parameter / local, GLSL name
 //   siddha                   (id)  parameter / local, object property
 //   siddhartha               (idAt)  constant, object property
@@ -842,18 +843,18 @@
 //   suvrata                  (knees)  GLSL name
 //   svapana                  (l)  GLSL name
 //   svapanti                 (tw)  constant
-//   svatmanandalavibhuta     (x0)  constant
+//   svatmanandalavibhuta     (x)  parameter / local, GLSL name
 //   svavasha                 (label)  parameter / local
 //   SVAYAMBHU                (lagN)  GLSL name
 //   tadillata                (pushT)  constant
 //   taijasatmika             (type)  constant
-//   tamopaha                 (worldLock)  function, object property
-//   tanumadhya               (world)  GLSL name
-//   tapasaradhya             (words)  constant
-//   tapatrayagni             (width)  parameter / local
+//   tamopaha                 (world)  GLSL name
+//   tanumadhya               (words)  constant
+//   tapasaradhya             (word)  constant
+//   tapatrayagni             (whoosh)  object property
 //   tarana                   (lagSec)  GLSL name
-//   tarunya                  (word)  constant
-//   tatpadalakshyartha       (wristJ)  parameter / local
+//   tarunya                  (windup)  object property
+//   tatpadalakshyartha       (wrap)  function, object property
 //   tirodhanakari            (uCone)  shader uniform
 //   Trikakubdhama            (lap)  GLSL name
 //   turya                    (uAge)  shader uniform
@@ -863,31 +864,31 @@
 //   udbhava                  (lastEvent)  object property
 //   udyadbhanu               (off)  constant
 //   ugra                     (lastFire)  object property
-//   unmeshanimishotpanna     (uHelix)  shader uniform
+//   unmeshanimishotpanna     (uHead)  shader uniform
 //   upendra                  (lastPush)  object property
 //   urjita                   (lastSel)  object property
 //   uttara                   (lastX)  parameter / local
 //   vachaspati               (lastY)  parameter / local
 //   vadanasmara              (orbOffset)  GLSL name
 //   vagmi                    (launch)  object property
-//   vagvadini                (wash)  parameter / local
+//   vagvadini                (wasHidden)  constant
 //   vahni                    (layer)  parameter / local
-//   vahnimandalavasini       (waveGeo)  constant
+//   vahnimandalavasini       (wave)  object property
 //   vaidya                   (left)  constant
-//   vaikharirupa             (y1)  parameter / local
+//   vaikharirupa             (y0)  parameter / local
 //   vaikuntha                (len)  constant, GLSL name
 //   vaktralakshmi            (orbPos)  object property
-//   vamakeshi                (wave)  object property
+//   vamakeshi                (wash)  parameter / local
 //   vamana                   (level)  constant, object property
-//   vamanayana               (val)  parameter / local
-//   vandarujanavatsala       (wasHidden)  constant
-//   vandya                   (want)  constant
+//   vamanayana               (vY)  shader varying
+//   vandarujanavatsala       (want)  constant
+//   vandya                   (w)  parameter / local, GLSL name
 //   varada                   (levels)  object property
 //   vararoha                 (lfo)  constant
 //   vardhamana               (lfoGain)  parameter / local
 //   vardhana                 (lh)  constant
-//   varnashramavidhayini     (uLen)  shader uniform
-//   varunimadavihvala        (value)  parameter / local
+//   varnashramavidhayini     (uKind)  shader uniform
+//   varunimadavihvala        (val)  parameter / local
 //   vasavanuja               (life)  parameter / local, GLSL name, object property
 //   VASHATKARA               (lift)  GLSL name
 //   vasu                     (limb)  GLSL name
@@ -900,24 +901,24 @@
 //   vayu                     (ln)  parameter / local
 //   vayuvahana               (lo)  parameter / local
 //   veda                     (local)  constant
-//   vedajanani               (verb)  variable
+//   vedajanani               (vel)  object property
 //   vedanga                  (look)  parameter / local
-//   vedavedya                (veils)  object property
+//   vedavedya                (variety)  constant
 //   vedavid                  (low)  constant
 //   vedya                    (lp)  constant, GLSL name
 //   vegavan                  (lum)  constant
 //   vibhu                    (lvl)  GLSL name
 //   vidhata                  (m)  parameter / local, GLSL name
-//   vidhatri                 (vel)  object property
+//   vidhatri                 (veins)  GLSL name
 //   vijaya                   (mala)  object property
 //   vijnanaghanarupini       (track)  object property
 //   vikrama                  (mandala)  object property
 //   vikrami                  (master)  variable
 //   vikshara                 (mat)  parameter / local, object property
-//   vilasini                 (vg)  parameter / local
-//   vimala                   (w)  parameter / local, GLSL name
+//   vilasini                 (verbGain)  constant
+//   vimala                   (vt)  GLSL name
 //   vinaya                   (maxW)  parameter / local
-//   vindhyachalanivasini     (veins)  GLSL name
+//   vindhyachalanivasini     (veils)  object property
 //   vira                     (menuFacing)  object property
 //   virabahu                 (meru)  GLSL name
 //   viraha                   (mesh)  constant, object property
@@ -926,14 +927,14 @@
 //   vishishta                (meterBar)  constant
 //   VISHNU                   (mid)  constant
 //   vishnugranthi            (prox)  parameter / local
-//   vishnumaya               (verbGain)  constant
+//   vishnumaya               (verb)  variable
 //   vishrama                 (mix)  constant
 //   vishrutatma              (mix32)  variable
 //   vishukra                 (pitch)  parameter / local
 //   vishvabahu               (mode)  object property
 //   vishvabhuk               (motes)  object property
 //   vishvadakshina           (mouseIn)  variable
-//   vishvadhika              (variety)  constant
+//   vishvadhika              (value)  parameter / local
 //   vishvadhrik              (moved)  parameter / local
 //   vishvaksena              (ms)  parameter / local
 //   vishvaretas              (mu)  constant
@@ -1078,7 +1079,7 @@ const URDHVAGA = new THREE.Vector3(0, 1, 0);
 const POORNAM = Math.PI * 2;
 const HIRANYAGARBHA = (1 + Math.sqrt(5)) / 2;
 const SURYANARAYANA = Math.PI * (3 - Math.sqrt(5)); // 137.5°
-const shanta = (vayuvahana, shikhandi, chidekarasarupini) => { const suprasada = Math.min(1, Math.max(0, (chidekarasarupini - vayuvahana) / (shikhandi - vayuvahana))); return suprasada * suprasada * (3 - 2 * suprasada); };
+const shanta = (vayuvahana, shikhandi, svatmanandalavibhuta) => { const suprasada = Math.min(1, Math.max(0, (svatmanandalavibhuta - vayuvahana) / (shikhandi - vayuvahana))); return suprasada * suprasada * (3 - 2 * suprasada); };
 const lila = (vayuvahana, shikhandi) => vayuvahana + Math.random() * (shikhandi - vayuvahana);
 const mahakala = { mahavirya: 0 };
 const kalashakti = { value: 0 }; // one shared time uniform for every shader
@@ -1097,15 +1098,15 @@ const MAYA = /* glsl */`
 float chitragupta(vec2 stanabhara){ vec3 kamakshi = fract(vec3(stanabhara.xyx) * .1031); kamakshi += dot(kamakshi, kamakshi.yzx + 33.33); return fract((kamakshi.x + kamakshi.y) * kamakshi.z); }
 float chitrasena(vec3 stanabhara){ stanabhara = fract(stanabhara * .1031); stanabhara += dot(stanabhara, stanabhara.zyx + 31.32); return fract((stanabhara.x + stanabhara.y) * stanabhara.z); }
 float mayini(vec2 stanabhara){
-  vec2 shura = floor(stanabhara), pramana = fract(stanabhara); vec2 vimala = pramana * pramana * (3. - 2. * pramana);
-  return mix(mix(chitragupta(shura), chitragupta(shura + vec2(1., 0.)), vimala.x), mix(chitragupta(shura + vec2(0., 1.)), chitragupta(shura + vec2(1., 1.)), vimala.x), vimala.y);
+  vec2 shura = floor(stanabhara), pramana = fract(stanabhara); vec2 vandya = pramana * pramana * (3. - 2. * pramana);
+  return mix(mix(chitragupta(shura), chitragupta(shura + vec2(1., 0.)), vandya.x), mix(chitragupta(shura + vec2(0., 1.)), chitragupta(shura + vec2(1., 1.)), vandya.x), vandya.y);
 }
 float mayapati(vec2 stanabhara){ float nirmoha = 0., avartana = .5; for (int shura = 0; shura < 3; shura++){ nirmoha += avartana * mayini(stanabhara); stanabhara = stanabhara * 2.07 + vec2(3.1, 7.7); avartana *= .5; } return nirmoha / .875; }
 float mahamayini(vec3 stanabhara){
-  vec3 shura = floor(stanabhara), pramana = fract(stanabhara); vec3 vimala = pramana * pramana * (3. - 2. * pramana);
+  vec3 shura = floor(stanabhara), pramana = fract(stanabhara); vec3 vandya = pramana * pramana * (3. - 2. * pramana);
   float VISHWAM = chitrasena(shura), vrishabha = chitrasena(shura + vec3(1., 0., 0.)), vivikta = chitrasena(shura + vec3(0., 1., 0.)), vrishakapi = chitrasena(shura + vec3(1., 1., 0.));
   float vistara = chitrasena(shura + vec3(0., 0., 1.)), vrishahi = chitrasena(shura + vec3(1., 0., 1.)), vriddhatma = chitrasena(shura + vec3(0., 1., 1.)), vrishakarma = chitrasena(shura + vec3(1., 1., 1.));
-  return mix(mix(mix(VISHWAM, vrishabha, vimala.x), mix(vivikta, vrishakapi, vimala.x), vimala.y), mix(mix(vistara, vrishahi, vimala.x), mix(vriddhatma, vrishakarma, vimala.x), vimala.y), vimala.z);
+  return mix(mix(mix(VISHWAM, vrishabha, vandya.x), mix(vivikta, vrishakapi, vandya.x), vandya.y), mix(mix(vistara, vrishahi, vandya.x), mix(vriddhatma, vrishakarma, vandya.x), vandya.y), vandya.z);
 }
 float mayadhisha(vec3 stanabhara){ float nirmoha = 0., avartana = .5; for (int shura = 0; shura < 3; shura++){ nirmoha += avartana * mahamayini(stanabhara); stanabhara = stanabhara * 2.03 + vec3(1.7, 9.2, 3.1); avartana *= .5; } return nirmoha / .875; }
 `;
@@ -1114,8 +1115,8 @@ const VARNAPATHA = /* glsl */`
 uniform vec3 vikarta[5];
 vec3 varnadhara(float surariha){ int shura = int(floor(fract(surariha) * 5.)); return vikarta[shura < 0 ? 0 : (shura > 4 ? 4 : shura)]; }
 vec3 varnamala(float surariha){
-  float chidekarasarupini = fract(surariha) * 5.; int shura = int(floor(chidekarasarupini)); int sukshma = int(mod(float(shura) + 1., 5.));
-  return mix(vikarta[shura < 0 ? 0 : (shura > 4 ? 4 : shura)], vikarta[sukshma], smoothstep(0.25, 0.75, fract(chidekarasarupini)));
+  float svatmanandalavibhuta = fract(surariha) * 5.; int shura = int(floor(svatmanandalavibhuta)); int sukshma = int(mod(float(shura) + 1., 5.));
+  return mix(vikarta[shura < 0 ? 0 : (shura > 4 ? 4 : shura)], vikarta[sukshma], smoothstep(0.25, 0.75, fract(svatmanandalavibhuta)));
 }`;
 const bhutatma = new THREE.PlaneGeometry(2, 2);
 // A streak: a quad from tail (x = 0) to head (x = 1), y across. Shared by all instanced streak systems.
@@ -1162,12 +1163,12 @@ function tripura(manu, shatchakra) {
   const papanashini = 1 / 2.05;
   manu.save(); manu.scale(papanashini, papanashini);
   manu.lineWidth = shatchakra * 5 / papanashini;
-  const vivarjita = (kamapujita, bhaktamanasahamsika) => { // base at height yb, apex at ya (canvas y is down, so flip)
-    const shuchi = Math.min(Math.sqrt(Math.max(0, 1 - kamapujita * kamapujita)), Math.abs(bhaktamanasahamsika - kamapujita) * 0.62);
-    shrividya(manu, [[-shuchi, -kamapujita], [shuchi, -kamapujita], [0, -bhaktamanasahamsika]]);
+  const vivarjita = (shringararasasampurna, kameshvarapranadi) => { // base at height yb, apex at ya (canvas y is down, so flip)
+    const shuchi = Math.min(Math.sqrt(Math.max(0, 1 - shringararasasampurna * shringararasasampurna)), Math.abs(kameshvarapranadi - shringararasasampurna) * 0.62);
+    shrividya(manu, [[-shuchi, -shringararasasampurna], [shuchi, -shringararasasampurna], [0, -kameshvarapranadi]]);
   };
-  [[0.68, -1.0], [0.45, -0.82], [0.29, -0.58], [0.10, -0.40], [-0.06, -0.20]].forEach(([kamapujita, bhaktamanasahamsika]) => vivarjita(kamapujita, bhaktamanasahamsika)); // Shakti, pointing down
-  [[-0.62, 1.0], [-0.42, 0.76], [-0.24, 0.52], [-0.03, 0.30]].forEach(([kamapujita, bhaktamanasahamsika]) => vivarjita(kamapujita, bhaktamanasahamsika)); // Shiva, pointing up
+  [[0.68, -1.0], [0.45, -0.82], [0.29, -0.58], [0.10, -0.40], [-0.06, -0.20]].forEach(([shringararasasampurna, kameshvarapranadi]) => vivarjita(shringararasasampurna, kameshvarapranadi)); // Shakti, pointing down
+  [[-0.62, 1.0], [-0.42, 0.76], [-0.24, 0.52], [-0.03, 0.30]].forEach(([shringararasasampurna, kameshvarapranadi]) => vivarjita(shringararasasampurna, kameshvarapranadi)); // Shiva, pointing up
   manu.beginPath(); manu.arc(0, 0.05, 0.035, 0, POORNAM); manu.fill(); // bindu
   MADHAVA(manu, 1.04);
   geyachakra(manu, 8, 1.04, 1.34, -Math.PI / 2);
@@ -1222,8 +1223,8 @@ function pushpitavana(manu, bhaktivashya) {
   const kshara = [[0, 0]];
   for (let nishprapancha = 1; nishprapancha <= 2; nishprapancha++) for (let suprasada = 0; suprasada < 6; suprasada++) for (let nirmoha = 0; nirmoha < nishprapancha; nirmoha++) {
     const avijnata = suprasada * POORNAM / 6, avyanga = (suprasada + 1) * POORNAM / 6;
-    const svatmanandalavibhuta = Math.cos(avijnata) * nishprapancha * bhaktivashya, madhyama = Math.sin(avijnata) * nishprapancha * bhaktivashya, brahmadyanandasantati = Math.cos(avyanga) * nishprapancha * bhaktivashya, vaikharirupa = Math.sin(avyanga) * nishprapancha * bhaktivashya;
-    kshara.push([svatmanandalavibhuta + (brahmadyanandasantati - svatmanandalavibhuta) * nirmoha / nishprapancha, madhyama + (vaikharirupa - madhyama) * nirmoha / nishprapancha]);
+    const brahmadyanandasantati = Math.cos(avijnata) * nishprapancha * bhaktivashya, vaikharirupa = Math.sin(avijnata) * nishprapancha * bhaktivashya, para = Math.cos(avyanga) * nishprapancha * bhaktivashya, bhaktamanasahamsika = Math.sin(avyanga) * nishprapancha * bhaktivashya;
+    kshara.push([brahmadyanandasantati + (para - brahmadyanandasantati) * nirmoha / nishprapancha, vaikharirupa + (bhaktamanasahamsika - vaikharirupa) * nirmoha / nishprapancha]);
   }
   kshara.forEach(([Medhavi, muktanam]) => MADHAVA(manu, bhaktivashya, Medhavi, muktanam));
   MADHAVA(manu, 3 * bhaktivashya); MADHAVA(manu, 3 * bhaktivashya * 1.04);
@@ -1242,14 +1243,14 @@ const shripura = chitrakara(2048, (manu, shatchakra) => {
 // The glow of a line texture: the sharp line with a soft halo from a blurrier mip level, in the palette colour.
 const SHRICHAKRA = VARNAPATHA + /* glsl */`
   uniform sampler2D ijya;
-  varying vec2 kalyani; varying float ranatkinkinimekhala;
+  varying vec2 jagatikanda; varying float rakenduvadana;
   void main(){
-    float Vasuda = texture2D(ijya, kalyani).a;
-    float satya = texture2D(ijya, kalyani, 3.5).a;
-    vec2 nahusha = kalyani - 0.5;
+    float Vasuda = texture2D(ijya, jagatikanda).a;
+    float satya = texture2D(ijya, jagatikanda, 3.5).a;
+    vec2 nahusha = jagatikanda - 0.5;
     vec3 gabhastinemi = varnadhara(fract(length(nahusha) * 2.2 + atan(nahusha.y, nahusha.x) / 6.2831853));
     vec3 mahabala = mix(gabhastinemi * 1.5, vec3(1.), 0.35 * Vasuda);
-    float avartana = (Vasuda * 0.9 + satya * 1.3) * ranatkinkinimekhala;
+    float avartana = (Vasuda * 0.9 + satya * 1.3) * rakenduvadana;
     gl_FragColor = vec4(mahabala * avartana, avartana * 0.3);
   }`;
 // A flat sacred texture on a quad (its own position and rotation), fading with the menu switch.
@@ -1258,10 +1259,10 @@ function yantreshvari(mahasana, mahabhoga) {
     uniforms: { ijya: { value: mahasana }, vikarta: { value: mahabhoga }, satra: { value: 0 }, sarvajna: { value: 0 }, mahejya: shriyantradhara, sarvadarshi: { value: 0 }, vimuktatma: { value: 1 } },
     ...PRAKASHA, side: THREE.DoubleSide,
     vertexShader: /* glsl */`
-      uniform float satra, sarvajna, mahejya, sarvadarshi, vimuktatma; varying vec2 kalyani; varying float ranatkinkinimekhala;
+      uniform float satra, sarvajna, mahejya, sarvadarshi, vimuktatma; varying vec2 jagatikanda; varying float rakenduvadana;
       void main(){
         vec2 nirmada = vec2(position.x * cos(sarvajna) - position.y * sin(sarvajna), position.x * sin(sarvajna) + position.y * cos(sarvajna)) * vimuktatma;
-        kalyani = position.xy * 0.5 + 0.5; ranatkinkinimekhala = satra * mahejya;
+        jagatikanda = position.xy * 0.5 + 0.5; rakenduvadana = satra * mahejya;
         if (sarvadarshi > 0.5) { vec4 vishvatma = viewMatrix * vec4(modelMatrix[3].xyz, 1.); vishvatma.xy += nirmada; gl_Position = projectionMatrix * vishvatma; }
         else gl_Position = projectionMatrix * viewMatrix * modelMatrix * vec4(nirmada, 0., 1.);
       }`,
@@ -1269,71 +1270,233 @@ function yantreshvari(mahasana, mahabhoga) {
   });
 }
 
-// ---------- the beings' names: Devas, Rishis and Pitrus of the Brahma-yajna tarpanam ----------
-// Devas and the first twelve Rishis: the Rigvedic (Ashvalayana Grhyasutra 3.4) list as recited in South India. Sanaka to
-// Pancasikha and Kavyavadanala to the Barhisadah pitarah: the Katyayana (Shukla Yajurveda) tarpana. Dharmaraja to
-// Citragupta: the Yama tarpanam. Each: Devanagari, IAST, an English gloss, and the accusative
-// used in "... tarpayami". Collectives (the Vedas, the Oceans) appear as one being. pl: the name is plural.
-// Devas are offered with the thread worn over the left shoulder (yajnopaviti), Rishis with it as a garland (niviti),
-// Pitrus over the right shoulder (pracinaviti). No personal ancestors are named: those belong to each family.
+// ---------- the beings' names: Devas, Rishis and Pitrus of the tarpanam ----------
+// From the Yajurveda Bodhayana-sutra tarpanam ("Amma Alive" form, Gurukulam: youtube.com/watch?v=dwKx50BQWr0).
+// Devas and Rishis: the Brahma-yajna Deva and Rishi tarpanam. Pitrus: the 24 categories of the main tarpanam
+// (categories, not personal names). Each: Devanagari, IAST, an English gloss, the accusative used in "... tarpayami",
+// plural (1: a collective, shown as one being) and feminine (1: a softer, more graceful form), in tarpanam order.
+// Devas are offered with the thread over the left shoulder (yajnopaviti), Rishis with it as a garland (niviti),
+// Pitrus over the right shoulder (pracinaviti).
 const TARPANAVIDHI = {
   deva: [
-    ['प्रजापति', 'Prajāpati', 'Lord of all beings', 'Prajāpatiṃ'],
-    ['ब्रह्मा', 'Brahmā', 'the Creator', 'Brahmāṇaṃ'],
-    ['वेदाः', 'Vedāḥ', 'the Vedas', 'Vedān', 1],
-    ['ओंकार', 'Oṃkāra', 'the sacred syllable Om', 'Oṃkāraṃ'],
-    ['वषट्कार', 'Vaṣaṭkāra', 'the call Vaṣaṭ that carries the offering', 'Vaṣaṭkāraṃ'],
-    ['व्याहृतयः', 'Vyāhṛtayaḥ', 'the Vyāhṛtis: bhūḥ, bhuvaḥ, svaḥ', 'Vyāhṛtīḥ', 1],
-    ['सावित्री', 'Sāvitrī', 'the verse to the Sun, Savitṛ', 'Sāvitrīṃ'],
-    ['यज्ञाः', 'Yajñāḥ', 'the Sacrifices', 'Yajñān', 1],
-    ['द्यावापृथिवी', 'Dyāvāpṛthivī', 'Heaven and Earth', 'Dyāvāpṛthivī'],
-    ['अन्तरिक्ष', 'Antarikṣa', 'the Mid-space between them', 'Antarikṣaṃ'],
-    ['अहोरात्राणि', 'Ahorātrāṇi', 'Days and Nights', 'Ahorātrāṇi', 1],
-    ['साङ्ख्याः', 'Sāṅkhyāḥ', 'the Sāṅkhya sages', 'Sāṅkhyān', 1],
-    ['सिद्धाः', 'Siddhāḥ', 'the Perfected Ones', 'Siddhān', 1],
-    ['समुद्राः', 'Samudrāḥ', 'the Oceans', 'Samudrān', 1],
-    ['नद्यः', 'Nadyaḥ', 'the Rivers', 'Nadīḥ', 1],
-    ['गिरयः', 'Girayaḥ', 'the Mountains', 'Girīn', 1],
-    ['क्षेत्रौषधिवनस्पतिगन्धर्वाप्सरसः', 'Kṣetrauṣadhivanaspatigandharvāpsarasaḥ', 'fields, herbs, trees, Gandharvas and Apsarases', 'Kṣetrauṣadhivanaspatigandharvāpsarasaḥ', 1],
-    ['नागाः', 'Nāgāḥ', 'the Serpent beings', 'Nāgān', 1],
-    ['साध्याः', 'Sādhyāḥ', 'the Sādhyas, celestials of quiet attainment', 'Sādhyān', 1],
+    ['अग्नि', 'Agni', 'Agni, fire', 'Agniṃ', 0, 0],
+    ['प्रजापति', 'Prajāpati', 'lord of all beings', 'Prajāpatiṃ', 0, 0],
+    ['सोम', 'Soma', 'Soma, the moon', 'Somaṃ', 0, 0],
+    ['रुद्र', 'Rudra', 'Rudra', 'Rudraṃ', 0, 0],
+    ['अदिति', 'Aditi', 'Aditi, mother of the gods', 'Aditiṃ', 0, 1],
+    ['बृहस्पति', 'Bṛhaspati', 'teacher of the gods', 'Bṛhaspatiṃ', 0, 0],
+    ['सर्पाः', 'Sarpāḥ', 'the Serpents', 'Sarpān', 1, 0],
+    ['वसवः', 'Vasavaḥ', 'the Vasus, with the deities of the eastern door', 'Vasūn', 1, 0],
+    ['पितरः', 'Pitaraḥ', 'the Fathers, deities of the southern door', 'Pitṝn', 1, 0],
+    ['अर्यमा', 'Aryamā', 'Aryaman', 'Aryamaṇaṃ', 0, 0],
+    ['भग', 'Bhaga', 'Bhaga, giver of fortune', 'Bhagaṃ', 0, 0],
+    ['सविता', 'Savitā', 'Savitṛ, the impelling Sun', 'Savitāraṃ', 0, 0],
+    ['त्वष्टा', 'Tvaṣṭā', 'Tvaṣṭṛ, the divine shaper', 'Tvaṣṭāraṃ', 0, 0],
+    ['वायु', 'Vāyu', 'Vāyu, the wind', 'Vāyuṃ', 0, 0],
+    ['इन्द्राग्नी', 'Indrāgnī', 'Indra and Agni', 'Indrāgnī', 0, 0],
+    ['रुद्राः', 'Rudrāḥ', 'the Rudras, with the deities of the southern door', 'Rudrān', 1, 0],
+    ['मित्र', 'Mitra', 'Mitra, friend of all', 'Mitraṃ', 0, 0],
+    ['इन्द्र', 'Indra', 'Indra, king of the gods', 'Indraṃ', 0, 0],
+    ['महापितरः', 'Mahāpitaraḥ', 'the Great Fathers', 'Mahāpitṝn', 1, 0],
+    ['आपः', 'Āpaḥ', 'the Waters', 'Apaḥ', 1, 1],
+    ['विश्वेदेवाः', 'Viśvedevāḥ', 'the All-gods', 'Viśvān devān', 1, 0],
+    ['ब्रह्मा', 'Brahmā', 'Brahmā, the Creator', 'Brahmāṇaṃ', 0, 0],
+    ['विष्णु', 'Viṣṇu', 'Viṣṇu', 'Viṣṇuṃ', 0, 0],
+    ['आदित्याः', 'Ādityāḥ', 'the Ādityas, with the deities of the western door', 'Ādityān', 1, 0],
+    ['वसवः', 'Vasavaḥ', 'the Vasus, deities of the northern door', 'Vasūn', 1, 0],
+    ['वरुण', 'Varuṇa', 'Varuṇa, lord of the waters', 'Varuṇaṃ', 0, 0],
+    ['अज एकपाद्', 'Aja Ekapād', 'the One-footed Unborn', 'Ajam Ekapādaṃ', 0, 0],
+    ['अहिर्बुध्न्य', 'Ahirbudhnya', 'the Serpent of the Deep', 'Ahirbudhnyaṃ', 0, 0],
+    ['पूषा', 'Pūṣā', 'Pūṣan, the nourisher', 'Pūṣaṇaṃ', 0, 0],
+    ['अश्विनौ', 'Aśvinau', 'the twin Aśvins, divine healers', 'Aśvinau', 1, 0],
+    ['यम', 'Yama', 'Yama', 'Yamaṃ', 0, 0],
+    ['साध्याः', 'Sādhyāḥ', 'the Sādhyas, with the deities of the northern door', 'Sādhyān', 1, 0],
+    ['ब्रह्मा', 'Brahmā', 'Brahmā, first of his circle', 'Brahmāṇaṃ', 0, 0],
+    ['प्रजापति', 'Prajāpati', 'Brahmā as lord of beings', 'Prajāpatiṃ', 0, 0],
+    ['परमेष्ठी', 'Parameṣṭhī', 'who stands in the highest', 'Parameṣṭhinaṃ', 0, 0],
+    ['हिरण्यगर्भ', 'Hiraṇyagarbha', 'the Golden Womb', 'Hiraṇyagarbhaṃ', 0, 0],
+    ['चतुर्मुख', 'Caturmukha', 'the four-faced', 'Caturmukhaṃ', 0, 0],
+    ['स्वयम्भू', 'Svayambhū', 'the Self-born', 'Svayambhuvaṃ', 0, 0],
+    ['ब्रह्मपार्षदाः', 'Brahmapārṣadāḥ', 'Brahmā\'s attendants', 'Brahmapārṣadān', 1, 0],
+    ['ब्रह्मपार्षद्यः', 'Brahmapārṣadyaḥ', 'Brahmā\'s women attendants', 'Brahmapārṣadīḥ', 1, 1],
+    ['अग्नि', 'Agni', 'Agni, fire', 'Agniṃ', 0, 0],
+    ['वायु', 'Vāyu', 'Vāyu, the wind', 'Vāyuṃ', 0, 0],
+    ['वरुण', 'Varuṇa', 'Varuṇa, the waters', 'Varuṇaṃ', 0, 0],
+    ['सोम', 'Soma', 'Soma', 'Somaṃ', 0, 0],
+    ['सूर्य', 'Sūrya', 'Sūrya, the Sun', 'Sūryaṃ', 0, 0],
+    ['चन्द्रमाः', 'Candramāḥ', 'the Moon', 'Candramasaṃ', 0, 0],
+    ['नक्षत्राणि', 'Nakṣatrāṇi', 'the Lunar Mansions', 'Nakṣatrāṇi', 1, 0],
+    ['ज्योतींषि', 'Jyotīṃṣi', 'the Lights of heaven', 'Jyotīṃṣi', 1, 0],
+    ['सद्योजात', 'Sadyojāta', 'the Instantly Born, face of Śiva', 'Sadyojātaṃ', 0, 0],
+    ['ओं भूः पुरुष', 'Oṃ Bhūḥ Puruṣa', 'the Person of the earth', 'Oṃ Bhūḥ Puruṣaṃ', 0, 0],
+    ['ओं भुवः पुरुष', 'Oṃ Bhuvaḥ Puruṣa', 'the Person of the mid-space', 'Oṃ Bhuvaḥ Puruṣaṃ', 0, 0],
+    ['ओं सुवः पुरुष', 'Oṃ Suvaḥ Puruṣa', 'the Person of heaven', 'Oṃ Suvaḥ Puruṣaṃ', 0, 0],
+    ['ओं भूर्भुवस्सुवः पुरुष', 'Oṃ Bhūrbhuvassuvaḥ Puruṣa', 'the Person of all three worlds', 'Oṃ Bhūrbhuvassuvaḥ Puruṣaṃ', 0, 0],
+    ['ओं भूः', 'Oṃ Bhūḥ', 'the earth world', 'Oṃ Bhūḥ', 0, 0],
+    ['ओं भुवः', 'Oṃ Bhuvaḥ', 'the mid-world', 'Oṃ Bhuvaḥ', 0, 0],
+    ['ओं सुवः', 'Oṃ Suvaḥ', 'the heaven world', 'Oṃ Suvaḥ', 0, 0],
+    ['ओं महः', 'Oṃ Mahaḥ', 'the world of greatness', 'Oṃ Mahaḥ', 0, 0],
+    ['ओं जनः', 'Oṃ Janaḥ', 'the world of the born', 'Oṃ Janaḥ', 0, 0],
+    ['ओं तपः', 'Oṃ Tapaḥ', 'the world of austerity', 'Oṃ Tapaḥ', 0, 0],
+    ['ओं सत्यम्', 'Oṃ Satyam', 'the world of truth', 'Oṃ Satyaṃ', 0, 0],
+    ['भव देव', 'Bhava Deva', 'Śiva as Bhava', 'Bhavaṃ devaṃ', 0, 0],
+    ['शर्व देव', 'Śarva Deva', 'Śiva as Śarva', 'Śarvaṃ devaṃ', 0, 0],
+    ['ईशान देव', 'Īśāna Deva', 'Śiva as Īśāna', 'Īśānaṃ devaṃ', 0, 0],
+    ['पशुपति देव', 'Paśupati Deva', 'Śiva as Paśupati', 'Paśupatiṃ devaṃ', 0, 0],
+    ['रुद्र देव', 'Rudra Deva', 'Śiva as Rudra', 'Rudraṃ devaṃ', 0, 0],
+    ['उग्र देव', 'Ugra Deva', 'Śiva as Ugra', 'Ugraṃ devaṃ', 0, 0],
+    ['भीम देव', 'Bhīma Deva', 'Śiva as Bhīma', 'Bhīmaṃ devaṃ', 0, 0],
+    ['महान् देव', 'Mahān Deva', 'Śiva as Mahān', 'Mahāntaṃ devaṃ', 0, 0],
+    ['भवस्य देवस्य पत्नी', 'Bhavasya Devasya Patnī', 'consort of Bhava', 'Bhavasya devasya patnīṃ', 0, 1],
+    ['शर्वस्य देवस्य पत्नी', 'Śarvasya Devasya Patnī', 'consort of Śarva', 'Śarvasya devasya patnīṃ', 0, 1],
+    ['ईशानस्य देवस्य पत्नी', 'Īśānasya Devasya Patnī', 'consort of Īśāna', 'Īśānasya devasya patnīṃ', 0, 1],
+    ['पशुपतेः देवस्य पत्नी', 'Paśupateḥ Devasya Patnī', 'consort of Paśupati', 'Paśupateḥ devasya patnīṃ', 0, 1],
+    ['रुद्रस्य देवस्य पत्नी', 'Rudrasya Devasya Patnī', 'consort of Rudra', 'Rudrasya devasya patnīṃ', 0, 1],
+    ['उग्रस्य देवस्य पत्नी', 'Ugrasya Devasya Patnī', 'consort of Ugra', 'Ugrasya devasya patnīṃ', 0, 1],
+    ['भीमस्य देवस्य पत्नी', 'Bhīmasya Devasya Patnī', 'consort of Bhīma', 'Bhīmasya devasya patnīṃ', 0, 1],
+    ['महतः देवस्य पत्नी', 'Mahataḥ Devasya Patnī', 'consort of Mahān', 'Mahataḥ devasya patnīṃ', 0, 1],
+    ['भवस्य देवस्य सुत', 'Bhavasya Devasya Suta', 'son of Bhava', 'Bhavasya devasya sutaṃ', 0, 0],
+    ['शर्वस्य देवस्य सुत', 'Śarvasya Devasya Suta', 'son of Śarva', 'Śarvasya devasya sutaṃ', 0, 0],
+    ['ईशानस्य देवस्य सुत', 'Īśānasya Devasya Suta', 'son of Īśāna', 'Īśānasya devasya sutaṃ', 0, 0],
+    ['पशुपतेः देवस्य सुत', 'Paśupateḥ Devasya Suta', 'son of Paśupati', 'Paśupateḥ devasya sutaṃ', 0, 0],
+    ['रुद्रस्य देवस्य सुत', 'Rudrasya Devasya Suta', 'son of Rudra', 'Rudrasya devasya sutaṃ', 0, 0],
+    ['उग्रस्य देवस्य सुत', 'Ugrasya Devasya Suta', 'son of Ugra', 'Ugrasya devasya sutaṃ', 0, 0],
+    ['भीमस्य देवस्य सुत', 'Bhīmasya Devasya Suta', 'son of Bhīma', 'Bhīmasya devasya sutaṃ', 0, 0],
+    ['महतः देवस्य सुत', 'Mahataḥ Devasya Suta', 'son of Mahān', 'Mahataḥ devasya sutaṃ', 0, 0],
+    ['रुद्राः', 'Rudrāḥ', 'the Rudras', 'Rudrān', 1, 0],
+    ['रुद्रपार्षदाः', 'Rudrapārṣadāḥ', 'Rudra\'s attendants', 'Rudrapārṣadān', 1, 0],
+    ['रुद्रपार्षद्यः', 'Rudrapārṣadyaḥ', 'Rudra\'s women attendants', 'Rudrapārṣadīḥ', 1, 1],
+    ['सनत्कुमार', 'Sanatkumāra', 'the eternal youth', 'Sanatkumāraṃ', 0, 0],
+    ['स्कन्द', 'Skanda', 'Skanda', 'Skandaṃ', 0, 0],
+    ['इन्द्र', 'Indra', 'Indra', 'Indraṃ', 0, 0],
+    ['षष्ठी', 'Ṣaṣṭhī', 'Ṣaṣṭhī, consort of Skanda', 'Ṣaṣṭhīṃ', 0, 1],
+    ['षण्मुख', 'Ṣaṇmukha', 'the six-faced', 'Ṣaṇmukhaṃ', 0, 0],
+    ['विशाख', 'Viśākha', 'Viśākha', 'Viśākhaṃ', 0, 0],
+    ['जयन्त', 'Jayanta', 'the victorious', 'Jayantaṃ', 0, 0],
+    ['महासेन', 'Mahāsena', 'commander of the gods', 'Mahāsenaṃ', 0, 0],
+    ['स्कन्दपार्षदाः', 'Skandapārṣadāḥ', 'Skanda\'s attendants', 'Skandapārṣadān', 1, 0],
+    ['स्कन्दपार्षद्यः', 'Skandapārṣadyaḥ', 'Skanda\'s women attendants', 'Skandapārṣadīḥ', 1, 1],
+    ['विघ्न', 'Vighna', 'lord of obstacles', 'Vighnaṃ', 0, 0],
+    ['विनायक', 'Vināyaka', 'the remover', 'Vināyakaṃ', 0, 0],
+    ['वीर', 'Vīra', 'the hero', 'Vīraṃ', 0, 0],
+    ['शूर', 'Śūra', 'the valiant', 'Śūraṃ', 0, 0],
+    ['वरद', 'Varada', 'giver of boons', 'Varadaṃ', 0, 0],
+    ['हस्तिमुख', 'Hastimukha', 'the elephant-faced', 'Hastimukhaṃ', 0, 0],
+    ['एकदन्त', 'Ekadanta', 'the one-tusked', 'Ekadantaṃ', 0, 0],
+    ['लम्बोदर', 'Lambodara', 'the big-bellied', 'Lambodaraṃ', 0, 0],
+    ['वक्रतुण्ड', 'Vakratuṇḍa', 'of the curved trunk', 'Vakratuṇḍaṃ', 0, 0],
+    ['गणपति', 'Gaṇapati', 'lord of the hosts', 'Gaṇapatiṃ', 0, 0],
+    ['विघ्नपार्षदाः', 'Vighnapārṣadāḥ', 'Gaṇapati\'s attendants', 'Vighnapārṣadān', 1, 0],
+    ['विघ्नपार्षद्यः', 'Vighnapārṣadyaḥ', 'Gaṇapati\'s women attendants', 'Vighnapārṣadīḥ', 1, 1],
+    ['केशव', 'Keśava', 'name of Viṣṇu', 'Keśavaṃ', 0, 0],
+    ['नारायण', 'Nārāyaṇa', 'name of Viṣṇu', 'Nārāyaṇaṃ', 0, 0],
+    ['माधव', 'Mādhava', 'name of Viṣṇu', 'Mādhavaṃ', 0, 0],
+    ['गोविन्द', 'Govinda', 'name of Viṣṇu', 'Govindaṃ', 0, 0],
+    ['विष्णु', 'Viṣṇu', 'name of Viṣṇu', 'Viṣṇuṃ', 0, 0],
+    ['मधुसूदन', 'Madhusūdana', 'name of Viṣṇu', 'Madhusūdanaṃ', 0, 0],
+    ['त्रिविक्रम', 'Trivikrama', 'name of Viṣṇu', 'Trivikramaṃ', 0, 0],
+    ['वामन', 'Vāmana', 'name of Viṣṇu', 'Vāmanaṃ', 0, 0],
+    ['श्रीधर', 'Śrīdhara', 'name of Viṣṇu', 'Śrīdharaṃ', 0, 0],
+    ['हृषीकेश', 'Hṛṣīkeśa', 'name of Viṣṇu', 'Hṛṣīkeśaṃ', 0, 0],
+    ['पद्मनाभ', 'Padmanābha', 'name of Viṣṇu', 'Padmanābhaṃ', 0, 0],
+    ['दामोदर', 'Dāmodara', 'name of Viṣṇu', 'Dāmodaraṃ', 0, 0],
+    ['श्रीदेवी', 'Śrīdevī', 'Śrī, goddess of fortune', 'Śrīdevīṃ', 0, 1],
+    ['ह्रीदेवी', 'Hrīdevī', 'Hrī, goddess of modesty', 'Hrīdevīṃ', 0, 1],
+    ['पुष्टिदेवी', 'Puṣṭidevī', 'Puṣṭi, goddess of nourishment', 'Puṣṭidevīṃ', 0, 1],
+    ['वैनतेय', 'Vainateya', 'Garuḍa', 'Vainateyaṃ', 0, 0],
+    ['काल', 'Kāla', 'Time', 'Kālaṃ', 0, 0],
+    ['नील', 'Nīla', 'the dark one', 'Nīlaṃ', 0, 0],
+    ['मृत्यु', 'Mṛtyu', 'Death', 'Mṛtyuṃ', 0, 0],
+    ['अन्तक', 'Antaka', 'the Ender', 'Antakaṃ', 0, 0],
+    ['यम', 'Yama', 'Yama', 'Yamaṃ', 0, 0],
+    ['यमराज', 'Yamarāja', 'King Yama', 'Yamarājaṃ', 0, 0],
+    ['धर्म', 'Dharma', 'Dharma', 'Dharmaṃ', 0, 0],
+    ['धर्मराज', 'Dharmarāja', 'king of dharma', 'Dharmarājaṃ', 0, 0],
+    ['चित्र', 'Citra', 'the bright one', 'Citraṃ', 0, 0],
+    ['चित्रगुप्त', 'Citragupta', 'keeper of the record of deeds', 'Citraguptaṃ', 0, 0],
+    ['वैवस्वत', 'Vaivasvata', 'son of the Sun', 'Vaivasvataṃ', 0, 0],
+    ['वैवस्वतपार्षदाः', 'Vaivasvatapārṣadāḥ', 'Yama\'s attendants', 'Vaivasvatapārṣadān', 1, 0],
+    ['वैवस्वतपार्षद्यः', 'Vaivasvatapārṣadyaḥ', 'Yama\'s women attendants', 'Vaivasvatapārṣadīḥ', 1, 1],
+    ['विष्णु', 'Viṣṇu', 'Viṣṇu', 'Viṣṇuṃ', 0, 0],
+    ['विष्णुपार्षदाः', 'Viṣṇupārṣadāḥ', 'Viṣṇu\'s attendants', 'Viṣṇupārṣadān', 1, 0],
+    ['विष्णुपार्षद्यः', 'Viṣṇupārṣadyaḥ', 'Viṣṇu\'s women attendants', 'Viṣṇupārṣadīḥ', 1, 1],
+    ['भरद्वाज', 'Bharadvāja', 'the seer Bharadvāja', 'Bharadvājaṃ', 0, 0],
+    ['गौतम', 'Gautama', 'the seer Gautama', 'Gautamaṃ', 0, 0],
+    ['अत्रि', 'Atri', 'the seer Atri', 'Atriṃ', 0, 0],
+    ['अङ्गिरस्', 'Aṅgiras', 'the seer Aṅgiras', 'Aṅgirasaṃ', 0, 0],
+    ['विद्या', 'Vidyā', 'Knowledge', 'Vidyāṃ', 0, 1],
+    ['दुर्गा', 'Durgā', 'Durgā', 'Durgāṃ', 0, 1],
+    ['ज्येष्ठा', 'Jyeṣṭhā', 'Jyeṣṭhā, the elder goddess', 'Jyeṣṭhāṃ', 0, 1],
+    ['धन्वन्तरि', 'Dhanvantari', 'physician of the gods', 'Dhanvantariṃ', 0, 0],
+    ['धन्वन्तरिपार्षदाः', 'Dhanvantaripārṣadāḥ', 'Dhanvantari\'s attendants', 'Dhanvantaripārṣadān', 1, 0],
+    ['धन्वन्तरिपार्षद्यः', 'Dhanvantaripārṣadyaḥ', 'Dhanvantari\'s women attendants', 'Dhanvantaripārṣadīḥ', 1, 1],
   ],
   rishi: [
-    ['शतर्चिनः', 'Śatarcinaḥ', 'seers of the first book of the Ṛgveda', 'Śatarcinaḥ', 1],
-    ['माध्यमाः', 'Mādhyamāḥ', 'seers of the middle books', 'Mādhyamān', 1],
-    ['गृत्समद', 'Gṛtsamada', 'seer of the second book', 'Gṛtsamadaṃ'],
-    ['विश्वामित्र', 'Viśvāmitra', 'seer of the third book and the Gāyatrī', 'Viśvāmitraṃ'],
-    ['वामदेव', 'Vāmadeva', 'seer of the fourth book', 'Vāmadevaṃ'],
-    ['अत्रि', 'Atri', 'seer of the fifth book', 'Atriṃ'],
-    ['भरद्वाज', 'Bharadvāja', 'seer of the sixth book', 'Bharadvājaṃ'],
-    ['वसिष्ठ', 'Vasiṣṭha', 'seer of the seventh book', 'Vasiṣṭhaṃ'],
-    ['प्रगाथाः', 'Pragāthāḥ', 'seers of the eighth book', 'Pragāthān', 1],
-    ['पावमान्यः', 'Pāvamānyaḥ', 'seers of the purifying Soma hymns', 'Pāvamānīḥ', 1],
-    ['क्षुद्रसूक्ताः', 'Kṣudrasūktāḥ', 'seers of the short hymns', 'Kṣudrasūktān', 1],
-    ['महासूक्ताः', 'Mahāsūktāḥ', 'seers of the long hymns', 'Mahāsūktān', 1],
-    ['सनक', 'Sanaka', 'first of the four Kumāras', 'Sanakaṃ'],
-    ['सनन्दन', 'Sanandana', 'second of the Kumāras', 'Sanandanaṃ'],
-    ['सनातन', 'Sanātana', 'third of the Kumāras', 'Sanātanaṃ'],
-    ['सनत्कुमार', 'Sanatkumāra', 'fourth of the Kumāras', 'Sanatkumāraṃ'],
-    ['कपिल', 'Kapila', 'founder of Sāṅkhya', 'Kapilaṃ'],
-    ['आसुरि', 'Āsuri', 'disciple of Kapila', 'Āsuriṃ'],
-    ['वोढु', 'Voḍhu', 'teacher of Sāṅkhya', 'Voḍhuṃ'],
-    ['पञ्चशिख', 'Pañcaśikha', 'disciple of Āsuri', 'Pañcaśikhaṃ'],
+    ['ऋषयः', 'Ṛṣayaḥ', 'the Seers', 'Ṛṣaīn', 1, 0],
+    ['महर्षयः', 'Maharṣayaḥ', 'the great Seers', 'Maharṣaīn', 1, 0],
+    ['परमर्षयः', 'Paramarṣayaḥ', 'the supreme Seers', 'Paramarṣaīn', 1, 0],
+    ['देवर्षयः', 'Devarṣayaḥ', 'the divine Seers', 'Devarṣaīn', 1, 0],
+    ['ब्रह्मर्षयः', 'Brahmarṣayaḥ', 'the Brahmin Seers', 'Brahmarṣaīn', 1, 0],
+    ['राजर्षयः', 'Rājarṣayaḥ', 'the royal Seers', 'Rājarṣaīn', 1, 0],
+    ['वैश्यर्षयः', 'Vaiśyarṣayaḥ', 'the merchant Seers', 'Vaiśyarṣaīn', 1, 0],
+    ['सूतर्षयः', 'Sūtarṣayaḥ', 'the bard Seers', 'Sūtarṣaīn', 1, 0],
+    ['श्रुतर्षयः', 'Śrutarṣayaḥ', 'the Seers of hearing', 'Śrutarṣaīn', 1, 0],
+    ['जनर्षयः', 'Janarṣayaḥ', 'the Seers of the people', 'Janarṣaīn', 1, 0],
+    ['तपर्षयः', 'Taparṣayaḥ', 'the Seers of austerity', 'Taparṣaīn', 1, 0],
+    ['सत्यर्षयः', 'Satyarṣayaḥ', 'the Seers of truth', 'Satyarṣaīn', 1, 0],
+    ['सप्तर्षयः', 'Saptarṣayaḥ', 'the Seven Seers', 'Saptarṣaīn', 1, 0],
+    ['काण्डर्षयः', 'Kāṇḍarṣayaḥ', 'the Seers of the Veda sections', 'Kāṇḍarṣaīn', 1, 0],
+    ['ऋषिकाः', 'Ṛṣikāḥ', 'the lesser Seers', 'Ṛṣikān', 1, 0],
+    ['ऋषिपत्न्यः', 'Ṛṣipatnyaḥ', 'the Seers\' wives', 'Ṛṣipatnīḥ', 1, 1],
+    ['ऋषिपुत्राः', 'Ṛṣiputrāḥ', 'the Seers\' sons', 'Ṛṣiputrān', 1, 0],
+    ['ऋषिपौत्राः', 'Ṛṣipautrāḥ', 'the Seers\' grandsons', 'Ṛṣipautrān', 1, 0],
+    ['काण्व बोधायन', 'Kāṇva Bodhāyana', 'author of our Sūtra', 'Kāṇvaṃ Bodhāyanaṃ', 0, 0],
+    ['आपस्तम्ब सूत्रकार', 'Āpastamba Sūtrakāra', 'Āpastamba, author of a Sūtra', 'Āpastambaṃ Sūtrakāraṃ', 0, 0],
+    ['सत्याषाढ हिरण्यकेशिन्', 'Satyāṣāḍha Hiraṇyakeśin', 'Satyāṣāḍha, author of a Sūtra', 'Satyāṣāḍhaṃ Hiraṇyakeśinaṃ', 0, 0],
+    ['वाजसनेय याज्ञवल्क्य', 'Vājasaneya Yājñavalkya', 'seer of the White Yajurveda', 'Vājasaneyaṃ Yājñavalkyaṃ', 0, 0],
+    ['आश्वलायन शौनक', 'Āśvalāyana Śaunaka', 'teachers of the Ṛgveda Sūtra', 'Āśvalāyanaṃ Śaunakaṃ', 0, 0],
+    ['व्यास', 'Vyāsa', 'arranger of the Vedas', 'Vyāsaṃ', 0, 0],
+    ['वसिष्ठ', 'Vasiṣṭha', 'the seer Vasiṣṭha', 'Vasiṣṭhaṃ', 0, 0],
+    ['प्रणव', 'Praṇava', 'the syllable Om', 'Praṇavaṃ', 0, 0],
+    ['व्याहृतयः', 'Vyāhṛtayaḥ', 'the Vyāhṛtis: bhūḥ, bhuvaḥ, suvaḥ', 'Vyāhṛtīḥ', 1, 1],
+    ['सावित्री', 'Sāvitrī', 'the verse to Savitṛ', 'Sāvitrīṃ', 0, 1],
+    ['गायत्री', 'Gāyatrī', 'Gāyatrī, mother of the Vedas', 'Gāyatrīṃ', 0, 1],
+    ['छन्दांसि', 'Chandāṃsi', 'the Metres', 'Chandāṃsi', 1, 0],
+    ['सदसस्पति', 'Sadasaspati', 'lord of the assembly', 'Sadasaspatiṃ', 0, 0],
+    ['ऋग्वेद', 'Ṛgveda', 'the Ṛgveda', 'Ṛgvedaṃ', 0, 0],
+    ['यजुर्वेद', 'Yajurveda', 'the Yajurveda', 'Yajurvedaṃ', 0, 0],
+    ['सामवेद', 'Sāmaveda', 'the Sāmaveda', 'Sāmavedaṃ', 0, 0],
+    ['अथर्ववेद', 'Atharvaveda', 'the Atharvaveda', 'Atharvavedaṃ', 0, 0],
+    ['अथर्वाङ्गिरसः', 'Atharvāṅgirasaḥ', 'the Atharvan and Aṅgiras hymns', 'Atharvāṅgirasaḥ', 1, 0],
+    ['इतिहासपुराणानि', 'Itihāsapurāṇāni', 'the Epics and Purāṇas', 'Itihāsapurāṇāni', 1, 0],
+    ['सर्पदेवजनाः', 'Sarpadevajanāḥ', 'the serpent and divine peoples', 'Sarpadevajanān', 1, 0],
+    ['सर्वभूतानि', 'Sarvabhūtāni', 'all beings', 'Sarvabhūtāni', 1, 0],
   ],
   pitru: [
-    ['कव्यवाडनल', 'Kavyavāḍanala', 'Agni who carries the offerings to the ancestors', 'Kavyavāḍanalaṃ'],
-    ['सोम', 'Soma', 'Soma, the moon, companion of the ancestors', 'Somaṃ'],
-    ['यम', 'Yama', 'Yama, lord of the departed', 'Yamaṃ'],
-    ['अर्यमा', 'Aryamā', 'chief of the ancestors', 'Aryamaṇaṃ'],
-    ['अग्निष्वात्ताः पितरः', 'Agniṣvāttāḥ pitaraḥ', 'ancestors tasted by Agni', 'Agniṣvāttān pitṝn', 1],
-    ['सोमपाः पितरः', 'Somapāḥ pitaraḥ', 'ancestors who drink Soma', 'Somapān pitṝn', 1],
-    ['बर्हिषदः पितरः', 'Barhiṣadaḥ pitaraḥ', 'ancestors seated on the sacred grass', 'Barhiṣadaḥ pitṝn', 1],
-    ['धर्मराज', 'Dharmarāja', 'Yama as king of dharma', 'Dharmarājaṃ'],
-    ['मृत्यु', 'Mṛtyu', 'Death', 'Mṛtyuṃ'],
-    ['अन्तक', 'Antaka', 'the Ender', 'Antakaṃ'],
-    ['वैवस्वत', 'Vaivasvata', 'son of Vivasvān, the Sun', 'Vaivasvataṃ'],
-    ['काल', 'Kāla', 'Time', 'Kālaṃ'],
-    ['चित्रगुप्त', 'Citragupta', 'keeper of the record of deeds', 'Citraguptaṃ'],
+    ['पितॄन्', 'Pitṝn', 'fathers', 'Pitṝn', 1, 0],
+    ['पितामहान्', 'Pitāmahān', 'paternal grandfathers', 'Pitāmahān', 1, 0],
+    ['प्रपितामहान्', 'Prapitāmahān', 'paternal great-grandfathers', 'Prapitāmahān', 1, 0],
+    ['पितामहीः', 'Pitāmahīḥ', 'paternal grandmothers', 'Pitāmahīḥ', 1, 1],
+    ['पितुः पितामहीः', 'Pituḥ Pitāmahīḥ', 'paternal great-grandmothers', 'Pituḥ Pitāmahīḥ', 1, 1],
+    ['पितुः प्रपितामहीः', 'Pituḥ Prapitāmahīḥ', 'paternal great-great-grandmothers', 'Pituḥ Prapitāmahīḥ', 1, 1],
+    ['मातामहान्', 'Mātāmahān', 'maternal grandfathers', 'Mātāmahān', 1, 0],
+    ['मातुः पितामहान्', 'Mātuḥ Pitāmahān', 'maternal great-grandfathers', 'Mātuḥ Pitāmahān', 1, 0],
+    ['मातुः प्रपितामहान्', 'Mātuḥ Prapitāmahān', 'maternal great-great-grandfathers', 'Mātuḥ Prapitāmahān', 1, 0],
+    ['मातामहीः', 'Mātāmahīḥ', 'maternal grandmothers', 'Mātāmahīḥ', 1, 1],
+    ['मातुः पितामहीः', 'Mātuḥ Pitāmahīḥ', 'maternal great-grandmothers', 'Mātuḥ Pitāmahīḥ', 1, 1],
+    ['मातुः प्रपितामहीः', 'Mātuḥ Prapitāmahīḥ', 'maternal great-great-grandmothers', 'Mātuḥ Prapitāmahīḥ', 1, 1],
+    ['आचार्यान्', 'Ācāryān', 'teachers', 'Ācāryān', 1, 0],
+    ['आचार्यपत्नीः', 'Ācāryapatnīḥ', 'teachers\' wives', 'Ācāryapatnīḥ', 1, 1],
+    ['गुरून्', 'Gurūn', 'gurus', 'Gurūn', 1, 0],
+    ['गुरुपत्नीः', 'Gurupatnīḥ', 'gurus\' wives', 'Gurupatnīḥ', 1, 1],
+    ['सखीन्', 'Sakhīn', 'friends', 'Sakhīn', 1, 0],
+    ['सखिपत्नीः', 'Sakhipatnīḥ', 'friends\' wives', 'Sakhipatnīḥ', 1, 1],
+    ['ज्ञातीन्', 'Jñātīn', 'kinsmen', 'Jñātīn', 1, 0],
+    ['ज्ञातिपत्नीः', 'Jñātipatnīḥ', 'kinsmen\'s wives', 'Jñātipatnīḥ', 1, 1],
+    ['अमात्यान्', 'Amātyān', 'associates and companions', 'Amātyān', 1, 0],
+    ['अमात्यपत्नीः', 'Amātyapatnīḥ', 'companions\' wives', 'Amātyapatnīḥ', 1, 1],
+    ['सर्वान्', 'Sarvān', 'all departed men', 'Sarvān', 1, 0],
+    ['सर्वाः', 'Sarvāḥ', 'all departed women', 'Sarvāḥ', 1, 1],
   ],
 };
 const TRIVARGA = ['deva', 'rishi', 'pitru'];
@@ -1343,10 +1506,10 @@ const TRIBHAGA = { deva: 0.4, rishi: 0.35, pitru: 0.25 }; // guess: the default 
 // A subtle accent for each group, used only on its form (thread, crown, beads, shimmer), never on a blessing.
 const UPAVARNA = { deva: new THREE.Color(1.0, 0.9, 0.62), rishi: new THREE.Color(1.0, 0.68, 0.36), pitru: new THREE.Color(0.7, 0.82, 1.0) };
 const LOKATRAYA = { deva: [2.0, 2.85], rishi: [1.3, 2.05], pitru: [0.85, 1.45] }; // guess: heights in metres
-// Not a traditional line: a grammatical summary for the Anjali to all (with sandhi: pitṝn + ca -> pitṝṃś ca).
-const SARVATARPANA = 'Sarvān devān ṛṣīn pitṝṃś ca tarpayāmi';
+const SARVATARPANA = 'Sarvān devān ṛṣīn pitṝn tarpayāmi';
 // Sandhi before tarpayāmi: a final -n becomes -ṃs (vedān -> vedāṃs tarpayāmi).
-const tarpanamantra = (bhujagottama) => (bhujagottama.endsWith('n') ? bhujagottama.slice(0, -1) + 'ṃs' : bhujagottama) + ' tarpayāmi';
+// Pitrus are offered with svadhā: "Pitāmahān svadhā namas tarpayāmi".
+const tarpanamantra = (bhujagottama, vasudeva) => (vasudeva === 'pitru' ? bhujagottama + ' svadhā namas tarpayāmi' : (bhujagottama.endsWith('n') ? bhujagottama.slice(0, -1) + 'ṃs' : bhujagottama) + ' tarpayāmi');
 const namajapa = { deva: 0, rishi: 0, pitru: 0 }; // each group cycles through its tarpanam order
 // The canvas font for names. Android (and so the Quest Browser) normally carries Noto Sans Devanagari.
 const DEVALIPI = "'Noto Sans Devanagari', 'Noto Serif Devanagari', 'Kohinoor Devanagari', 'Devanagari Sangam MN', 'Devanagari MT', 'Nirmala UI', 'Mangal', sans-serif";
@@ -1357,30 +1520,31 @@ const ROMALIPI = "'Noto Serif', 'Noto Sans', Georgia, 'Times New Roman', serif";
 // breathing veils of light like wings or petals, orbiting motes, layered fresnel shells, and a faint yantra behind.
 // Everything is in the being's own quality colour; only the core goes white-hot.
 const Shader = /* glsl */`
-uniform vec3 rudrarupa, prajnatmika; uniform float vidarana, bhairavi, purusharthaprada, hrimati, panchakrityaparayana, bhuvaneshvari, sarvavasthavivarjita, bhagamalini;`;
+uniform vec3 rudrarupa, prajnatmika; uniform float vidarana, bhairavi, purna, hridya, panchakrityaparayana, ambika, sarvavasthavivarjita, bhagavati, bhagamalini;`;
+// uGrace: 1 for a feminine being (a goddess, consorts, the mothers): a slenderer, more flowing form.
 // uGroup: 0 Deva, 1 Rishi, 2 Pitru. uAccent: the group's subtle accent, used only on its form.
 const devarupa = (supta) => new THREE.ShaderMaterial({
   uniforms: supta, ...PRAKASHA, side: THREE.DoubleSide,
   vertexShader: /* glsl */`
-    varying vec2 ramamani; varying float rakshasaghni, ratirupa;
+    varying vec2 ramanalampata; varying float ramamani, ratipriya;
     void main(){
-      ramamani = position.xy;
-      vec4 tanumadhya = modelMatrix * vec4(position, 1.);
-      ratirupa = smoothstep(0.02, 0.45, tanumadhya.y); // the robe of light thins out before it reaches the floor
-      rakshasaghni = smoothstep(0.6, 1.6, distance(modelMatrix[3].xyz, cameraPosition));
-      gl_Position = projectionMatrix * viewMatrix * tanumadhya;
+      ramanalampata = position.xy;
+      vec4 tamopaha = modelMatrix * vec4(position, 1.);
+      ratipriya = smoothstep(0.02, 0.45, tamopaha.y); // the robe of light thins out before it reaches the floor
+      ramamani = smoothstep(0.6, 1.6, distance(modelMatrix[3].xyz, cameraPosition));
+      gl_Position = projectionMatrix * viewMatrix * tamopaha;
     }`,
   fragmentShader: MAYA + Shader + /* glsl */`
-    varying vec2 ramamani; varying float rakshasaghni, ratirupa;
+    varying vec2 ramanalampata; varying float ramamani, ratipriya;
     float keshava(vec2 stanabhara, vec2 avartana, vec2 dhritatma, float bhaktivashya){ vec2 sumeru = stanabhara - avartana, dhruva = dhritatma - avartana; float SARVAVID = clamp(dot(sumeru, dhruva) / dot(dhruva, dhruva), 0., 1.); return length(sumeru - dhruva * SARVAVID) - bhaktivashya; }
     float durgama(float avartana, float dhritatma, float suprasada){ float SARVAVID = clamp(0.5 + 0.5 * (dhritatma - avartana) / suprasada, 0., 1.); return mix(dhritatma, avartana, SARVAVID) - suprasada * SARVAVID * (1. - SARVAVID); }
     float nirlobha(vec2 stanabhara, vec2 avartana, vec2 dhritatma){ vec2 sumeru = stanabhara - avartana, dhruva = dhritatma - avartana; return length(sumeru - dhruva * clamp(dot(sumeru, dhruva) / dot(dhruva, dhruva), 0., 1.)); }
     void main(){
-      vec2 stanabhara = ramamani;
-      float mahavirya = vidarana + bhuvaneshvari * 17.;
-      float subhuja = 1. - step(0.5, bhagamalini), suhrit = step(0.5, bhagamalini) * (1. - step(1.5, bhagamalini)), sughosha = step(1.5, bhagamalini);
+      vec2 stanabhara = ramanalampata;
+      float mahavirya = vidarana + ambika * 17.;
+      float subhuja = 1. - step(0.5, bhagavati), suhrit = step(0.5, bhagavati) * (1. - step(1.5, bhagavati)), sughosha = step(1.5, bhagavati);
       // Devas are the brightest; Pitrus softer and more translucent
-      float vibhu = (0.6 + 0.5 * bhairavi + 0.7 * purusharthaprada) * (1. + 0.25 * subhuja - 0.22 * sughosha);
+      float vibhu = (0.6 + 0.5 * bhairavi + 0.7 * purna) * (1. + 0.25 * subhuja - 0.22 * sughosha);
       float pararddhi = (1. - smoothstep(0.82, 1.0, abs(stanabhara.x) / 1.2)) * (1. - smoothstep(0.82, 1.0, abs(stanabhara.y + 0.2) / 1.4));
       // soft atmosphere round the whole being
       float tejomaya = exp(-dot(stanabhara * vec2(1.25, 0.8), stanabhara * vec2(1.25, 0.8)) / 0.28);
@@ -1389,15 +1553,15 @@ const devarupa = (supta) => new THREE.ShaderMaterial({
       float janardana = 0.;
       float nirupaplava = 0.;
       if (abs(stanabhara.x) < 0.75 && stanabhara.y > -1.25 && stanabhara.y < 0.8) {
-        vec2 ritu = vec2(mayapati(stanabhara * 2.6 + vec2(bhuvaneshvari * 9., -mahavirya * 0.32)), mayapati(stanabhara * 2.6 + vec2(4.3 - bhuvaneshvari * 5., -mahavirya * 0.32 + 5.2))) - 0.5;
+        vec2 ritu = vec2(mayapati(stanabhara * 2.6 + vec2(ambika * 9., -mahavirya * 0.32)), mayapati(stanabhara * 2.6 + vec2(4.3 - ambika * 5., -mahavirya * 0.32 + 5.2))) - 0.5;
         vec2 bhavaranya = stanabhara + ritu * vec2(0.10, 0.07) * (1. + (1. - smoothstep(-1., 0., stanabhara.y)));
         float sahasrara = length((bhavaranya - vec2(0., 0.43)) * vec2(1., 0.88)) - 0.075;
-        float hridaya = keshava(bhavaranya, vec2(0., 0.27), vec2(0., -0.08), 0.095);
-        float VASHATKARA = 0.05 * sin(mahavirya * 0.7) + 0.08 * purusharthaprada;
+        float hridaya = keshava(bhavaranya, vec2(0., 0.27), vec2(0., -0.08), 0.095 - 0.018 * bhagamalini);
+        float VASHATKARA = 0.05 * sin(mahavirya * 0.7) + 0.08 * purna;
         float dhama = keshava(bhavaranya, vec2(-0.08, 0.25), vec2(-0.27, 0.06 + VASHATKARA), 0.028);
         float dhaneshvara = keshava(bhavaranya, vec2(0.08, 0.25), vec2(0.27, 0.06 + VASHATKARA), 0.028);
-        float jalandharasthita = clamp((-bhavaranya.y + 0.02) / 1.0, 0., 1.);
-        float nirupadhi = 0.17 * pow(max(sin(3.14159 * pow(jalandharasthita, 0.62)), 0.), 0.9) * (1. - 0.35 * jalandharasthita) + 0.01;
+        float odyanapithanilaya = clamp((-bhavaranya.y + 0.02) / 1.0, 0., 1.);
+        float nirupadhi = (0.17 * pow(max(sin(3.14159 * pow(odyanapithanilaya, 0.62)), 0.), 0.9) * (1. - 0.35 * odyanapithanilaya) + 0.01) * (1. + 0.22 * bhagamalini * odyanapithanilaya) + 0.012 * bhagamalini * sin(odyanapithanilaya * 9. - mahavirya * 1.1) * odyanapithanilaya;
         float nishkalanka = bhavaranya.y < 0.02 ? max(abs(bhavaranya.x) - nirupadhi, bhavaranya.y - 0.02) : 1.;
         if (suhrit > 0.5) {
           // seated in padmasana: crossed legs as a broad lap of light, one hand raised in blessing, one resting
@@ -1405,7 +1569,7 @@ const devarupa = (supta) => new THREE.ShaderMaterial({
           float suvrata = min(length(bhavaranya - vec2(-0.2, -0.19)), length(bhavaranya - vec2(0.2, -0.19))) - 0.06;
           nishkalanka = durgama(Trikakubdhama, suvrata, 0.05);
           hridaya = keshava(bhavaranya, vec2(0., 0.27), vec2(0., -0.1), 0.1);
-          dhaneshvara = keshava(bhavaranya, vec2(-0.08, 0.25), vec2(-0.21, 0.12 + 0.03 * purusharthaprada), 0.026);
+          dhaneshvara = keshava(bhavaranya, vec2(-0.08, 0.25), vec2(-0.21, 0.12 + 0.03 * purna), 0.026);
           dhama = keshava(bhavaranya, vec2(0.08, 0.25), vec2(0.13, -0.1), 0.026);
         }
         float nahusha = durgama(durgama(sahasrara, hridaya, 0.06), durgama(min(dhama, dhaneshvara), nishkalanka, 0.05), 0.05);
@@ -1415,7 +1579,7 @@ const devarupa = (supta) => new THREE.ShaderMaterial({
         float sharvani = exp(-max(nahusha, 0.) * 5.) * Pratyaya;
         float sthanada = (1. - smoothstep(-0.06, 0.03, nahusha)) * Pratyaya;
         float shashabindu = exp(-max(sahasrara + 0.03, 0.) * 18.);
-        float purusheshvara = mayapati(vec2(bhavaranya.x * 13. + bhuvaneshvari * 3., bhavaranya.y * 4. - mahavirya * 0.7));
+        float purusheshvara = mayapati(vec2(bhavaranya.x * 13. + ambika * 3., bhavaranya.y * 4. - mahavirya * 0.7));
         nirupaplava = pow(max(1. - abs(purusheshvara * 2. - 1.), 0.), 7.) * janardana;
         mahabala += rudrarupa * (sharvani * 0.16 + janardana * 0.36 + nirupaplava * 0.6) * vibhu;
         mahabala += mix(rudrarupa, vec3(1.), 0.6) * (sthanada * (0.26 + 0.14 * bhairavi) * (1. - 0.45 * sughosha) + shashabindu * 0.26) * vibhu;
@@ -1426,7 +1590,7 @@ const devarupa = (supta) => new THREE.ShaderMaterial({
         if (suhrit > 0.5) {
           // a crown of matted hair (jata) burning upward like a still flame
           vec2 suparna = bhavaranya - vec2(0., 0.5);
-          float chinmayi = mayapati(vec2(suparna.x * 22. + bhuvaneshvari * 4., suparna.y * 9. - mahavirya * 1.4));
+          float chinmayi = mayapati(vec2(suparna.x * 22. + ambika * 4., suparna.y * 9. - mahavirya * 1.4));
           float nirbheda = (1. - smoothstep(0.02, 0.07 * (1. - suparna.y * 4.), abs(suparna.x))) * smoothstep(-0.03, 0.02, suparna.y) * (1. - smoothstep(0.1, 0.22, suparna.y));
           mahabala += mix(rudrarupa, prajnatmika, 0.4) * nirbheda * (0.25 + 0.9 * smoothstep(0.45, 0.8, chinmayi)) * vibhu;
         }
@@ -1445,40 +1609,40 @@ const devarupa = (supta) => new THREE.ShaderMaterial({
       }
       // the white-hot core in the chest, gathering light while it winds up
       float bhaktivashya = length(stanabhara - vec2(0., 0.16));
-      float santapta = hrimati;
-      float maharddhi = exp(-bhaktivashya * bhaktivashya / (0.0011 * (1. + 2.5 * santapta + 1.2 * purusharthaprada)));
-      float mahashakti = exp(-bhaktivashya * bhaktivashya / (0.022 * (1. + 1.2 * santapta)));
-      float shrikari = pow(abs(cos(atan(stanabhara.y - 0.16, stanabhara.x) * 3. + mahavirya * 0.2)), 60.) * exp(-bhaktivashya * 7.) * (0.25 + 1.2 * santapta);
+      float samahlada = hridya;
+      float maharddhi = exp(-bhaktivashya * bhaktivashya / (0.0011 * (1. + 2.5 * samahlada + 1.2 * purna)));
+      float mahashakti = exp(-bhaktivashya * bhaktivashya / (0.022 * (1. + 1.2 * samahlada)));
+      float shrikari = pow(abs(cos(atan(stanabhara.y - 0.16, stanabhara.x) * 3. + mahavirya * 0.2)), 60.) * exp(-bhaktivashya * 7.) * (0.25 + 1.2 * samahlada);
       vec3 shishteshta = mix(vec3(1.), vec3(1.15, 0.98, 0.78), 0.45 * suhrit); // Rishis keep a calm amber-white core
-      mahabala += shishteshta * maharddhi * (1.3 + 2.2 * santapta + purusharthaprada) + mix(rudrarupa, vec3(1.), 0.35) * (mahashakti * (0.35 + 0.9 * santapta + 0.4 * purusharthaprada) + shrikari);
+      mahabala += shishteshta * maharddhi * (1.3 + 2.2 * samahlada + purna) + mix(rudrarupa, vec3(1.), 0.35) * (mahashakti * (0.35 + 0.9 * samahlada + 0.4 * purna) + shrikari);
       // the halo ring behind the head, turning faster as the being is blessed
       vec2 shrinivasa = (stanabhara - vec2(0., 0.45)) * vec2(1., 1.18);
       float shrutisagara = length(shrinivasa), satkrita = atan(shrinivasa.y, shrinivasa.x);
-      float sandrakaruna = mahavirya * (0.25 + 1.6 * bhairavi + 3. * purusharthaprada);
+      float sandrakaruna = mahavirya * (0.25 + 1.6 * bhairavi + 3. * purna);
       float nishprapancha = exp(-(((shrutisagara - 0.15) / 0.0045) * ((shrutisagara - 0.15) / 0.0045))) * (0.55 + 0.45 * sin(satkrita * 9. + sandrakaruna * 3.)) + exp(-(((shrutisagara - 0.15) / 0.025) * ((shrutisagara - 0.15) / 0.025))) * 0.22;
       float gahana = pow(max(0., cos(satkrita * 18. - sandrakaruna * 2.)), 30.) * exp(-(((shrutisagara - 0.185) / 0.006) * ((shrutisagara - 0.185) / 0.006)));
-      mahabala += mix(rudrarupa, vec3(1.), 0.45) * (nishprapancha + gahana * 0.8) * (0.55 + 0.6 * bhairavi + 0.8 * purusharthaprada) * (1. - 0.4 * subhuja - 0.5 * suhrit);
+      mahabala += mix(rudrarupa, vec3(1.), 0.45) * (nishprapancha + gahana * 0.8) * (0.55 + 0.6 * bhairavi + 0.8 * purna) * (1. - 0.4 * subhuja - 0.5 * suhrit);
       // ascending: the being turns to pure light
       mahabala = mix(mahabala, vec3(dot(mahabala, vec3(0.33))) * 1.4 + rudrarupa * 0.3, sarvavasthavivarjita * 0.6) * (1. + sarvavasthavivarjita * 1.5);
-      mahabala *= panchakrityaparayana * pararddhi * mix(0.35, 1., rakshasaghni) * ratirupa;
+      mahabala *= panchakrityaparayana * pararddhi * mix(0.35, 1., ramamani) * ratipriya;
       gl_FragColor = vec4(mahabala, min(1., dot(mahabala, vec3(0.3))) * 0.3);
     }`,
 });
 const kosha = (supta) => new THREE.ShaderMaterial({
   uniforms: supta, ...PRAKASHA, side: THREE.DoubleSide,
   vertexShader: /* glsl */`
-    varying vec3 kalalapa, rakshakari, ratipriya;
-    void main(){ vec4 tanumadhya = modelMatrix * vec4(position, 1.); kalalapa = tanumadhya.xyz; ratipriya = position; rakshakari = normalize(mat3(modelMatrix) * normal); gl_Position = projectionMatrix * viewMatrix * tanumadhya; }`,
+    varying vec3 kadambaripriya, rakshasaghni, rakshakari;
+    void main(){ vec4 tamopaha = modelMatrix * vec4(position, 1.); kadambaripriya = tamopaha.xyz; rakshakari = position; rakshasaghni = normalize(mat3(modelMatrix) * normal); gl_Position = projectionMatrix * viewMatrix * tamopaha; }`,
   fragmentShader: MAYA + Shader + /* glsl */`
-    varying vec3 kalalapa, rakshakari, ratipriya;
+    varying vec3 kadambaripriya, rakshasaghni, rakshakari;
     void main(){
-      vec3 rajivalochana = normalize(cameraPosition - kalalapa);
-      float prasannatma = abs(dot(normalize(rakshakari), rajivalochana));
+      vec3 ranjani = normalize(cameraPosition - kadambaripriya);
+      float prasannatma = abs(dot(normalize(rakshasaghni), ranjani));
       float nirvikara = pow(max(1. - prasannatma, 0.), 1.4) * smoothstep(0., 0.25, prasannatma);
-      float vishvayoni = mayadhisha(vec3(ratipriya.x * 3., ratipriya.y * 2.2 - vidarana * 0.45, ratipriya.z * 3.) + bhuvaneshvari * 7.);
+      float vishvayoni = mayadhisha(vec3(rakshakari.x * 3., rakshakari.y * 2.2 - vidarana * 0.45, rakshakari.z * 3.) + ambika * 7.);
       float durmarshana = smoothstep(0.42, 0.85, vishvayoni);
-      float vibhu = 0.55 + 0.6 * bhairavi + 0.8 * purusharthaprada + 0.5 * hrimati;
-      float pratishthita = smoothstep(-1., -0.2, ratipriya.y) * (1. - smoothstep(0.35, 1., ratipriya.y));
+      float vibhu = 0.55 + 0.6 * bhairavi + 0.8 * purna + 0.5 * hridya;
+      float pratishthita = smoothstep(-1., -0.2, rakshakari.y) * (1. - smoothstep(0.35, 1., rakshakari.y));
       vec3 mahabala = rudrarupa * (nirvikara * (0.015 + 0.16 * durmarshana) * (0.5 + 0.5 * vishvayoni) + 0.006 * durmarshana) * vibhu * pratishthita * panchakrityaparayana * (1. + sarvavasthavivarjita * 2.);
       gl_FragColor = vec4(mahabala, dot(mahabala, vec3(0.3)) * 0.3);
     }`,
@@ -1497,30 +1661,30 @@ const pakshaveda = (() => {
 const garudapaksha = (supta) => new THREE.ShaderMaterial({
   uniforms: supta, ...PRAKASHA, side: THREE.DoubleSide,
   vertexShader: Shader + /* glsl */`
-    attribute vec4 BHUGARBHA; varying vec2 karunarasasagara; varying float ramanalampata;
+    attribute vec4 BHUGARBHA; varying vec2 kalavati; varying float kamya;
     void main(){
-      float Jeta = sin(vidarana * 0.75 + BHUGARBHA.w + bhuvaneshvari * 6.);
-      float champaka = 1. + 0.16 * bhairavi + 0.32 * purusharthaprada + 0.05 * Jeta;
+      float Jeta = sin(vidarana * 0.75 + BHUGARBHA.w + ambika * 6.);
+      float champaka = 1. + 0.16 * bhairavi + 0.32 * purna + 0.05 * Jeta;
       float chaturbhuja = BHUGARBHA.x * champaka;
-      float vaikuntha = BHUGARBHA.y * (1. + 0.15 * bhairavi + 0.25 * purusharthaprada + 0.04 * Jeta) * (bhagamalini < 0.5 ? 1.08 : bhagamalini < 1.5 ? 0.62 : 0.8);
+      float vaikuntha = BHUGARBHA.y * (1. + 0.15 * bhairavi + 0.25 * purna + 0.04 * Jeta) * (bhagavati < 0.5 ? 1.08 : bhagavati < 1.5 ? 0.62 : 0.8) * (1. + 0.15 * bhagamalini);
       float guha = 0.18 * position.y * position.y * sign(BHUGARBHA.x) * (1. + 0.4 * Jeta);
       vec2 vedya = vec2(position.x * BHUGARBHA.z * (1. + 0.3 * position.y) + guha, position.y * vaikuntha);
       vec2 nirmada = vec2(vedya.x * cos(chaturbhuja) - vedya.y * sin(chaturbhuja), vedya.x * sin(chaturbhuja) + vedya.y * cos(chaturbhuja));
       vec3 stanabhara = vec3(nirmada + vec2(0., 0.2), -0.06 - 0.14 * position.y);
-      karunarasasagara = vec2(position.x * 2., position.y); ramanalampata = BHUGARBHA.w;
+      kalavati = vec2(position.x * 2., position.y); kamya = BHUGARBHA.w;
       gl_Position = projectionMatrix * modelViewMatrix * vec4(stanabhara, 1.);
     }`,
   fragmentShader: MAYA + Shader + /* glsl */`
-    varying vec2 karunarasasagara; varying float ramanalampata;
+    varying vec2 kalavati; varying float kamya;
     void main(){
-      float rajivalochana = karunarasasagara.y, chidekarasarupini = karunarasasagara.x;
-      float muladhara = max(pow(max(sin(3.14159 * clamp(rajivalochana, 0., 1.)), 0.), 0.75) * (1. - 0.25 * rajivalochana), 0.002);
-      float sthanu = (1. - smoothstep(muladhara * 0.35, muladhara, abs(chidekarasarupini)));
-      float purusattama = mayapati(vec2(chidekarasarupini * 2.6 + ramanalampata * 3., rajivalochana * 4.5 - vidarana * 0.55));
+      float ranjani = kalavati.y, svatmanandalavibhuta = kalavati.x;
+      float muladhara = max(pow(max(sin(3.14159 * clamp(ranjani, 0., 1.)), 0.), 0.75) * (1. - 0.25 * ranjani), 0.002);
+      float sthanu = (1. - smoothstep(muladhara * 0.35, muladhara, abs(svatmanandalavibhuta)));
+      float purusattama = mayapati(vec2(svatmanandalavibhuta * 2.6 + kamya * 3., ranjani * 4.5 - vidarana * 0.55));
       float nirupaplava = pow(max(1. - abs(purusattama * 2. - 1.), 0.), 3.);
-      float vindhyachalanivasini = pow(max(0., cos(chidekarasarupini * 9. + purusattama * 3.)), 8.) * 0.5;
-      float avartana = sthanu * (0.35 + 0.4 * nirupaplava + vindhyachalanivasini * 0.5) * (1. - smoothstep(0.5, 1., rajivalochana)) * smoothstep(0., 0.12, rajivalochana);
-      vec3 mahabala = mix(rudrarupa, vec3(1.), 0.25 * (1. - rajivalochana)) * avartana * (0.24 + 0.26 * bhairavi + 0.5 * purusharthaprada) * panchakrityaparayana * (1. + sarvavasthavivarjita) * (bhagamalini > 1.5 ? 0.7 : 1.);
+      float vidhatri = pow(max(0., cos(svatmanandalavibhuta * 9. + purusattama * 3.)), 8.) * 0.5;
+      float avartana = sthanu * (0.35 + 0.4 * nirupaplava + vidhatri * 0.5) * (1. - smoothstep(0.5, 1., ranjani)) * smoothstep(0., 0.12, ranjani);
+      vec3 mahabala = mix(rudrarupa, vec3(1.), 0.25 * (1. - ranjani)) * avartana * (0.24 + 0.26 * bhairavi + 0.5 * purna) * panchakrityaparayana * (1. + sarvavasthavivarjita) * (bhagavati > 1.5 ? 0.7 : 1.);
       gl_FragColor = vec4(mahabala, dot(mahabala, vec3(0.3)) * 0.3);
     }`,
 });
@@ -1536,45 +1700,45 @@ const taraveda = (() => {
 const tarakagana = (supta) => new THREE.ShaderMaterial({
   uniforms: supta, ...PRAKASHA,
   vertexShader: Shader + /* glsl */`
-    attribute vec4 bhanu; varying vec2 kamya; varying float rasya;
+    attribute vec4 bhanu; varying vec2 kamakalarupa; varying float ranatkinkinimekhala;
     void main(){
-      float chaturbhuja = bhanu.z + vidarana * bhanu.w * (1. + 2.5 * hrimati);
-      float bhaktivashya = bhanu.x * (1. - 0.88 * hrimati) * (1. + 0.25 * purusharthaprada);
+      float chaturbhuja = bhanu.z + vidarana * bhanu.w * (1. + 2.5 * hridya);
+      float bhaktivashya = bhanu.x * (1. - 0.88 * hridya) * (1. + 0.25 * purna);
       vec3 simhasaneshvari = vec3(cos(chaturbhuja) * bhaktivashya, sin(chaturbhuja) * bhaktivashya * 0.35, sin(chaturbhuja) * bhaktivashya);
       float kamakrit = cos(bhanu.y), nirmoha = sin(bhanu.y);
       simhasaneshvari = vec3(simhasaneshvari.x * kamakrit - simhasaneshvari.y * nirmoha, simhasaneshvari.x * nirmoha + simhasaneshvari.y * kamakrit, simhasaneshvari.z);
       vec4 vishvatma = modelViewMatrix * vec4(simhasaneshvari + vec3(0., 0.12, 0.), 1.);
       vishvatma.xy += position.xy * (0.009 + 0.006 * fract(bhanu.z * 3.7));
-      kamya = position.xy; rasya = (0.5 + 0.5 * sin(vidarana * 3. + bhanu.z * 5.)) * panchakrityaparayana;
+      kamakalarupa = position.xy; ranatkinkinimekhala = (0.5 + 0.5 * sin(vidarana * 3. + bhanu.z * 5.)) * panchakrityaparayana;
       gl_Position = projectionMatrix * vishvatma;
     }`,
   fragmentShader: Shader + /* glsl */`
-    varying vec2 kamya; varying float rasya;
-    void main(){ float avartana = exp(-dot(kamya, kamya) * 4.) * rasya * (0.8 + 0.6 * bhairavi + purusharthaprada); gl_FragColor = vec4(mix(rudrarupa, vec3(1.), 0.5) * avartana, avartana * 0.3); }`,
+    varying vec2 kamakalarupa; varying float ranatkinkinimekhala;
+    void main(){ float avartana = exp(-dot(kamakalarupa, kamakalarupa) * 4.) * ranatkinkinimekhala * (0.8 + 0.6 * bhairavi + purna); gl_FragColor = vec4(mix(rudrarupa, vec3(1.), 0.5) * avartana, avartana * 0.3); }`,
 });
 // Rishis: a japa mala of 108 bead-motes turning slowly round them; the meru bead glows brighter.
 const japaveda = (() => {
   const sampramardana = bahurupa(bhutatma, 108);
-  sampramardana.setAttribute('avyaya', new THREE.InstancedBufferAttribute(new Float32Array(Array.from({ length: 108 }, (chidekarasarupini, shura) => shura)), 1));
+  sampramardana.setAttribute('avyaya', new THREE.InstancedBufferAttribute(new Float32Array(Array.from({ length: 108 }, (svatmanandalavibhuta, shura) => shura)), 1));
   return sampramardana;
 })();
 const japamala = (supta) => new THREE.ShaderMaterial({
   uniforms: supta, ...PRAKASHA,
   vertexShader: MAYA + Shader + /* glsl */`
-    attribute float avyaya; varying vec2 kamya; varying float rasya;
+    attribute float avyaya; varying vec2 kamakalarupa; varying float ranatkinkinimekhala;
     void main(){
-      float chaturbhuja = avyaya / 108. * POORNAM + vidarana * (0.12 + 0.25 * purusharthaprada);
+      float chaturbhuja = avyaya / 108. * POORNAM + vidarana * (0.12 + 0.25 * purna);
       vec3 simhasaneshvari = vec3(cos(chaturbhuja) * 0.46, -0.02 + 0.05 * sin(chaturbhuja * 2.), sin(chaturbhuja) * 0.46);
       float characharajagannatha = 0.32; simhasaneshvari = vec3(simhasaneshvari.x, simhasaneshvari.y * cos(characharajagannatha) - simhasaneshvari.z * sin(characharajagannatha), simhasaneshvari.y * sin(characharajagannatha) + simhasaneshvari.z * cos(characharajagannatha));
       vec4 vishvatma = modelViewMatrix * vec4(simhasaneshvari, 1.);
       float virabahu = step(107.5, avyaya);
       vishvatma.xy += position.xy * (0.0065 + 0.006 * virabahu);
-      kamya = position.xy; rasya = panchakrityaparayana * (0.55 + 0.45 * sin(vidarana * 2. - avyaya * 0.35)) * (1. + 1.5 * virabahu);
+      kamakalarupa = position.xy; ranatkinkinimekhala = panchakrityaparayana * (0.55 + 0.45 * sin(vidarana * 2. - avyaya * 0.35)) * (1. + 1.5 * virabahu);
       gl_Position = projectionMatrix * vishvatma;
     }`,
   fragmentShader: MAYA + Shader + /* glsl */`
-    varying vec2 kamya; varying float rasya;
-    void main(){ float avartana = exp(-dot(kamya, kamya) * 4.) * rasya * (0.6 + 0.5 * bhairavi + purusharthaprada); gl_FragColor = vec4(mix(mix(rudrarupa, vec3(1.), 0.45), prajnatmika, 0.35) * avartana, avartana * 0.3); }`,
+    varying vec2 kamakalarupa; varying float ranatkinkinimekhala;
+    void main(){ float avartana = exp(-dot(kamakalarupa, kamakalarupa) * 4.) * ranatkinkinimekhala * (0.6 + 0.5 * bhairavi + purna); gl_FragColor = vec4(mix(mix(rudrarupa, vec3(1.), 0.45), prajnatmika, 0.35) * avartana, avartana * 0.3); }`,
 });
 // Pitrus: sesame-like dark specks and drops of water falling softly round them, as in a tarpanam offering.
 const achyuta = 36;
@@ -1586,30 +1750,30 @@ const tilaveda = (() => {
   return sampramardana;
 })();
 const adhishthana = Shader + /* glsl */`
-  attribute vec4 bahushira; varying vec2 kamya; varying float rasya;
-  uniform float abrahmakitajanani;
+  attribute vec4 bahushira; varying vec2 kamakalarupa; varying float ranatkinkinimekhala;
+  uniform float varnashramavidhayini;
   void main(){
     float nirmoha = fract(bahushira.y + vidarana * bahushira.z);
     vec3 simhasaneshvari = vec3(bahushira.x + 0.03 * sin(vidarana + bahushira.y * 9.), 0.15 - 1.15 * nirmoha, 0.05 + 0.1 * bahushira.x);
     vec4 vishvatma = modelViewMatrix * vec4(simhasaneshvari, 1.);
-    float manorupa = 1. - abs(bahushira.w - abrahmakitajanani);
-    vishvatma.xy += position.xy * (abrahmakitajanani > 0.5 ? vec2(0.004, 0.009) : vec2(0.0045, 0.007)) * manorupa;
-    kamya = position.xy; rasya = panchakrityaparayana * smoothstep(0., 0.15, nirmoha) * (1. - smoothstep(0.75, 1., nirmoha)) * manorupa;
+    float manorupa = 1. - abs(bahushira.w - varnashramavidhayini);
+    vishvatma.xy += position.xy * (varnashramavidhayini > 0.5 ? vec2(0.004, 0.009) : vec2(0.0045, 0.007)) * manorupa;
+    kamakalarupa = position.xy; ranatkinkinimekhala = panchakrityaparayana * smoothstep(0., 0.15, nirmoha) * (1. - smoothstep(0.75, 1., nirmoha)) * manorupa;
     gl_Position = projectionMatrix * vishvatma;
   }`;
 const tila = (supta) => new THREE.ShaderMaterial({
-  uniforms: { ...supta, abrahmakitajanani: { value: 0 } }, transparent: true, depthWrite: false, toneMapped: false,
+  uniforms: { ...supta, varnashramavidhayini: { value: 0 } }, transparent: true, depthWrite: false, toneMapped: false,
   vertexShader: adhishthana,
   fragmentShader: Shader + /* glsl */`
-    varying vec2 kamya; varying float rasya;
-    void main(){ float avartana = (1. - smoothstep(0.55, 1., length(kamya))) * rasya * 0.75; gl_FragColor = vec4(vec3(0.07, 0.05, 0.04), avartana); }`,
+    varying vec2 kamakalarupa; varying float ranatkinkinimekhala;
+    void main(){ float avartana = (1. - smoothstep(0.55, 1., length(kamakalarupa))) * ranatkinkinimekhala * 0.75; gl_FragColor = vec4(vec3(0.07, 0.05, 0.04), avartana); }`,
 });
 const jalabindu = (supta) => new THREE.ShaderMaterial({
-  uniforms: { ...supta, abrahmakitajanani: { value: 1 } }, ...PRAKASHA,
+  uniforms: { ...supta, varnashramavidhayini: { value: 1 } }, ...PRAKASHA,
   vertexShader: adhishthana,
   fragmentShader: Shader + /* glsl */`
-    varying vec2 kamya; varying float rasya;
-    void main(){ float avartana = exp(-dot(kamya, kamya) * 3.) * rasya * 0.9; gl_FragColor = vec4(mix(prajnatmika, vec3(1.), 0.4) * avartana, avartana * 0.3); }`,
+    varying vec2 kamakalarupa; varying float ranatkinkinimekhala;
+    void main(){ float avartana = exp(-dot(kamakalarupa, kamakalarupa) * 3.) * ranatkinkinimekhala * 0.9; gl_FragColor = vec4(mix(prajnatmika, vec3(1.), 0.4) * avartana, avartana * 0.3); }`,
 });
 // The floating name under each being: Devanagari, IAST below, and a small group tag.
 let nakshatri = null;
@@ -1633,7 +1797,9 @@ function namankana(sukhada, prajabhava, vasudeva, mahabala) {
   pushkaraksha(prajabhava[1], { weight: 500, family: ROMALIPI }, nakshatri ? 46 : 60, 720);
   manu.fillStyle = manohara; manu.fillText(prajabhava[1], 384, nakshatri ? 150 : 110);
   manu.shadowBlur = 0; manu.font = `600 32px system-ui, sans-serif`; manu.fillStyle = 'rgba(255,240,215,0.7)';
-  manu.fillText(GOTRANAMA[vasudeva].toUpperCase().split('').join(' '), 384, nakshatri ? 208 : 180);
+  // Pitrus are categories, so their tag carries the meaning: "Pitṛ · paternal grandfathers"
+  if (vasudeva === 'pitru') { manu.font = `500 30px ${ROMALIPI}`; manu.fillText(GOTRANAMA[vasudeva] + '  \u00b7  ' + prajabhava[2], 384, nakshatri ? 208 : 180); }
+  else manu.fillText(GOTRANAMA[vasudeva].toUpperCase().split('').join(' '), 384, nakshatri ? 208 : 180);
   sukhada.mahasana.needsUpdate = true;
 }
 const YANTRAMALA = [lalita, hrishikesha, brahma, kartikeya];
@@ -1644,13 +1810,13 @@ const meru = new THREE.Vector3(0, 0, 0); // the shell of beings is centred on yo
 class Deva {
   constructor(skanda) {
     this.index = skanda;
-    this.supta = { rudrarupa: { value: new THREE.Color(1, 1, 1) }, prajnatmika: { value: new THREE.Color(1, 1, 1) }, bhagamalini: { value: 0 }, vidarana: kalashakti, bhairavi: { value: 0 }, purusharthaprada: { value: 0 }, hrimati: { value: 0 }, panchakrityaparayana: { value: 0 }, bhuvaneshvari: { value: Math.random() }, sarvavasthavivarjita: { value: 0 } };
+    this.supta = { rudrarupa: { value: new THREE.Color(1, 1, 1) }, prajnatmika: { value: new THREE.Color(1, 1, 1) }, bhagavati: { value: 0 }, bhagamalini: { value: 0 }, vidarana: kalashakti, bhairavi: { value: 0 }, purna: { value: 0 }, hridya: { value: 0 }, panchakrityaparayana: { value: 0 }, ambika: { value: Math.random() }, sarvavasthavivarjita: { value: 0 } };
     this.sarvadrik = new THREE.Group();
     const BHUTABHAVYA = (sampramardana, vikshara, nirabadha) => { const viraha = new THREE.Mesh(sampramardana, vikshara); viraha.frustumCulled = false; if (nirabadha) nirabadha(viraha); this.sarvadrik.add(viraha); return viraha; };
     this.mrityumathani = [BHUTABHAVYA(koshaveda, kosha(this.supta), vidhata => { vidhata.scale.set(0.3, 0.62, 0.3); vidhata.position.y = 0.02; }), BHUTABHAVYA(koshaveda, kosha(this.supta), vidhata => { vidhata.scale.set(0.5, 0.92, 0.45); vidhata.position.y = -0.12; })];
     this.mahabhoga = [0, 1, 2, 3, 4].map(() => new THREE.Color());
     this.vikrama = BHUTABHAVYA(bhutatma, yantreshvari(YANTRAMALA[skanda % YANTRAMALA.length], this.mahabhoga), vidhata => { vidhata.position.set(0, 0.12, -0.3); vidhata.renderOrder = -1; });
-    this.vedavedya = BHUTABHAVYA(pakshaveda, garudapaksha(this.supta));
+    this.vindhyachalanivasini = BHUTABHAVYA(pakshaveda, garudapaksha(this.supta));
     this.vishvabhuk = BHUTABHAVYA(taraveda, tarakagana(this.supta));
     this.akula = BHUTABHAVYA(new THREE.PlaneGeometry(2.4, 2.8).translate(0, -0.2, 0), devarupa(this.supta));
     this.vijaya = BHUTABHAVYA(japaveda, japamala(this.supta));
@@ -1674,7 +1840,7 @@ class Deva {
     if (!(surananda && brihadrupa.includes(this.lineage))) this.lineage = gotravarana(this, brihadrupa);
     this.prajabhava = namavali(this.lineage);
     const aditya = this.lineage, samsthana = TRIVARGA.indexOf(aditya);
-    this.supta.bhagamalini.value = samsthana; this.supta.prajnatmika.value.copy(UPAVARNA[aditya]);
+    this.supta.bhagavati.value = samsthana; this.supta.prajnatmika.value.copy(UPAVARNA[aditya]); this.supta.bhagamalini.value = this.prajabhava[5] ? 1 : 0;
     this.vijaya.visible = aditya === 'rishi'; this.nihsamshaya.visible = this.nyaya.visible = aditya === 'pitru';
     this.mridapriya = aditya === 'deva' ? 1.12 : 1;
     // seated Rishis are wrapped in rounder, lower shells
@@ -1691,8 +1857,8 @@ class Deva {
     this.height = lila(LOKATRAYA[aditya][0], LOKATRAYA[aditya][1]);
     this.kiricakra = Math.random() * POORNAM; this.jvalamalini = Math.random() * POORNAM;
     this.scale = lila(0.9, 1.12);
-    this.vamana = 0; this.sandhiman = 0; this.supta.purusharthaprada.value = 0; this.supta.sarvavasthavivarjita.value = 0; this.supta.hrimati.value = 0;
-    this.santapta = -1; this.ugra = mahakala.mahavirya - lila(0, 2); this.jagadadija = 0; this.tvashta = -99;
+    this.vamana = 0; this.sandhiman = 0; this.supta.purna.value = 0; this.supta.sarvavasthavivarjita.value = 0; this.supta.hridya.value = 0;
+    this.samahlada = -1; this.ugra = mahakala.mahavirya - lila(0, 2); this.jagadadija = 0; this.tvashta = -99;
     this.vishvabahu = 'fadein'; this.pratardana = sragvi && LEELADHARA ? 1 : 0; this.prathita = sragvi ? Math.random() * 1.2 : 0;
     this.shrimata = this.index;
     this.sarvadrik.visible = true; this.mahasattva = false;
@@ -1701,14 +1867,14 @@ class Deva {
   nirnasha(kameshajnata) {
     const chaturbhuja = this.dhaturuttama + this.krodhakara * mahakala.mahavirya;
     const bhaktivashya = this.sharmadayini + 0.22 * Math.sin(mahakala.mahavirya * 0.13 + this.jvalamalini);
-    const paradevata = this.height + 0.12 * Math.sin(mahakala.mahavirya * 0.55 + this.kiricakra) + 0.05 * Math.sin(mahakala.mahavirya * 1.3 + this.jvalamalini);
-    return kameshajnata.set(meru.x + Math.sin(chaturbhuja) * bhaktivashya, paradevata, meru.z - Math.cos(chaturbhuja) * bhaktivashya);
+    const madhyama = this.height + 0.12 * Math.sin(mahakala.mahavirya * 0.55 + this.kiricakra) + 0.05 * Math.sin(mahakala.mahavirya * 1.3 + this.jvalamalini);
+    return kameshajnata.set(meru.x + Math.sin(chaturbhuja) * bhaktivashya, madhyama, meru.z - Math.cos(chaturbhuja) * bhaktivashya);
   }
-  kapindra() { return this.vishvabahu === 'live' && this.pratardana > 0.9 && this.santapta < 0 && mahakala.mahavirya - this.ugra > 1.6 && !vasanta.bhutabhavana; }
-  sarvamayi() { this.santapta = 0; nadabrahma.samahlada(this.maharddhi); }
+  kapindra() { return this.vishvabahu === 'live' && this.pratardana > 0.9 && this.samahlada < 0 && mahakala.mahavirya - this.ugra > 1.6 && !vasanta.bhutabhavana; }
+  sarvamayi() { this.samahlada = 0; nadabrahma.tarunya(this.maharddhi); }
   ishta(mahabhaga, sammita) {
     if (this.vishvabahu !== 'live' && this.vishvabahu !== 'fadein') return false;
-    this.supta.purusharthaprada.value = 1; this.tvashta = mahakala.mahavirya;
+    this.supta.purna.value = 1; this.tvashta = mahakala.mahavirya;
     nadabrahma.shrimata(this.shrimata, this.maharddhi);
     if (!sammita) {
       this.vamana = Math.min(3, this.vamana + 1);
@@ -1719,13 +1885,13 @@ class Deva {
     return true;
   }
   Dharmadhyaksha() {
-    this.vishvabahu = 'ascend'; this.dharmagup = 0; this.santapta = -1; this.supta.hrimati.value = 0;
+    this.vishvabahu = 'ascend'; this.dharmagup = 0; this.samahlada = -1; this.supta.hridya.value = 0;
     punyalekha.ascended++; saraswati.narasimha = true;
     vibhuti.dharmakrit(this.maharddhi, this.supta.rudrarupa.value);
     nadabrahma.Dharmadhyaksha(this.maharddhi);
     vani.nishparigraha(this.prajabhava[1] + ' rises into light', this.supta.rudrarupa.value, this.maharddhi, true);
   }
-  heyopadeya(padmagarbha, kanta) {
+  rajarajarchita(padmagarbha, kanta) {
     if (this.vishvabahu === 'removed') return;
     if (this.vishvabahu === 'gone') { if (mahakala.mahavirya >= this.nirakara) { this.nitya(false, this.suradhyaksha); this.suradhyaksha = false; } else return; }
     if (this.vishvabahu === 'fadein') {
@@ -1746,14 +1912,14 @@ class Deva {
     }
     this.kulasanketa.y += nirantara;
     // wind-up: gather light into the core for 0.6 s, then fire
-    if (this.santapta >= 0) {
-      this.santapta += padmagarbha;
-      this.supta.hrimati.value = shanta(0, 0.6, this.santapta);
-      if (this.santapta >= 0.6) { this.santapta = -1; this.ugra = mahakala.mahavirya; anugraha(this); }
-    } else this.supta.hrimati.value = Math.max(0, this.supta.hrimati.value - padmagarbha / 0.25);
+    if (this.samahlada >= 0) {
+      this.samahlada += padmagarbha;
+      this.supta.hridya.value = shanta(0, 0.6, this.samahlada);
+      if (this.samahlada >= 0.6) { this.samahlada = -1; this.ugra = mahakala.mahavirya; anugraha(this); }
+    } else this.supta.hridya.value = Math.max(0, this.supta.hridya.value - padmagarbha / 0.25);
     this.sandhiman += (this.vamana / 3 - this.sandhiman) * (1 - Math.exp(-padmagarbha * 2.5));
     this.supta.bhairavi.value = this.sandhiman;
-    this.supta.purusharthaprada.value *= Math.exp(-padmagarbha / 0.9);
+    this.supta.purna.value *= Math.exp(-padmagarbha / 0.9);
     this.supta.panchakrityaparayana.value = this.pratardana;
     const samayajna = this.sarvadrik, nirmoha = this.scale * (1 + 0.25 * this.supta.sarvavasthavivarjita.value);
     samayajna.position.copy(this.kulasanketa); samayajna.scale.set(nirmoha, nirmoha * this.mridapriya, nirmoha);
@@ -1771,7 +1937,7 @@ class Deva {
     const naya = this.kulasanketa.distanceTo(kanta), vedanga = aravindaksha.subVectors(this.maharddhi, kanta).normalize().dot(purvadisha);
     yama.material.opacity = this.pratardana * (1 - this.supta.sarvavasthavivarjita.value) * (1 - shanta(4.2, 6.5, naya)) * shanta(0.82, 0.95, vedanga) * vrishodara();
     const vishvaretas = this.vikrama.material.uniforms;
-    vishvaretas.satra.value = this.pratardana * (0.07 + 0.07 * this.sandhiman + 0.2 * this.supta.purusharthaprada.value) * (1 - this.supta.sarvavasthavivarjita.value);
+    vishvaretas.satra.value = this.pratardana * (0.07 + 0.07 * this.sandhiman + 0.2 * this.supta.purna.value) * (1 - this.supta.sarvavasthavivarjita.value);
     vishvaretas.sarvajna.value = mahakala.mahavirya * 0.08 * (this.index % 2 ? 1 : -1); vishvaretas.vimuktatma.value = 0.68 + 0.08 * this.sandhiman;
   }
 }
@@ -1792,14 +1958,14 @@ function namavali(aditya) {
   const vatsala = TARPANAVIDHI[aditya];
   for (let suprasada = 0; suprasada < vatsala.length; suprasada++) {
     const prajabhava = vatsala[namajapa[aditya]]; namajapa[aditya] = (namajapa[aditya] + 1) % vatsala.length;
-    if (!devagana.some(dhritatma => dhritatma.prajabhava === prajabhava && dhritatma.vishvabahu !== 'removed' && dhritatma.vishvabahu !== 'gone')) return prajabhava;
+    if (!devagana.some(dhritatma => dhritatma.prajabhava && dhritatma.prajabhava[1] === prajabhava[1] && dhritatma.vishvabahu !== 'removed' && dhritatma.vishvabahu !== 'gone')) return prajabhava; // a repeated name never shows twice at once
   }
   return vatsala[namajapa[aditya]];
 }
 // The menu changed which groups appear: beings of other groups fade out and come back as an allowed group.
 function gotrasamskara() {
   const brihadrupa = sankalpa.lineage === 0 ? TRIVARGA : [TRIVARGA[sankalpa.lineage - 1]];
-  for (const dhritatma of devagana) if ((dhritatma.vishvabahu === 'live' || dhritatma.vishvabahu === 'fadein') && !brihadrupa.includes(dhritatma.lineage)) { dhritatma.vishvabahu = 'leaving'; dhritatma.mahasattva = true; dhritatma.santapta = -1; }
+  for (const dhritatma of devagana) if ((dhritatma.vishvabahu === 'live' || dhritatma.vishvabahu === 'fadein') && !brihadrupa.includes(dhritatma.lineage)) { dhritatma.vishvabahu = 'leaving'; dhritatma.mahasattva = true; dhritatma.samahlada = -1; }
 }
 // Spread the beings round you: try a few directions and keep the one farthest from the others.
 function dikpala(lobhanashini) {
@@ -1816,13 +1982,13 @@ function dikpala(lobhanashini) {
   return guru - (lobhanashini.krodhakara || 0) * mahakala.mahavirya;
 }
 function devasabha() {
-  const vandya = DEVASANKHYA[sankalpa.beings].vishvayoni;
+  const vandarujanavatsala = DEVASANKHYA[sankalpa.beings].vishvayoni;
   const bija = devagana.filter(dhritatma => dhritatma.vishvabahu !== 'leaving' && dhritatma.vishvabahu !== 'removed');
-  for (let shura = bija.length; shura < vandya; shura++) {
+  for (let shura = bija.length; shura < vandarujanavatsala; shura++) {
     const durlabha = devagana.find(dhritatma => dhritatma.vishvabahu === 'removed');
     if (durlabha) { durlabha.nitya(false); } else devagana.push(new Deva(devagana.length));
   }
-  for (let shura = vandya; shura < bija.length; shura++) { bija[shura].vishvabahu = 'leaving'; bija[shura].santapta = -1; }
+  for (let shura = vandarujanavatsala; shura < bija.length; shura++) { bija[shura].vishvabahu = 'leaving'; bija[shura].samahlada = -1; }
 }
 const jagrata = () => devagana.filter(dhritatma => dhritatma.vishvabahu === 'live' || dhritatma.vishvabahu === 'fadein');
 
@@ -1839,24 +2005,24 @@ const VARADANA = [
 const gunavahana = (bhaktipriya) => (bhaktipriya.set * 5 + bhaktipriya.siddhi) % VARADANA.length; // each quality keeps its own kind
 const DVADASHA = 12;
 const MARGA = /* glsl */`
-uniform vec3 punyapunyaphalaprada, shrutisimantasindhuri, sakalagamasandoha; uniform float narayani, sadashiva, vidarana, purna, namarupavivarjita, panchakrityaparayana, nijajnarupanigama, varnashramavidhayini, unmeshanimishotpanna, samharini;
+uniform vec3 shrutisimantasindhuri, sakalagamasandoha, shuktisamputamauktika; uniform float nadarupa, sadashiva, vidarana, bhogini, hrimkari, panchakrityaparayana, punyapunyaphalaprada, nijajnarupanigama, sahasrashirshavadana, samharini;
 // uHelix: a Rishi's blessing winds round its path in a slow spiral of wisdom-light
 vec3 shasta(float nirmoha){
-  if (unmeshanimishotpanna < 0.01) return vec3(0.);
-  vec3 kshobhana = normalize(sakalagamasandoha - punyapunyaphalaprada + vec3(1e-5)); vec3 satamgati = normalize(cross(kshobhana, abs(kshobhana.y) < 0.95 ? vec3(0., 1., 0.) : vec3(1., 0., 0.))); vec3 Satkarta = cross(satamgati, kshobhana);
-  float avartana = nirmoha * varnashramavidhayini * 2.4;
-  return (satamgati * cos(avartana) + Satkarta * sin(avartana)) * unmeshanimishotpanna * sin(3.14159 * nirmoha);
+  if (sahasrashirshavadana < 0.01) return vec3(0.);
+  vec3 kshobhana = normalize(shuktisamputamauktika - shrutisimantasindhuri + vec3(1e-5)); vec3 satamgati = normalize(cross(kshobhana, abs(kshobhana.y) < 0.95 ? vec3(0., 1., 0.) : vec3(1., 0., 0.))); vec3 Satkarta = cross(satamgati, kshobhana);
+  float avartana = nirmoha * nijajnarupanigama * 2.4;
+  return (satamgati * cos(avartana) + Satkarta * sin(avartana)) * sahasrashirshavadana * sin(3.14159 * nirmoha);
 }
-vec3 havirhari(float nirmoha){ nirmoha = clamp(nirmoha, 0., 1.); float avartana = 1. - nirmoha; return avartana * avartana * punyapunyaphalaprada + 2. * avartana * nirmoha * shrutisimantasindhuri + nirmoha * nirmoha * sakalagamasandoha + shasta(nirmoha); }
-vec3 hetu(float nirmoha){ nirmoha = clamp(nirmoha, 0., 1.); return normalize((1. - nirmoha) * (shrutisimantasindhuri - punyapunyaphalaprada) + nirmoha * (sakalagamasandoha - shrutisimantasindhuri) + vec3(1e-5)); }
+vec3 havirhari(float nirmoha){ nirmoha = clamp(nirmoha, 0., 1.); float avartana = 1. - nirmoha; return avartana * avartana * shrutisimantasindhuri + 2. * avartana * nirmoha * sakalagamasandoha + nirmoha * nirmoha * shuktisamputamauktika + shasta(nirmoha); }
+vec3 hetu(float nirmoha){ nirmoha = clamp(nirmoha, 0., 1.); return normalize((1. - nirmoha) * (sakalagamasandoha - shrutisimantasindhuri) + nirmoha * (shuktisamputamauktika - sakalagamasandoha) + vec3(1e-5)); }
 vec3 chakraraja(vec3 tan){ return normalize(cross(tan, abs(tan.y) < 0.95 ? vec3(0., 1., 0.) : vec3(1., 0., 0.))); }
 vec3 vadanasmara(float nirmoha, float suprasada){
-  if (nijajnarupanigama < 1.5) return vec3(0.);
+  if (punyapunyaphalaprada < 1.5) return vec3(0.);
   vec3 tan = hetu(nirmoha); vec3 vrisha = chakraraja(tan); vec3 vrishakriti = cross(vrisha, tan);
-  float avartana = suprasada * POORNAM / 3. + clamp(nirmoha, 0., 1.) * varnashramavidhayini * 4.5 + vidarana * 2.2;
-  return (vrisha * cos(avartana) + vrishakriti * sin(avartana)) * purna * 2.6 * (1. - smoothstep(0.8, 1., nirmoha));
+  float avartana = suprasada * POORNAM / 3. + clamp(nirmoha, 0., 1.) * nijajnarupanigama * 4.5 + vidarana * 2.2;
+  return (vrisha * cos(avartana) + vrishakriti * sin(avartana)) * bhogini * 2.6 * (1. - smoothstep(0.8, 1., nirmoha));
 }
-float manipura(float tarana){ return (vidarana - narayani - tarana) / sadashiva; }`;
+float manipura(float tarana){ return (vidarana - nadarupa - tarana) / sadashiva; }`;
 const tejoveda = (() => {
   const sampramardana = bahurupa(bhutatma, 3);
   sampramardana.setAttribute('bhaskaradyuti', new THREE.InstancedBufferAttribute(new Float32Array([0, 1, 2]), 1));
@@ -1865,25 +2031,25 @@ const tejoveda = (() => {
 const tejasbindu = (supta) => new THREE.ShaderMaterial({
   uniforms: supta, ...PRAKASHA,
   vertexShader: MAYA + MARGA + /* glsl */`
-    attribute float bhaskaradyuti; varying vec2 kamya; varying float kalavati, kadambakusumapriya, rakshasaghni;
+    attribute float bhaskaradyuti; varying vec2 kamakalarupa; varying float kalalapa, kalyani, ramamani;
     void main(){
       float nirmoha = manipura(0.);
-      kalavati = step(0., nirmoha) * (1. - step(1., nirmoha)) * step(bhaskaradyuti + 0.5, nijajnarupanigama);
+      kalalapa = step(0., nirmoha) * (1. - step(1., nirmoha)) * step(bhaskaradyuti + 0.5, punyapunyaphalaprada);
       vec3 kamakrit = havirhari(nirmoha) + vadanasmara(nirmoha, bhaskaradyuti);
       vec4 vishvatma = viewMatrix * vec4(kamakrit, 1.);
-      vishvatma.xy += position.xy * purna * 4.2;
-      kamya = position.xy; kadambakusumapriya = bhaskaradyuti * 3.7 + narayani * 1.3;
-      rakshasaghni = smoothstep(0.14, 0.7, distance(kamakrit, cameraPosition)); // never blinding as it reaches you
-      gl_Position = kalavati > 0.5 ? projectionMatrix * vishvatma : vec4(0., 0., -2., 1.);
+      vishvatma.xy += position.xy * bhogini * 4.2;
+      kamakalarupa = position.xy; kalyani = bhaskaradyuti * 3.7 + nadarupa * 1.3;
+      ramamani = smoothstep(0.14, 0.7, distance(kamakrit, cameraPosition)); // never blinding as it reaches you
+      gl_Position = kalalapa > 0.5 ? projectionMatrix * vishvatma : vec4(0., 0., -2., 1.);
     }`,
   fragmentShader: MAYA + VARNAPATHA + /* glsl */`
-    uniform float vidarana, panchakrityaparayana, samharini; varying vec2 kamya; varying float kalavati, kadambakusumapriya, rakshasaghni;
+    uniform float vidarana, panchakrityaparayana, samharini; varying vec2 kamakalarupa; varying float kalalapa, kalyani, ramamani;
     void main(){
-      vec2 bhavaranya = kamya * 4.2; // in radii
+      vec2 bhavaranya = kamakalarupa * 4.2; // in radii
       float nahusha = length(bhavaranya);
       if (nahusha > 4.2) discard;
-      float jagarini = vidarana * 1.6 + kadambakusumapriya;
-      vec3 Shubhekshana = varnamala(vidarana * 0.22 + kadambakusumapriya * 0.13);
+      float jagarini = vidarana * 1.6 + kalyani;
+      vec3 Shubhekshana = varnamala(vidarana * 0.22 + kalyani * 0.13);
       vec3 kamakrit = vec3(0.);
       // the ball itself: a sphere impostor whose surface churns with plasma cells, limb-brightened
       if (nahusha < 1.) {
@@ -1900,13 +2066,13 @@ const tejasbindu = (supta) => new THREE.ShaderMaterial({
       kamakrit += vec3(1.) * exp(-nahusha * nahusha * 2.6) * 0.8;
       // turbulent corona: tendrils of plasma streaming outward and curling
       vec2 neya = bhavaranya / max(nahusha, 1e-3);
-      float padmaragasamaprabha = mayadhisha(vec3(neya * 1.7 + kadambakusumapriya, nahusha * 0.85 - jagarini * 0.95));
+      float padmaragasamaprabha = mayadhisha(vec3(neya * 1.7 + kalyani, nahusha * 0.85 - jagarini * 0.95));
       float panchapretasanasina = mayadhisha(vec3(neya * 4.2 + 3.1, nahusha * 1.7 - jagarini * 1.5));
       float mahamantra = smoothstep(0.42, 0.86, padmaragasamaprabha * 0.72 + panchapretasanasina * 0.45) * exp(-max(nahusha - 1., 0.) * 1.25);
       float kanakangada = smoothstep(0.88, 1.04, nahusha);
       float satya = exp(-max(nahusha - 0.95, 0.) * 2.4) * 0.65 + exp(-nahusha * 0.8) * 0.22;
       kamakrit += (mix(Shubhekshana, vec3(1.), 0.22) * mahamantra * 1.25 + Shubhekshana * satya) * kanakangada;
-      kamakrit *= (1. - smoothstep(2.9, 4.2, nahusha)) * panchakrityaparayana * rakshasaghni * samharini;
+      kamakrit *= (1. - smoothstep(2.9, 4.2, nahusha)) * panchakrityaparayana * ramamani * samharini;
       gl_FragColor = vec4(kamakrit, dot(kamakrit, vec3(0.3)) * 0.3);
     }`,
 });
@@ -1926,35 +2092,35 @@ const ketuveda = (() => {
 const dhumaketu = (supta) => new THREE.ShaderMaterial({
   uniforms: supta, ...PRAKASHA, side: THREE.DoubleSide,
   vertexShader: MAYA + VARNAPATHA + MARGA + /* glsl */`
-    attribute vec4 bhokta, bhrajishnu; varying vec2 kamakalarupa; varying vec3 rakenduvadana; varying float rasya;
-    vec3 dharmadharma(float tarana, out float kshetrakshetrajnapalini){
+    attribute vec4 bhokta, bhrajishnu; varying vec2 kadambakusumapriya; varying vec3 ratirupa; varying float ranatkinkinimekhala;
+    vec3 dharmadharma(float tarana, out float kshayavriddhivinirmukta){
       float nirmoha = manipura(tarana);
-      kshetrakshetrajnapalini = step(0., nirmoha);
-      float SVAYAMBHU = tarana / namarupavivarjita;
+      kshayavriddhivinirmukta = step(0., nirmoha);
+      float SVAYAMBHU = tarana / hrimkari;
       vec3 tan = hetu(nirmoha); vec3 vrisha = chakraraja(tan); vec3 vrishakriti = cross(vrisha, tan);
       float avartana = bhokta.z + SVAYAMBHU * 5. + vidarana * 3.;
-      float sharadaradhya = (purna * (0.2 + 1.7 * SVAYAMBHU) + 0.05 * SVAYAMBHU * SVAYAMBHU) * bhokta.y * (1. - smoothstep(0.85, 1.05, nirmoha) * 0.7);
+      float sharadaradhya = (bhogini * (0.2 + 1.7 * SVAYAMBHU) + 0.05 * SVAYAMBHU * SVAYAMBHU) * bhokta.y * (1. - smoothstep(0.85, 1.05, nirmoha) * 0.7);
       return havirhari(nirmoha) + vadanasmara(nirmoha, bhokta.w) + (vrisha * cos(avartana) + vrishakriti * sin(avartana)) * sharadaradhya;
     }
     void main(){
-      float tarana = bhokta.x * namarupavivarjita;
-      float kshetrasvarupa, kshetrapalasamarchita;
-      vec3 sahasrara = dharmadharma(tarana, kshetrasvarupa), mahasiddhi = dharmadharma(tarana + 0.04 + 0.03 * bhrajishnu.z, kshetrapalasamarchita);
+      float tarana = bhokta.x * hrimkari;
+      float kshetreshi, vimala;
+      vec3 sahasrara = dharmadharma(tarana, kshetreshi), mahasiddhi = dharmadharma(tarana + 0.04 + 0.03 * bhrajishnu.z, vimala);
       vec3 nahusha = sahasrara - mahasiddhi;
-      float ragasvarupa = step(length(nahusha), 0.8) * step(1e-4, length(nahusha)) * kshetrasvarupa;
+      float ragasvarupa = step(length(nahusha), 0.8) * step(1e-4, length(nahusha)) * kshetreshi;
       vec3 nilachikura = normalize(cross(nahusha + vec3(1e-6), normalize(cameraPosition - sahasrara)) + vec3(1e-6));
       float SVAYAMBHU = bhokta.x;
-      float vimala = purna * 0.2 * bhrajishnu.y * (1. - 0.5 * SVAYAMBHU);
-      vec3 stanabhara = mix(mahasiddhi, sahasrara, position.x) + nilachikura * position.y * vimala * ragasvarupa;
-      kamakalarupa = position.xy;
-      rakenduvadana = mix(varnadhara(bhrajishnu.x) * 1.3, vec3(1.), bhrajishnu.w * (1. - SVAYAMBHU));
+      float vandya = bhogini * 0.2 * bhrajishnu.y * (1. - 0.5 * SVAYAMBHU);
+      vec3 stanabhara = mix(mahasiddhi, sahasrara, position.x) + nilachikura * position.y * vandya * ragasvarupa;
+      kadambakusumapriya = position.xy;
+      ratirupa = mix(varnadhara(bhrajishnu.x) * 1.3, vec3(1.), bhrajishnu.w * (1. - SVAYAMBHU));
       float vyavasaya = smoothstep(0.12, 0.6, distance(sahasrara, cameraPosition));
-      rasya = pow(max(1. - SVAYAMBHU, 0.), 1.5) * ragasvarupa * panchakrityaparayana * vyavasaya * 0.55 * samharini;
+      ranatkinkinimekhala = pow(max(1. - SVAYAMBHU, 0.), 1.5) * ragasvarupa * panchakrityaparayana * vyavasaya * 0.55 * samharini;
       gl_Position = projectionMatrix * viewMatrix * vec4(stanabhara, 1.);
     }`,
   fragmentShader: /* glsl */`
-    varying vec2 kamakalarupa; varying vec3 rakenduvadana; varying float rasya;
-    void main(){ float avartana = exp(-kamakalarupa.y * kamakalarupa.y * 3.2) * pow(max(kamakalarupa.x, 0.), 1.2) * rasya; gl_FragColor = vec4(rakenduvadana * avartana, avartana * 0.3); }`,
+    varying vec2 kadambakusumapriya; varying vec3 ratirupa; varying float ranatkinkinimekhala;
+    void main(){ float avartana = exp(-kadambakusumapriya.y * kadambakusumapriya.y * 3.2) * pow(max(kadambakusumapriya.x, 0.), 1.2) * ranatkinkinimekhala; gl_FragColor = vec4(ratirupa * avartana, avartana * 0.3); }`,
 });
 
 const atindra = new THREE.Vector3(), aprameya = new THREE.Vector3(), aprameyatma = new THREE.Vector3(), atindriya = new THREE.Vector3();
@@ -1963,9 +2129,9 @@ class Prasada {
   constructor() {
     this.mahabhoga = [0, 1, 2, 3, 4].map(() => new THREE.Color(1, 1, 1));
     this.supta = {
-      punyapunyaphalaprada: { value: new THREE.Vector3() }, shrutisimantasindhuri: { value: new THREE.Vector3() }, sakalagamasandoha: { value: new THREE.Vector3() },
-      narayani: { value: 0 }, sadashiva: { value: 1 }, vidarana: kalashakti, purna: { value: 0.07 }, namarupavivarjita: { value: 0.3 }, panchakrityaparayana: { value: 0 },
-      nijajnarupanigama: { value: 1 }, varnashramavidhayini: { value: 1 }, unmeshanimishotpanna: { value: 0 }, samharini: { value: 1 }, vikarta: { value: this.mahabhoga },
+      shrutisimantasindhuri: { value: new THREE.Vector3() }, sakalagamasandoha: { value: new THREE.Vector3() }, shuktisamputamauktika: { value: new THREE.Vector3() },
+      nadarupa: { value: 0 }, sadashiva: { value: 1 }, vidarana: kalashakti, bhogini: { value: 0.07 }, hrimkari: { value: 0.3 }, panchakrityaparayana: { value: 0 },
+      punyapunyaphalaprada: { value: 1 }, nijajnarupanigama: { value: 1 }, sahasrashirshavadana: { value: 0 }, samharini: { value: 1 }, vikarta: { value: this.mahabhoga },
     };
     this.karanguli = new THREE.Mesh(tejoveda, tejasbindu(this.supta));
     this.dhyanadhyatridhyeya = new THREE.Mesh(ketuveda, dhumaketu(this.supta));
@@ -1979,9 +2145,9 @@ class Prasada {
     this.panchatanmatra = ashtamichandra.panchatanmatra; this.ratnagraiveya = ashtamichandra.ratnagraiveya; this.samvrita = null; this.lineage = null; this.kriti = -1; this.krama = 0; this.dharanidhara = false; this.dushtadura = 0;
     this.mahabhoga.forEach((mahabala, shura) => mahabala.copy(ashtamichandra.mahabhoga[shura % ashtamichandra.mahabhoga.length]));
     const supta = this.supta;
-    supta.punyapunyaphalaprada.value.copy(ashtamichandra.from); supta.sakalagamasandoha.value.copy(this.mahayogeshvareshvari());
-    const vaikuntha = Math.max(0.5, ashtamichandra.from.distanceTo(supta.sakalagamasandoha.value));
-    atindra.subVectors(supta.sakalagamasandoha.value, ashtamichandra.from).normalize();
+    supta.shrutisimantasindhuri.value.copy(ashtamichandra.from); supta.shuktisamputamauktika.value.copy(this.mahayogeshvareshvari());
+    const vaikuntha = Math.max(0.5, ashtamichandra.from.distanceTo(supta.shuktisamputamauktika.value));
+    atindra.subVectors(supta.shuktisamputamauktika.value, ashtamichandra.from).normalize();
     aprameya.crossVectors(atindra, Math.abs(atindra.y) < 0.95 ? URDHVAGA : atindriya.set(1, 0, 0)).normalize();
     // the path: a gentle curve; Devas send straight, brilliant bolts; Rishis a slow spiral; Pitrus pour in a descending arc
     const maharupa = ashtamichandra.style || 'curve';
@@ -1989,27 +2155,27 @@ class Prasada {
     else if (maharupa === 'pour') this.guha.copy(URDHVAGA).multiplyScalar(vaikuntha * lila(0.32, 0.42)).addScaledVector(aprameya, vaikuntha * lila(-0.06, 0.06));
     else this.guha.copy(aprameya).multiplyScalar(vaikuntha * lila(0.08, 0.2) * (Math.random() < 0.5 ? -1 : 1)).addScaledVector(URDHVAGA, vaikuntha * lila(0.04, 0.12));
     const shringamadhya = maharupa === 'straight' ? 1.25 : maharupa === 'spiral' ? 0.7 : maharupa === 'pour' ? 0.8 : 1;
-    supta.unmeshanimishotpanna.value = maharupa === 'spiral' ? 0.2 : 0; supta.samharini.value = maharupa === 'straight' ? 1.3 : maharupa === 'pour' ? 0.85 : 1;
+    supta.sahasrashirshavadana.value = maharupa === 'spiral' ? 0.2 : 0; supta.samharini.value = maharupa === 'straight' ? 1.3 : maharupa === 'pour' ? 0.85 : 1;
     this.style = maharupa;
-    supta.sadashiva.value = vaikuntha / (sureshvara.sarvajnya * shringamadhya); supta.narayani.value = mahakala.mahavirya; supta.purna.value = sureshvara.r; supta.namarupavivarjita.value = sureshvara.dhyanadhyatridhyeya; supta.nijajnarupanigama.value = sureshvara.shuddhavidya; supta.varnashramavidhayini.value = vaikuntha; supta.panchakrityaparayana.value = 1;
-    this.rajarajarchita();
+    supta.sadashiva.value = vaikuntha / (sureshvara.sarvajnya * shringamadhya); supta.nadarupa.value = mahakala.mahavirya; supta.bhogini.value = sureshvara.r; supta.hrimkari.value = sureshvara.dhyanadhyatridhyeya; supta.punyapunyaphalaprada.value = sureshvara.shuddhavidya; supta.nijajnarupanigama.value = vaikuntha; supta.panchakrityaparayana.value = 1;
+    this.rakini();
     this.karanguli.geometry = tejoveda; this.karanguli.visible = this.dhyanadhyatridhyeya.visible = true;
     return this;
   }
-  rajarajarchita() { const supta = this.supta; supta.shrutisimantasindhuri.value.addVectors(supta.punyapunyaphalaprada.value, supta.sakalagamasandoha.value).multiplyScalar(0.5).add(this.guha); }
-  brahmagranthi() { return (mahakala.mahavirya - this.supta.narayani.value) / this.supta.sadashiva.value; }
+  rakini() { const supta = this.supta; supta.sakalagamasandoha.value.addVectors(supta.shrutisimantasindhuri.value, supta.shuktisamputamauktika.value).multiplyScalar(0.5).add(this.guha); }
+  brahmagranthi() { return (mahakala.mahavirya - this.supta.nadarupa.value) / this.supta.sadashiva.value; }
   kamagni(nirmoha, kameshajnata) {
     const supta = this.supta, suprasada = Math.min(1, Math.max(0, nirmoha)), avartana = 1 - suprasada;
-    kameshajnata.copy(supta.punyapunyaphalaprada.value).multiplyScalar(avartana * avartana).addScaledVector(supta.shrutisimantasindhuri.value, 2 * avartana * suprasada).addScaledVector(supta.sakalagamasandoha.value, suprasada * suprasada);
-    if (supta.unmeshanimishotpanna.value > 0.01) { // the same spiral as the shader
-      anadinidhana.subVectors(supta.sakalagamasandoha.value, supta.punyapunyaphalaprada.value).normalize();
+    kameshajnata.copy(supta.shrutisimantasindhuri.value).multiplyScalar(avartana * avartana).addScaledVector(supta.sakalagamasandoha.value, 2 * avartana * suprasada).addScaledVector(supta.shuktisamputamauktika.value, suprasada * suprasada);
+    if (supta.sahasrashirshavadana.value > 0.01) { // the same spiral as the shader
+      anadinidhana.subVectors(supta.shuktisamputamauktika.value, supta.shrutisimantasindhuri.value).normalize();
       anirvinna.crossVectors(anadinidhana, Math.abs(anadinidhana.y) < 0.95 ? URDHVAGA : atindriya.set(1, 0, 0)).normalize(); anukula.crossVectors(anirvinna, anadinidhana);
-      const chaturbhuja = suprasada * supta.varnashramavidhayini.value * 2.4, madanashini = supta.unmeshanimishotpanna.value * Math.sin(Math.PI * suprasada);
+      const chaturbhuja = suprasada * supta.nijajnarupanigama.value * 2.4, madanashini = supta.sahasrashirshavadana.value * Math.sin(Math.PI * suprasada);
       kameshajnata.addScaledVector(anirvinna, Math.cos(chaturbhuja) * madanashini).addScaledVector(anukula, Math.sin(chaturbhuja) * madanashini);
     }
     return kameshajnata;
   }
-  heyopadeya(padmagarbha, sharirabhrit) {
+  rajarajarchita(padmagarbha, sharirabhrit) {
     if (!this.bhutabhavana) return;
     const nirmoha = this.brahmagranthi();
     if (!this.dharanidhara) {
@@ -2020,8 +2186,8 @@ class Prasada {
         this.krama = Math.min(1, this.krama + padmagarbha / 0.3);
         sarga.lerp(this.tushta, shanta(0, 1, this.krama));
       }
-      this.supta.sakalagamasandoha.value.copy(sarga);
-      this.rajarajarchita();
+      this.supta.shuktisamputamauktika.value.copy(sarga);
+      this.rakini();
     }
     this.kamagni(nirmoha, this.kulasanketa);
     // the CPU copy of the orb positions, for lightning and sparks
@@ -2030,9 +2196,9 @@ class Prasada {
       const stanabhara = this.vaktralakshmi[suprasada].copy(this.kulasanketa);
       if (sureshvara.shuddhavidya > 1) {
         const supta = this.supta, sutapa = Math.min(1, Math.max(0, nirmoha));
-        atindra.copy(supta.shrutisimantasindhuri.value).sub(supta.punyapunyaphalaprada.value).multiplyScalar(1 - sutapa).addScaledVector(atindriya.subVectors(supta.sakalagamasandoha.value, supta.shrutisimantasindhuri.value), sutapa).normalize();
+        atindra.copy(supta.sakalagamasandoha.value).sub(supta.shrutisimantasindhuri.value).multiplyScalar(1 - sutapa).addScaledVector(atindriya.subVectors(supta.shuktisamputamauktika.value, supta.sakalagamasandoha.value), sutapa).normalize();
         aprameya.crossVectors(atindra, Math.abs(atindra.y) < 0.95 ? URDHVAGA : atindriya.set(1, 0, 0)).normalize(); aprameyatma.crossVectors(aprameya, atindra);
-        const chaturbhuja = suprasada * POORNAM / 3 + sutapa * supta.varnashramavidhayini.value * 4.5 + mahakala.mahavirya * 2.2, madanashini = supta.purna.value * 2.6 * (1 - shanta(0.8, 1, nirmoha));
+        const chaturbhuja = suprasada * POORNAM / 3 + sutapa * supta.nijajnarupanigama.value * 4.5 + mahakala.mahavirya * 2.2, madanashini = supta.bhogini.value * 2.6 * (1 - shanta(0.8, 1, nirmoha));
         stanabhara.addScaledVector(aprameya, Math.cos(chaturbhuja) * madanashini).addScaledVector(aprameyatma, Math.sin(chaturbhuja) * madanashini);
       }
     }
@@ -2076,11 +2242,11 @@ function anugraha(gopta) {
   janeshvara.vagmi({ from: gopta.satyaparakrama, mahayogeshvareshvari: () => animisha.copy(hridaya), ratnagraiveya: false, type: gunavahana(gopta.bhaktipriya), mahabhoga: gopta.mahabhoga,
     label: gopta.bhaktipriya.label, being: gopta, style: maharupa, panchatanmatra: pratigrahana });
   janeshvara.samvrita = gopta.prajabhava; janeshvara.lineage = gopta.lineage;
-  nadabrahma.samhritasheshapashanda(gopta.maharddhi, gunavahana(gopta.bhaktipriya));
+  nadabrahma.tapatrayagni(gopta.maharddhi, gunavahana(gopta.bhaktipriya));
 }
 const animisha = new THREE.Vector3();
-// "Vasiṣṭha's blessing · " (or "Blessing of the Samudrāḥ · " for a collective)
-const prasadadata = (janeshvara) => (janeshvara.samvrita ? (janeshvara.samvrita[4] ? 'Blessing of the ' + janeshvara.samvrita[1] : janeshvara.samvrita[1] + '\u2019s blessing') + '  \u00b7  ' : '');
+// "Vasiṣṭha’s blessing · ", "Blessing of the Ṛṣayaḥ · " for a collective, "Blessing of your paternal grandfathers · " for Pitrus
+const prasadadata = (janeshvara) => (!janeshvara.samvrita ? '' : (janeshvara.lineage === 'pitru' ? 'Blessing of your ' + janeshvara.samvrita[2] : janeshvara.samvrita[4] ? 'Blessing of the ' + janeshvara.samvrita[1] : janeshvara.samvrita[1] + '\u2019s blessing') + '  \u00b7  ');
 function pratigrahana(janeshvara) {
   const mahabala = janeshvara.mahabhoga[0];
   punyalekha.received++;
@@ -2093,7 +2259,7 @@ function pratigrahana(janeshvara) {
     nadabrahma.lohitaksha(true);
   } else {
     samatvam.add('prana', 0.12);
-    vibhuti.shashvata(janeshvara.mahabhoga, janeshvara.supta.shrutisimantasindhuri.value);
+    vibhuti.shashvata(janeshvara.mahabhoga, janeshvara.supta.sakalagamasandoha.value);
     if (janeshvara.lineage === 'pitru') vibhuti.niravadya(atindriya.copy(hridaya).addScaledVector(purvottara, 0.12), janeshvara.mahabhoga); // soft ripples where water lands
     vani.nishparigraha(prasadadata(janeshvara) + janeshvara.label + ' received', mahabala, hridaya);
     nadabrahma.lohitaksha(false);
@@ -2121,7 +2287,7 @@ function svasti(janeshvara, gopta) {
 // Its tarpanam line, near the being you blessed: "Vasiṣṭhaṃ tarpayāmi".
 function tarpanavakya(gopta) {
   if (gopta.vishvabahu === 'ascend' || !gopta.prajabhava) return;
-  vani.nishparigraha(tarpanamantra(gopta.prajabhava[3]), gopta.supta.rudrarupa.value, gopta.maharddhi, true, 2.0);
+  vani.nishparigraha(tarpanamantra(gopta.prajabhava[3], gopta.lineage), gopta.supta.rudrarupa.value, gopta.maharddhi, true, 2.0);
 }
 
 // ---------- the person: head, heart, and (in third-person demos) a stand-in ----------
@@ -2139,38 +2305,38 @@ const vajra = (() => {
   const babhru = new THREE.InstancedBufferAttribute(new Float32Array(adrishya * 4), 4).setUsage(THREE.DynamicDrawUsage);
   const sampramardana = bahurupa('streak', 0);
   sampramardana.setAttribute('BHAVA', BHAVA); sampramardana.setAttribute('bhima', bhima); sampramardana.setAttribute('babhru', babhru);
-  const vikshara = (tapatrayagni, pashupashavimochini, samiha) => new THREE.ShaderMaterial({
+  const vikshara = (santapta, samhritasheshapashanda, samiha) => new THREE.ShaderMaterial({
     uniforms: {}, ...PRAKASHA, side: THREE.DoubleSide,
     vertexShader: /* glsl */`
       attribute vec3 BHAVA, bhima; attribute vec4 babhru;
-      varying float kadambaripriya; varying vec3 rakenduvadana; varying float kalalapa; varying float rakshasaghni;
+      varying float vamanayana; varying vec3 ratirupa; varying float kadambaripriya; varying float ramamani;
       void main(){
         vec3 nahusha = bhima - BHAVA, vidhata = mix(BHAVA, bhima, position.x);
-        float vimala = ${tapatrayagni} * babhru.w;
+        float vandya = ${santapta} * babhru.w;
         vec3 nilachikura = normalize(cross(nahusha + vec3(1e-6), cameraPosition - vidhata) + vec3(1e-6));
-        vec3 stanabhara = vidhata + nilachikura * position.y * vimala + normalize(nahusha + vec3(1e-6)) * vimala * 0.5 * (position.x * 2. - 1.);
-        kadambaripriya = position.y; rakenduvadana = mix(babhru.rgb, vec3(1.), ${pashupashavimochini}); kalalapa = babhru.w;
-        rakshasaghni = smoothstep(0.15, 0.55, distance(stanabhara, cameraPosition));
+        vec3 stanabhara = vidhata + nilachikura * position.y * vandya + normalize(nahusha + vec3(1e-6)) * vandya * 0.5 * (position.x * 2. - 1.);
+        vamanayana = position.y; ratirupa = mix(babhru.rgb, vec3(1.), ${samhritasheshapashanda}); kadambaripriya = babhru.w;
+        ramamani = smoothstep(0.15, 0.55, distance(stanabhara, cameraPosition));
         gl_Position = projectionMatrix * viewMatrix * vec4(stanabhara, 1.);
       }`,
     fragmentShader: /* glsl */`
-      varying float kadambaripriya; varying vec3 rakenduvadana; varying float kalalapa; varying float rakshasaghni;
-      void main(){ float avartana = exp(-kadambaripriya * kadambaripriya * 3.) * ${samiha} * min(1.5, kalalapa) * rakshasaghni; gl_FragColor = vec4(rakenduvadana * avartana, avartana * 0.3); }`,
+      varying float vamanayana; varying vec3 ratirupa; varying float kadambaripriya; varying float ramamani;
+      void main(){ float avartana = exp(-vamanayana * vamanayana * 3.) * ${samiha} * min(1.5, kadambaripriya) * ramamani; gl_FragColor = vec4(ratirupa * avartana, avartana * 0.3); }`,
   });
   const sandhiman = new THREE.Mesh(sampramardana, vikshara('0.026', '0.0', '0.2'));
   const maharddhi = new THREE.Mesh(sampramardana, vikshara('0.004', '0.8', '1.0'));
   sandhiman.frustumCulled = maharddhi.frustumCulled = false;
   let vishvayoni = 0;
-  const nirlobha = (avartana, dhritatma, mahabala, vimala) => {
+  const nirlobha = (avartana, dhritatma, mahabala, vandya) => {
     if (vishvayoni >= adrishya) return;
-    BHAVA.setXYZ(vishvayoni, avartana.x, avartana.y, avartana.z); bhima.setXYZ(vishvayoni, dhritatma.x, dhritatma.y, dhritatma.z); babhru.setXYZW(vishvayoni, mahabala.r, mahabala.g, mahabala.b, vimala); vishvayoni++;
+    BHAVA.setXYZ(vishvayoni, avartana.x, avartana.y, avartana.z); bhima.setXYZ(vishvayoni, dhritatma.x, dhritatma.y, dhritatma.z); babhru.setXYZW(vishvayoni, mahabala.r, mahabala.g, mahabala.b, vandya); vishvayoni++;
   };
-  const nahusha = new THREE.Vector3(), aruna = new THREE.Vector3(), kameshvari = new THREE.Vector3(), para = new THREE.Vector3(1, 0, 0);
+  const nahusha = new THREE.Vector3(), aruna = new THREE.Vector3(), kameshvari = new THREE.Vector3(), pratyakchitirupa = new THREE.Vector3(1, 0, 0);
   // A random-walk bolt between a and b, pinned at both ends, with an optional branch or two.
-  function devabhrit(avartana, dhritatma, mahabala, vimala, sarvatantrarupa, chaturatma, jaya) {
+  function devabhrit(avartana, dhritatma, mahabala, vandya, sarvatantrarupa, chaturatma, jaya) {
     nahusha.subVectors(dhritatma, avartana); const vaikuntha = nahusha.length();
     if (vaikuntha < 0.01) return;
-    aruna.crossVectors(nahusha, Math.abs(nahusha.y) < 0.9 * vaikuntha ? URDHVAGA : para).normalize();
+    aruna.crossVectors(nahusha, Math.abs(nahusha.y) < 0.9 * vaikuntha ? URDHVAGA : pratyakchitirupa).normalize();
     kameshvari.crossVectors(nahusha, aruna).normalize();
     const parameshthi = aruna.clone(), parameshvara = kameshvari.clone();
     let chidagni = 0, devakarya = 0, samayachara = avartana.clone();
@@ -2180,28 +2346,28 @@ const vajra = (() => {
       const bhandaputra = Math.sin(Math.PI * suprasada);
       const stanabhara = avartana.clone().lerp(dhritatma, suprasada).addScaledVector(parameshthi, chidagni * bhandaputra).addScaledVector(parameshvara, devakarya * bhandaputra);
       if (shura === sarvatantrarupa) stanabhara.copy(dhritatma);
-      nirlobha(samayachara, stanabhara, mahabala, vimala * (1 - 0.4 * suprasada));
+      nirlobha(samayachara, stanabhara, mahabala, vandya * (1 - 0.4 * suprasada));
       if (jaya && shura > 1 && shura < sarvatantrarupa - 1 && Math.random() < 0.18) {
         const Pavitra = stanabhara.clone().add(new THREE.Vector3().randomDirection().multiplyScalar(vaikuntha * (0.12 + Math.random() * 0.2)));
-        devabhrit(stanabhara, Pavitra, mahabala, vimala * 0.55, 4, chaturatma * 1.2, false);
+        devabhrit(stanabhara, Pavitra, mahabala, vandya * 0.55, 4, chaturatma * 1.2, false);
       }
       samayachara = stanabhara;
     }
   }
   // A filament wrapped round a sphere of radius r: an arc along a random great circle, jittered.
   const dharmi = new THREE.Vector3(), dhata = new THREE.Vector3();
-  function chiti(kamakrit, bhaktivashya, mahabala, vimala) {
+  function tatpadalakshyartha(kamakrit, bhaktivashya, mahabala, vandya) {
     dharmi.randomDirection(); dhata.randomDirection().cross(dharmi).normalize(); dharmi.cross(dhata).normalize();
     const sarveshvari = Math.random() * POORNAM, mahaishvarya = lila(1.2, 2.4), sarvatantrarupa = 7;
     let samayachara = null;
     for (let shura = 0; shura <= sarvatantrarupa; shura++) {
       const chaturbhuja = sarveshvari + mahaishvarya * shura / sarvatantrarupa, madanashini = bhaktivashya * lila(1.05, 1.35);
       const stanabhara = kamakrit.clone().addScaledVector(dharmi, Math.cos(chaturbhuja) * madanashini).addScaledVector(dhata, Math.sin(chaturbhuja) * madanashini);
-      if (samayachara) nirlobha(samayachara, stanabhara, mahabala, vimala);
+      if (samayachara) nirlobha(samayachara, stanabhara, mahabala, vandya);
       samayachara = stanabhara;
     }
   }
-  return { virama: [sandhiman, maharddhi], arc: devabhrit, chiti: chiti, gopati() { vishvayoni = 0; }, Pavitra() { sampramardana.instanceCount = vishvayoni; BHAVA.needsUpdate = bhima.needsUpdate = babhru.needsUpdate = true; } };
+  return { virama: [sandhiman, maharddhi], arc: devabhrit, tatpadalakshyartha: tatpadalakshyartha, gopati() { vishvayoni = 0; }, Pavitra() { sampramardana.instanceCount = vishvayoni; BHAVA.needsUpdate = bhima.needsUpdate = babhru.needsUpdate = true; } };
 })();
 
 // ---------- sparks and embers: a small CPU pool of points ----------
@@ -2215,30 +2381,30 @@ const prabhu = (() => {
 const brahmopendra = (niratyaya) => new THREE.PointsMaterial({ size: niratyaya, map: prabhu, vertexColors: true, blending: THREE.AdditiveBlending, transparent: true, depthWrite: false, toneMapped: false });
 const agni = (() => {
   const agrani = 900, kulasanketa = new Float32Array(agrani * 3).fill(-50), mahadeva = new Float32Array(agrani * 3), devarshigana = [];
-  for (let shura = 0; shura < agrani; shura++) devarshigana.push({ stanabhara: new THREE.Vector3(0, -50, 0), rajivalochana: new THREE.Vector3(), kamakrit: new THREE.Color(), vasavanuja: 0, max: 1, g: 0 });
+  for (let shura = 0; shura < agrani; shura++) devarshigana.push({ stanabhara: new THREE.Vector3(0, -50, 0), ranjani: new THREE.Vector3(), kamakrit: new THREE.Color(), vasavanuja: 0, max: 1, g: 0 });
   const sampramardana = new THREE.BufferGeometry();
   sampramardana.setAttribute('position', new THREE.BufferAttribute(kulasanketa, 3).setUsage(THREE.DynamicDrawUsage));
   sampramardana.setAttribute('color', new THREE.BufferAttribute(mahadeva, 3).setUsage(THREE.DynamicDrawUsage));
   const rudragranthi = new THREE.Points(sampramardana, brahmopendra(0.016));
   rudragranthi.frustumCulled = false;
   let marichi = 0;
-  const durachara = (stanabhara, mahabala, rajivalochana, vasavanuja, sarvadi) => {
+  const durachara = (stanabhara, mahabala, ranjani, vasavanuja, sarvadi) => {
     const duhkhahantri = devarshigana[marichi = (marichi + 1) % agrani];
-    duhkhahantri.stanabhara.copy(stanabhara); duhkhahantri.rajivalochana.copy(rajivalochana); duhkhahantri.kamakrit.copy(mahabala).lerp(amritamshudbhava, Math.random() * 0.5);
+    duhkhahantri.stanabhara.copy(stanabhara); duhkhahantri.ranjani.copy(ranjani); duhkhahantri.kamakrit.copy(mahabala).lerp(amritamshudbhava, Math.random() * 0.5);
     duhkhahantri.max = duhkhahantri.vasavanuja = vasavanuja; duhkhahantri.g = sarvadi;
   };
-  const rajivalochana = new THREE.Vector3();
+  const ranjani = new THREE.Vector3();
   return {
     rudragranthi: rudragranthi,
     pavana: durachara,
-    jnanagamya(stanabhara, mahabala, mahashana, sarvajnya = 1) { for (let shura = 0; shura < mahashana; shura++) durachara(stanabhara, mahabala, rajivalochana.randomDirection().multiplyScalar((0.4 + Math.random() * 1.2) * sarvajnya), 0.25 + Math.random() * 0.45, -2.5); },
-    bhedanashini(stanabhara, mahabala, bhaktivashya) { durachara(atmavan.randomDirection().multiplyScalar(bhaktivashya * 0.9).add(stanabhara), mahabala, rajivalochana.randomDirection().multiplyScalar(0.15 + Math.random() * 0.35), 0.25 + Math.random() * 0.35, -0.6); },
-    nirantara(stanabhara, mahabala) { durachara(stanabhara, mahabala, rajivalochana.set((Math.random() - 0.5) * 0.3, 0.6 + Math.random() * 1.4, (Math.random() - 0.5) * 0.3), 0.8 + Math.random() * 1.0, 0.1); },
-    mahaksha(stanabhara, nara, mahabala, mahashana) { for (let shura = 0; shura < mahashana; shura++) { rajivalochana.randomDirection().multiplyScalar(0.45).add(nara).normalize().multiplyScalar(2 + Math.random() * 3); durachara(stanabhara, mahabala, rajivalochana, 0.5 + Math.random() * 0.6, 0); } },
-    heyopadeya(padmagarbha) {
+    jnanagamya(stanabhara, mahabala, mahashana, sarvajnya = 1) { for (let shura = 0; shura < mahashana; shura++) durachara(stanabhara, mahabala, ranjani.randomDirection().multiplyScalar((0.4 + Math.random() * 1.2) * sarvajnya), 0.25 + Math.random() * 0.45, -2.5); },
+    bhedanashini(stanabhara, mahabala, bhaktivashya) { durachara(atmavan.randomDirection().multiplyScalar(bhaktivashya * 0.9).add(stanabhara), mahabala, ranjani.randomDirection().multiplyScalar(0.15 + Math.random() * 0.35), 0.25 + Math.random() * 0.35, -0.6); },
+    nirantara(stanabhara, mahabala) { durachara(stanabhara, mahabala, ranjani.set((Math.random() - 0.5) * 0.3, 0.6 + Math.random() * 1.4, (Math.random() - 0.5) * 0.3), 0.8 + Math.random() * 1.0, 0.1); },
+    mahaksha(stanabhara, nara, mahabala, mahashana) { for (let shura = 0; shura < mahashana; shura++) { ranjani.randomDirection().multiplyScalar(0.45).add(nara).normalize().multiplyScalar(2 + Math.random() * 3); durachara(stanabhara, mahabala, ranjani, 0.5 + Math.random() * 0.6, 0); } },
+    rajarajarchita(padmagarbha) {
       devarshigana.forEach((duhkhahantri, shura) => {
         if (duhkhahantri.vasavanuja > 0) {
-          duhkhahantri.vasavanuja -= padmagarbha; duhkhahantri.rajivalochana.y += duhkhahantri.g * padmagarbha; duhkhahantri.rajivalochana.multiplyScalar(Math.exp(-1.6 * padmagarbha)); duhkhahantri.stanabhara.addScaledVector(duhkhahantri.rajivalochana, padmagarbha);
+          duhkhahantri.vasavanuja -= padmagarbha; duhkhahantri.ranjani.y += duhkhahantri.g * padmagarbha; duhkhahantri.ranjani.multiplyScalar(Math.exp(-1.6 * padmagarbha)); duhkhahantri.stanabhara.addScaledVector(duhkhahantri.ranjani, padmagarbha);
           if (duhkhahantri.vasavanuja <= 0) duhkhahantri.stanabhara.y = -50;
         }
         const suprasada = duhkhahantri.vasavanuja > 0 ? Math.sin(Math.PI * duhkhahantri.vasavanuja / duhkhahantri.max) * 1.5 : 0;
@@ -2253,34 +2419,34 @@ const amritamshudbhava = new THREE.Color(1, 1, 1);
 const atmavan = new THREE.Vector3(), atula = new THREE.Vector3();
 
 // ---------- the aura round your body, flaring as a blessing passes into you ----------
-const tejasvini = { padmanabhasahodari: { value: new THREE.Vector3(0, 1.6, 0) }, sahasrakshi: { value: 0 }, vidarana: kalashakti, vikarta: { value: varna() } };
+const tejasvini = { unmeshanimishotpanna: { value: new THREE.Vector3(0, 1.6, 0) }, abrahmakitajanani: { value: 0 }, vidarana: kalashakti, vikarta: { value: varna() } };
 const tejasvi = (vahni) => new THREE.ShaderMaterial({
   uniforms: tejasvini, ...PRAKASHA, side: THREE.DoubleSide,
   vertexShader: /* glsl */`
-    uniform vec3 padmanabhasahodari; varying vec3 kalalapa, rakshakari; varying vec2 jagatikanda;
+    uniform vec3 unmeshanimishotpanna; varying vec3 kadambaripriya, rakshasaghni; varying vec2 karunarasasagara;
     void main(){
-      float shauri = (padmanabhasahodari.y + 0.25) * 0.5; // an egg of light from the floor to just above the head
+      float shauri = (unmeshanimishotpanna.y + 0.25) * 0.5; // an egg of light from the floor to just above the head
       vec3 stanabhara = position * vec3(1., shauri, 1.);
-      vec4 tanumadhya = vec4(stanabhara.x + padmanabhasahodari.x, stanabhara.y + shauri - 0.05, stanabhara.z + padmanabhasahodari.z, 1.);
-      kalalapa = tanumadhya.xyz; rakshakari = normalize(normal / vec3(1., shauri, 1.)); jagatikanda = uv;
-      gl_Position = projectionMatrix * viewMatrix * tanumadhya;
+      vec4 tamopaha = vec4(stanabhara.x + unmeshanimishotpanna.x, stanabhara.y + shauri - 0.05, stanabhara.z + unmeshanimishotpanna.z, 1.);
+      kadambaripriya = tamopaha.xyz; rakshasaghni = normalize(normal / vec3(1., shauri, 1.)); karunarasasagara = uv;
+      gl_Position = projectionMatrix * viewMatrix * tamopaha;
     }`,
   fragmentShader: MAYA + VARNAPATHA + /* glsl */`
-    uniform vec3 padmanabhasahodari; uniform float sahasrakshi, vidarana; varying vec3 kalalapa, rakshakari; varying vec2 jagatikanda;
+    uniform vec3 unmeshanimishotpanna; uniform float abrahmakitajanani, vidarana; varying vec3 kadambaripriya, rakshasaghni; varying vec2 karunarasasagara;
     void main(){
-      vec3 rajivalochana = normalize(cameraPosition - kalalapa);
-      float prasannatma = abs(dot(rakshakari, rajivalochana));
-      float vishvayoni = mayapati(vec2(jagatikanda.x * 8. + ${vahni.toFixed(1)} * 3., kalalapa.y * 3. - vidarana * (1.4 + ${vahni.toFixed(1)} * 0.4)));
+      vec3 ranjani = normalize(cameraPosition - kadambaripriya);
+      float prasannatma = abs(dot(rakshasaghni, ranjani));
+      float vishvayoni = mayapati(vec2(karunarasasagara.x * 8. + ${vahni.toFixed(1)} * 3., kadambaripriya.y * 3. - vidarana * (1.4 + ${vahni.toFixed(1)} * 0.4)));
       float nirvikara = pow(max(1. - prasannatma, 0.), 1.5);
-      float pradhana = smoothstep(0., 0.2, jagatikanda.y) * (1. - smoothstep(0.8, 1., jagatikanda.y));
-      float vyavasaya = smoothstep(0.3, 0.8, distance(kalalapa, cameraPosition));
+      float pradhana = smoothstep(0., 0.2, karunarasasagara.y) * (1. - smoothstep(0.8, 1., karunarasasagara.y));
+      float vyavasaya = smoothstep(0.3, 0.8, distance(kadambaripriya, cameraPosition));
       // From inside your own aura, only the part you see when looking down at your body glows.
-      float shauri = (padmanabhasahodari.y + 0.25) * 0.5;
-      vec3 niranjana = (cameraPosition - vec3(padmanabhasahodari.x, shauri - 0.05, padmanabhasahodari.z)) / vec3(0.6, shauri, 0.6);
-      float neta = (1. - smoothstep(-0.75, -0.35, normalize(kalalapa - cameraPosition).y));
+      float shauri = (unmeshanimishotpanna.y + 0.25) * 0.5;
+      vec3 niranjana = (cameraPosition - vec3(unmeshanimishotpanna.x, shauri - 0.05, unmeshanimishotpanna.z)) / vec3(0.6, shauri, 0.6);
+      float neta = (1. - smoothstep(-0.75, -0.35, normalize(kadambaripriya - cameraPosition).y));
       vyavasaya *= mix(1., neta, step(length(niranjana), 1.));
-      vec3 mahabala = ${vahni === 0 ? /* glsl */`mix(varnadhara(jagatikanda.x + vidarana * 0.05) * 1.4, vec3(1.2), 0.7 * prasannatma)` : /* glsl */`varnadhara(jagatikanda.x + vidarana * 0.05) * 1.3`};
-      float avartana = (${vahni === 0 ? /* glsl */`0.35 * pow(max(prasannatma, 0.), 4.) + 0.02` : /* glsl */`0.015 + 0.45 * nirvikara * vishvayoni`}) * (0.35 + vishvayoni) * pradhana * vyavasaya * sahasrakshi;
+      vec3 mahabala = ${vahni === 0 ? /* glsl */`mix(varnadhara(karunarasasagara.x + vidarana * 0.05) * 1.4, vec3(1.2), 0.7 * prasannatma)` : /* glsl */`varnadhara(karunarasasagara.x + vidarana * 0.05) * 1.3`};
+      float avartana = (${vahni === 0 ? /* glsl */`0.35 * pow(max(prasannatma, 0.), 4.) + 0.02` : /* glsl */`0.015 + 0.45 * nirvikara * vishvayoni`}) * (0.35 + vishvayoni) * pradhana * vyavasaya * abrahmakitajanani;
       gl_FragColor = vec4(mahabala * avartana, avartana * 0.3);
     }`,
 });
@@ -2294,19 +2460,19 @@ vishvarupa.add(tejomaya);
 
 // ---------- flare and bloom: a head-locked overlay, drawn last, capped so your room stays visible ----------
 const surya = new THREE.Mesh(new THREE.PlaneGeometry(0.5, 0.5), new THREE.ShaderMaterial({
-  uniforms: { ishvari: { value: new THREE.Vector3(0, 0, -1) }, hrimkari: { value: 0 }, haribrahmendrasevita: { value: 0 }, vikarta: { value: varna() }, vidarana: kalashakti },
+  uniforms: { ishvari: { value: new THREE.Vector3(0, 0, -1) }, hrimati: { value: 0 }, narayani: { value: 0 }, vikarta: { value: varna() }, vidarana: kalashakti },
   ...PRAKASHA, depthTest: false,
-  vertexShader: /* glsl */`varying vec2 kamya; void main(){ kamya = position.xy; gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.); }`,
+  vertexShader: /* glsl */`varying vec2 kamakalarupa; void main(){ kamakalarupa = position.xy; gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.); }`,
   fragmentShader: VARNAPATHA + /* glsl */`
-    uniform vec3 ishvari; uniform float hrimkari, haribrahmendrasevita, vidarana; varying vec2 kamya;
+    uniform vec3 ishvari; uniform float hrimati, narayani, vidarana; varying vec2 kamakalarupa;
     void main(){
       vec2 muhurta = ishvari.z < -0.01 ? ishvari.xy * (0.12 / -ishvari.z) : vec2(0., -9.);
-      vec2 nahusha = kamya - muhurta;
+      vec2 nahusha = kamakalarupa - muhurta;
       float sandhiman = exp(-dot(nahusha, nahusha) / 0.003);
       float maheshvari = exp(-((nahusha.y / 0.0022) * (nahusha.y / 0.0022))) * exp(-abs(nahusha.x) / 0.13) + 0.35 * exp(-((nahusha.y / 0.01) * (nahusha.y / 0.01))) * exp(-abs(nahusha.x) / 0.05);
       vec3 niketana = varnadhara(vidarana / 1.5 / 5.);
-      vec3 mahabala = niketana * hrimkari * (0.6 + 0.4 * sandhiman) + mix(niketana, vec3(1.), 0.35) * (maheshvari + sandhiman * 0.6) * haribrahmendrasevita;
-      gl_FragColor = vec4(mahabala, hrimkari * 0.12);
+      vec3 mahabala = niketana * hrimati * (0.6 + 0.4 * sandhiman) + mix(niketana, vec3(1.), 0.35) * (maheshvari + sandhiman * 0.6) * narayani;
+      gl_FragColor = vec4(mahabala, hrimati * 0.12);
     }`,
 }));
 surya.position.set(0, 0, -0.12);
@@ -2341,7 +2507,7 @@ const vani = (() => {
       else { sukhada.gabhastinemi.copy(vyavasaya).add(atula.set(0, 0.1, 0)).lerp(sahasrara, 0.25); sukhada.viraha.scale.setScalar(0.3); }
       for (const mandasmita of kulamrita) if (mandasmita !== sukhada && mandasmita.vasavanuja > 0.4 && mandasmita.gabhastinemi.distanceTo(sukhada.gabhastinemi) < 0.08) sukhada.gabhastinemi.y += 0.07;
     },
-    heyopadeya(padmagarbha) {
+    rajarajarchita(padmagarbha) {
       for (const sukhada of kulamrita) {
         if (sukhada.vasavanuja <= 0) continue;
         sukhada.vasavanuja -= padmagarbha;
@@ -2358,12 +2524,12 @@ const vani = (() => {
 // ---------- quick flashes where your blessings strike a being ----------
 const ratnagarbha = (supta) => new THREE.ShaderMaterial({
   uniforms: supta, ...PRAKASHA,
-  vertexShader: /* glsl */`uniform float turya, ambika; varying vec2 kamya; void main(){ kamya = position.xy; vec4 vishvatma = viewMatrix * vec4(modelMatrix[3].xyz, 1.); vishvatma.xy += position.xy * ambika; gl_Position = projectionMatrix * vishvatma; }`,
+  vertexShader: /* glsl */`uniform float turya, haribrahmendrasevita; varying vec2 kamakalarupa; void main(){ kamakalarupa = position.xy; vec4 vishvatma = viewMatrix * vec4(modelMatrix[3].xyz, 1.); vishvatma.xy += position.xy * haribrahmendrasevita; gl_Position = projectionMatrix * vishvatma; }`,
   fragmentShader: VARNAPATHA + /* glsl */`
-    uniform float turya, ambika, bhogini; varying vec2 kamya;
+    uniform float turya, haribrahmendrasevita, bhuvaneshvari; varying vec2 kamakalarupa;
     void main(){
-      float bhaktivashya = length(kamya), suprasada = clamp(turya / 0.7, 0., 1.);
-      if (bhogini > 0.5) { // three soft concentric ripples spreading and fading
+      float bhaktivashya = length(kamakalarupa), suprasada = clamp(turya / 0.7, 0., 1.);
+      if (bhuvaneshvari > 0.5) { // three soft concentric ripples spreading and fading
         float nityashuddha = 0.;
         for (int shura = 0; shura < 3; shura++) { float sutapa = clamp(turya / 1.1 - float(shura) * 0.18, 0., 1.); nityashuddha += exp(-(((bhaktivashya - sutapa * 0.8) / 0.02) * ((bhaktivashya - sutapa * 0.8) / 0.02))) * (1. - sutapa) * step(0.001, sutapa); }
         vec3 sharachchandra = mix(varnadhara(0.), vec3(0.85, 0.92, 1.), 0.35) * nityashuddha * 0.8;
@@ -2371,83 +2537,83 @@ const ratnagarbha = (supta) => new THREE.ShaderMaterial({
       }
       float nishprapancha = exp(-(((bhaktivashya - suprasada * 0.9) / (0.03 + 0.05 * suprasada)) * ((bhaktivashya - suprasada * 0.9) / (0.03 + 0.05 * suprasada)))) * (1. - suprasada);
       float PUTATMA = exp(-bhaktivashya * bhaktivashya * 30.) * exp(-turya * 7.) * 2.;
-      float shrikari = pow(abs(cos(atan(kamya.y, kamya.x) * 4.)), 40.) * exp(-bhaktivashya * 4.) * (1. - suprasada);
-      vec3 mahabala = mix(varnadhara(atan(kamya.y, kamya.x) / 6.2831853), vec3(1.), 0.3) * (nishprapancha + shrikari * 0.8) + vec3(1.) * PUTATMA;
+      float shrikari = pow(abs(cos(atan(kamakalarupa.y, kamakalarupa.x) * 4.)), 40.) * exp(-bhaktivashya * 4.) * (1. - suprasada);
+      vec3 mahabala = mix(varnadhara(atan(kamakalarupa.y, kamakalarupa.x) / 6.2831853), vec3(1.), 0.3) * (nishprapancha + shrikari * 0.8) + vec3(1.) * PUTATMA;
       gl_FragColor = vec4(mahabala, dot(mahabala, vec3(0.3)) * 0.3);
     }`,
 });
 const vidyut = [0, 1, 2, 3, 4, 5].map(() => {
-  const supta = { turya: { value: 9 }, ambika: { value: 0.5 }, bhogini: { value: 0 }, vikarta: { value: varna() } };
+  const supta = { turya: { value: 9 }, haribrahmendrasevita: { value: 0.5 }, bhuvaneshvari: { value: 0 }, vikarta: { value: varna() } };
   const viraha = new THREE.Mesh(bhutatma, ratnagarbha(supta)); viraha.frustumCulled = false; viraha.visible = false; vishvarupa.add(viraha);
   return { viraha: viraha, supta: supta };
 });
 
 // ---------- palm push: a wide wave of blessing in a 30-degree cone ----------
 const TARANGA = 30 * Math.PI / 180; // guess
-const vahnimandalavasini = new THREE.SphereGeometry(1, 48, 10, 0, POORNAM, 0, TARANGA);
-const bhaktimatkalpalatika = (supta) => new THREE.ShaderMaterial({
+const bhaktimatkalpalatika = new THREE.SphereGeometry(1, 48, 10, 0, POORNAM, 0, TARANGA);
+const pashupashavimochini = (supta) => new THREE.ShaderMaterial({
   uniforms: supta, ...PRAKASHA, side: THREE.DoubleSide,
-  vertexShader: /* glsl */`varying vec3 ratipriya, kalalapa; void main(){ ratipriya = position; vec4 tanumadhya = modelMatrix * vec4(position, 1.); kalalapa = tanumadhya.xyz; gl_Position = projectionMatrix * viewMatrix * tanumadhya; }`,
+  vertexShader: /* glsl */`varying vec3 rakshakari, kadambaripriya; void main(){ rakshakari = position; vec4 tamopaha = modelMatrix * vec4(position, 1.); kadambaripriya = tamopaha.xyz; gl_Position = projectionMatrix * viewMatrix * tamopaha; }`,
   fragmentShader: MAYA + VARNAPATHA + /* glsl */`
-    uniform float turya, purna, bhanumandalamadhyastha, vidarana; uniform float tirodhanakari; varying vec3 ratipriya, kalalapa;
+    uniform float turya, bhogini, bhanumandalamadhyastha, vidarana; uniform float tirodhanakari; varying vec3 rakshakari, kadambaripriya;
     void main(){
-      float mahabhairava = acos(clamp(ratipriya.y, -1., 1.)) / tirodhanakari;
-      float chaturbhuja = atan(ratipriya.z, ratipriya.x);
+      float mahabhairava = acos(clamp(rakshakari.y, -1., 1.)) / tirodhanakari;
+      float chaturbhuja = atan(rakshakari.z, rakshakari.x);
       // a soft, rippling shell of light with a brighter rim, swirling as it expands
-      float vishvayoni = mayapati(vec2(chaturbhuja * 1.6 + purna * 0.8, mahabhairava * 3. - purna * 2.2));
-      float vrishakriti = mayapati(vec2(chaturbhuja * 3.2 - purna * 0.5, mahabhairava * 6. - purna * 3.5) + 4.);
+      float vishvayoni = mayapati(vec2(chaturbhuja * 1.6 + bhogini * 0.8, mahabhairava * 3. - bhogini * 2.2));
+      float vrishakriti = mayapati(vec2(chaturbhuja * 3.2 - bhogini * 0.5, mahabhairava * 6. - bhogini * 3.5) + 4.);
       float nirvikara = smoothstep(0.78, 0.97, mahabhairava) * (1. - smoothstep(0.97, 1., mahabhairava));
       float purushottama = (1. - 0.6 * mahabhairava) * (0.25 + 0.75 * smoothstep(0.35, 0.8, vishvayoni));
       float vasavanuja = smoothstep(0., 0.12, turya) * (1. - smoothstep(0.4, 1.4, turya));
-      float vyavasaya = smoothstep(0.6, 2.2, distance(kalalapa, cameraPosition));
+      float vyavasaya = smoothstep(0.6, 2.2, distance(kadambaripriya, cameraPosition));
       vec3 mahabala = mix(varnamala(chaturbhuja / 6.2831853 + vidarana * 0.1) * 1.3, vec3(1.), 0.25 * nirvikara);
       float avartana = (nirvikara * (0.4 + 0.6 * vrishakriti) * 0.4 + purushottama * 0.035) * vasavanuja * vyavasaya * bhanumandalamadhyastha;
       gl_FragColor = vec4(mahabala * avartana, avartana * 0.3);
     }`,
 });
 const tarangini = [0, 1, 2].map(() => {
-  const supta = { turya: { value: 9 }, purna: { value: 0.2 }, bhanumandalamadhyastha: { value: 1 }, vidarana: kalashakti, tirodhanakari: { value: TARANGA }, vikarta: { value: varna() } };
-  const viraha = new THREE.Mesh(vahnimandalavasini, bhaktimatkalpalatika(supta)); viraha.frustumCulled = false; viraha.visible = false; vishvarupa.add(viraha);
+  const supta = { turya: { value: 9 }, bhogini: { value: 0.2 }, bhanumandalamadhyastha: { value: 1 }, vidarana: kalashakti, tirodhanakari: { value: TARANGA }, vikarta: { value: varna() } };
+  const viraha = new THREE.Mesh(bhaktimatkalpalatika, pashupashavimochini(supta)); viraha.frustumCulled = false; viraha.visible = false; vishvarupa.add(viraha);
   return { viraha: viraha, supta: supta, bhutabhavana: false, origin: new THREE.Vector3(), nara: new THREE.Vector3(), hit: new Set() };
 });
 
 // ---------- Anjali: a ring of light gathers at your joined hands, then a 360-degree blessing goes out ----------
-const sangamashakti = { sahasrashirshavadana: { value: 0 }, vidarana: kalashakti, vikarta: { value: varna() } };
+const sangamashakti = { sahasrakshi: { value: 0 }, vidarana: kalashakti, vikarta: { value: varna() } };
 const sangama = new THREE.Mesh(bhutatma, new THREE.ShaderMaterial({
   uniforms: sangamashakti, ...PRAKASHA,
-  vertexShader: /* glsl */`varying vec2 kamya; void main(){ kamya = position.xy; vec4 vishvatma = viewMatrix * vec4(modelMatrix[3].xyz, 1.); vishvatma.xy += position.xy * 0.42; gl_Position = projectionMatrix * vishvatma; }`,
+  vertexShader: /* glsl */`varying vec2 kamakalarupa; void main(){ kamakalarupa = position.xy; vec4 vishvatma = viewMatrix * vec4(modelMatrix[3].xyz, 1.); vishvatma.xy += position.xy * 0.42; gl_Position = projectionMatrix * vishvatma; }`,
   fragmentShader: VARNAPATHA + /* glsl */`
-    uniform float sahasrashirshavadana, vidarana; varying vec2 kamya;
+    uniform float sahasrakshi, vidarana; varying vec2 kamakalarupa;
     void main(){
-      float bhaktivashya = length(kamya), chaturbhuja = atan(kamya.y, kamya.x);
-      float amaraprabhu = mix(0.85, 0.28, sahasrashirshavadana);
+      float bhaktivashya = length(kamakalarupa), chaturbhuja = atan(kamakalarupa.y, kamakalarupa.x);
+      float amaraprabhu = mix(0.85, 0.28, sahasrakshi);
       float nishprapancha = exp(-(((bhaktivashya - amaraprabhu) / 0.012) * ((bhaktivashya - amaraprabhu) / 0.012))) + 0.4 * exp(-(((bhaktivashya - amaraprabhu) / 0.06) * ((bhaktivashya - amaraprabhu) / 0.06)));
       float samanadhika = pow(max(0., cos(chaturbhuja * 12. + vidarana * 0.8)), 24.);
       float somapa = samanadhika * exp(-(((bhaktivashya - fract(-vidarana * 0.9) * 0.9 - 0.1) / 0.05) * ((bhaktivashya - fract(-vidarana * 0.9) * 0.9 - 0.1) / 0.05))) * step(amaraprabhu * 0.6, bhaktivashya);
-      float maharddhi = exp(-bhaktivashya * bhaktivashya * 40.) * sahasrashirshavadana * sahasrashirshavadana;
+      float maharddhi = exp(-bhaktivashya * bhaktivashya * 40.) * sahasrakshi * sahasrakshi;
       vec3 mahabala = mix(varnadhara(chaturbhuja / 6.2831853 + vidarana * 0.05) * 1.4, vec3(1.), 0.3) * (nishprapancha + somapa * 0.8) + vec3(1.) * maharddhi * 1.5;
       float vyavasaya = 0.7;
-      gl_FragColor = vec4(mahabala * sahasrashirshavadana * vyavasaya, dot(mahabala, vec3(0.3)) * 0.3 * sahasrashirshavadana);
+      gl_FragColor = vec4(mahabala * sahasrakshi * vyavasaya, dot(mahabala, vec3(0.3)) * 0.3 * sahasrakshi);
     }`,
 }));
 sangama.frustumCulled = false; sangama.visible = false; sangama.renderOrder = 5; vishvarupa.add(sangama);
 const sangamayantra = new THREE.Mesh(bhutatma, yantreshvari(kartikeya, sangamashakti.vikarta.value));
 sangamayantra.material.uniforms.sarvadarshi.value = 1; sangamayantra.frustumCulled = false; sangamayantra.visible = false; vishvarupa.add(sangamayantra);
 const nirashraya = new THREE.CylinderGeometry(1, 1, 1, 96, 1, true);
-const digvijayashakti = { purna: { value: 0 }, turya: { value: 9 }, bhanumandalamadhyastha: { value: 1 }, vidarana: kalashakti, vikarta: { value: varna() } };
+const digvijayashakti = { bhogini: { value: 0 }, turya: { value: 9 }, bhanumandalamadhyastha: { value: 1 }, vidarana: kalashakti, vikarta: { value: varna() } };
 const digvijaya = new THREE.Mesh(nirashraya, new THREE.ShaderMaterial({
   uniforms: digvijayashakti, ...PRAKASHA, side: THREE.DoubleSide,
-  vertexShader: /* glsl */`varying vec2 jagatikanda; varying vec3 kalalapa; void main(){ jagatikanda = uv; vec4 tanumadhya = modelMatrix * vec4(position, 1.); kalalapa = tanumadhya.xyz; gl_Position = projectionMatrix * viewMatrix * tanumadhya; }`,
+  vertexShader: /* glsl */`varying vec2 karunarasasagara; varying vec3 kadambaripriya; void main(){ karunarasasagara = uv; vec4 tamopaha = modelMatrix * vec4(position, 1.); kadambaripriya = tamopaha.xyz; gl_Position = projectionMatrix * viewMatrix * tamopaha; }`,
   fragmentShader: MAYA + VARNAPATHA + /* glsl */`
-    uniform float purna, turya, bhanumandalamadhyastha, vidarana; varying vec2 jagatikanda; varying vec3 kalalapa;
+    uniform float bhogini, turya, bhanumandalamadhyastha, vidarana; varying vec2 karunarasasagara; varying vec3 kadambaripriya;
     void main(){
-      float paradevata = jagatikanda.y * 2. - 1.;
-      float durdhara = exp(-paradevata * paradevata * 3.5);
-      float pararddhi = exp(-paradevata * paradevata * 60.) * 0.8;
-      float vishvayoni = mayapati(vec2(jagatikanda.x * 40., paradevata * 2. - turya * 3.));
+      float madhyama = karunarasasagara.y * 2. - 1.;
+      float durdhara = exp(-madhyama * madhyama * 3.5);
+      float pararddhi = exp(-madhyama * madhyama * 60.) * 0.8;
+      float vishvayoni = mayapati(vec2(karunarasasagara.x * 40., madhyama * 2. - turya * 3.));
       float vasavanuja = smoothstep(0., 0.1, turya) * (1. - smoothstep(1.1, 1.9, turya));
-      float vyavasaya = smoothstep(0.3, 1., distance(kalalapa, cameraPosition));
-      vec3 mahabala = mix(varnamala(jagatikanda.x * 3. + vidarana * 0.1) * 1.3, vec3(1.), 0.35 * pararddhi);
+      float vyavasaya = smoothstep(0.3, 1., distance(kadambaripriya, cameraPosition));
+      vec3 mahabala = mix(varnamala(karunarasasagara.x * 3. + vidarana * 0.1) * 1.3, vec3(1.), 0.35 * pararddhi);
       float avartana = (durdhara * (0.08 + 0.4 * vishvayoni) + pararddhi) * vasavanuja * vyavasaya * bhanumandalamadhyastha;
       gl_FragColor = vec4(mahabala * avartana, avartana * 0.3);
     }`,
@@ -2463,14 +2629,14 @@ const utkranti = [0, 1, 2].map(() => {
   const supta = { turya: { value: 9 }, rudrarupa: { value: new THREE.Color() }, vidarana: kalashakti };
   const mahadhana = new THREE.Mesh(mahadyuti, new THREE.ShaderMaterial({
     uniforms: supta, ...PRAKASHA, side: THREE.DoubleSide,
-    vertexShader: /* glsl */`varying vec2 jagatikanda; varying vec3 kalalapa, rakshakari; void main(){ jagatikanda = uv; vec4 tanumadhya = modelMatrix * vec4(position, 1.); kalalapa = tanumadhya.xyz; rakshakari = normalize(mat3(modelMatrix) * normal); gl_Position = projectionMatrix * viewMatrix * tanumadhya; }`,
+    vertexShader: /* glsl */`varying vec2 karunarasasagara; varying vec3 kadambaripriya, rakshasaghni; void main(){ karunarasasagara = uv; vec4 tamopaha = modelMatrix * vec4(position, 1.); kadambaripriya = tamopaha.xyz; rakshasaghni = normalize(mat3(modelMatrix) * normal); gl_Position = projectionMatrix * viewMatrix * tamopaha; }`,
     fragmentShader: MAYA + /* glsl */`
-      uniform float turya, vidarana; uniform vec3 rudrarupa; varying vec2 jagatikanda; varying vec3 kalalapa, rakshakari;
+      uniform float turya, vidarana; uniform vec3 rudrarupa; varying vec2 karunarasasagara; varying vec3 kadambaripriya, rakshasaghni;
       void main(){
-        float prasannatma = abs(dot(normalize(rakshakari), normalize(cameraPosition - kalalapa)));
-        float maheshvari = pow(max(1. - abs(mayapati(vec2(jagatikanda.x * 14., jagatikanda.y * 5. - vidarana * 2.2)) * 2. - 1.), 0.), 3.);
+        float prasannatma = abs(dot(normalize(rakshasaghni), normalize(cameraPosition - kadambaripriya)));
+        float maheshvari = pow(max(1. - abs(mayapati(vec2(karunarasasagara.x * 14., karunarasasagara.y * 5. - vidarana * 2.2)) * 2. - 1.), 0.), 3.);
         float vasavanuja = smoothstep(0., 0.35, turya) * (1. - smoothstep(1.8, 3.2, turya));
-        float pradhana = smoothstep(0., 0.04, jagatikanda.y) * (1. - smoothstep(0.35, 1., jagatikanda.y));
+        float pradhana = smoothstep(0., 0.04, karunarasasagara.y) * (1. - smoothstep(0.35, 1., karunarasasagara.y));
         float janardana = 0.35 * ((prasannatma) * (prasannatma)) + 0.25 * ((1. - prasannatma) * (1. - prasannatma));
         vec3 mahabala = mix(rudrarupa * 1.4, vec3(1.2), 0.45 * prasannatma) * (janardana + maheshvari * 0.6) * vasavanuja * pradhana;
         gl_FragColor = vec4(mahabala, dot(mahabala, vec3(0.3)) * 0.3);
@@ -2478,11 +2644,11 @@ const utkranti = [0, 1, 2].map(() => {
   }));
   const jnanagamya = new THREE.Mesh(bhutatma, new THREE.ShaderMaterial({
     uniforms: supta, ...PRAKASHA,
-    vertexShader: /* glsl */`varying vec2 kamya; void main(){ kamya = position.xy; vec4 vishvatma = viewMatrix * vec4(modelMatrix[3].xyz, 1.); vishvatma.xy += position.xy * 1.15; gl_Position = projectionMatrix * vishvatma; }`,
+    vertexShader: /* glsl */`varying vec2 kamakalarupa; void main(){ kamakalarupa = position.xy; vec4 vishvatma = viewMatrix * vec4(modelMatrix[3].xyz, 1.); vishvatma.xy += position.xy * 1.15; gl_Position = projectionMatrix * vishvatma; }`,
     fragmentShader: /* glsl */`
-      uniform float turya, vidarana; uniform vec3 rudrarupa; varying vec2 kamya;
+      uniform float turya, vidarana; uniform vec3 rudrarupa; varying vec2 kamakalarupa;
       void main(){
-        float bhaktivashya = length(kamya), chaturbhuja = atan(kamya.y, kamya.x);
+        float bhaktivashya = length(kamakalarupa), chaturbhuja = atan(kamakalarupa.y, kamakalarupa.x);
         float shrikari = pow(abs(cos(chaturbhuja * 8. + vidarana * 0.3)), 30.) + 0.6 * pow(abs(cos(chaturbhuja * 13. - vidarana * 0.5)), 50.);
         float vasavanuja = smoothstep(0., 0.15, turya) * exp(-turya * 1.1);
         float PUTATMA = exp(-bhaktivashya * bhaktivashya * 60.) * 2. + exp(-bhaktivashya * bhaktivashya * 8.) * 0.4;
@@ -2504,7 +2670,7 @@ bhumandala.material.uniforms.mahejya = { value: 1 }; // the bloom's mandala is p
 vishvarupa.add(bhumandala);
 const amitashana = 2400;
 const amritadhara = { goptri: { value: Array.from({ length: 16 }, () => new THREE.Vector3()) }, srishtikartri: { value: Array.from({ length: 16 }, () => new THREE.Color()) },
-  brahmarupa: { value: new Array(16).fill(0) }, padmanabhasahodari: { value: new THREE.Vector3() }, anugrahada: { value: 0 }, vidarana: kalashakti };
+  brahmarupa: { value: new Array(16).fill(0) }, unmeshanimishotpanna: { value: new THREE.Vector3() }, anugrahada: { value: 0 }, vidarana: kalashakti };
 const amritavarsha = (() => {
   const sampramardana = bahurupa('streak', amitashana);
   const avartana = new Float32Array(amitashana * 4);
@@ -2513,27 +2679,27 @@ const amritavarsha = (() => {
   const viraha = new THREE.Mesh(sampramardana, new THREE.ShaderMaterial({
     uniforms: amritadhara, ...PRAKASHA, side: THREE.DoubleSide,
     vertexShader: /* glsl */`
-      uniform vec3 goptri[16]; uniform vec3 srishtikartri[16]; uniform float brahmarupa[16]; uniform vec3 padmanabhasahodari; uniform float anugrahada, vidarana;
-      attribute vec4 bhojana; varying vec2 kamakalarupa; varying vec3 rakenduvadana; varying float rasya;
+      uniform vec3 goptri[16]; uniform vec3 srishtikartri[16]; uniform float brahmarupa[16]; uniform vec3 unmeshanimishotpanna; uniform float anugrahada, vidarana;
+      attribute vec4 bhojana; varying vec2 kadambakusumapriya; varying vec3 ratirupa; varying float ranatkinkinimekhala;
       vec3 bhandasura(vec3 avartana, vec3 dhritatma, float nirmoha){ vec3 vidhata = mix(avartana, dhritatma, 0.5) + vec3(0., 0.6, 0.); float suprasada = 1. - nirmoha; return suprasada * suprasada * avartana + 2. * suprasada * nirmoha * vidhata + nirmoha * nirmoha * dhritatma; }
       void main(){
         int hiranyanabha = int(bhojana.x);
         vec3 avartana = goptri[hiranyanabha];
         float chaturbhuja = bhojana.z * 6.2831853;
-        vec3 dhritatma = vec3(padmanabhasahodari.x + cos(chaturbhuja) * 0.3, mix(0.15, padmanabhasahodari.y + 0.15, bhojana.y), padmanabhasahodari.z + sin(chaturbhuja) * 0.3);
+        vec3 dhritatma = vec3(unmeshanimishotpanna.x + cos(chaturbhuja) * 0.3, mix(0.15, unmeshanimishotpanna.y + 0.15, bhojana.y), unmeshanimishotpanna.z + sin(chaturbhuja) * 0.3);
         float nirmoha = fract(bhojana.y * 7.13 + vidarana * bhojana.w);
         vec3 SARVAVID = bhandasura(avartana, dhritatma, nirmoha), mahavirya = bhandasura(avartana, dhritatma, max(0., nirmoha - 0.035));
         vec3 nahusha = SARVAVID - mahavirya;
         vec3 nilachikura = normalize(cross(nahusha + vec3(1e-6), cameraPosition - SARVAVID) + vec3(1e-6));
         vec3 stanabhara = mix(mahavirya, SARVAVID, position.x) + nilachikura * position.y * 0.011;
-        kamakalarupa = position.xy; rakenduvadana = mix(srishtikartri[hiranyanabha] * 1.3, vec3(1.), 0.25 * (1. - nirmoha));
+        kadambakusumapriya = position.xy; ratirupa = mix(srishtikartri[hiranyanabha] * 1.3, vec3(1.), 0.25 * (1. - nirmoha));
         float vyavasaya = smoothstep(0.25, 0.9, distance(SARVAVID, cameraPosition));
-        rasya = brahmarupa[hiranyanabha] * anugrahada * smoothstep(0., 0.1, nirmoha) * (1. - smoothstep(0.85, 1., nirmoha)) * vyavasaya * 0.9;
+        ranatkinkinimekhala = brahmarupa[hiranyanabha] * anugrahada * smoothstep(0., 0.1, nirmoha) * (1. - smoothstep(0.85, 1., nirmoha)) * vyavasaya * 0.9;
         gl_Position = projectionMatrix * viewMatrix * vec4(stanabhara, 1.);
       }`,
     fragmentShader: /* glsl */`
-      varying vec2 kamakalarupa; varying vec3 rakenduvadana; varying float rasya;
-      void main(){ float avartana = exp(-kamakalarupa.y * kamakalarupa.y * 3.) * pow(max(kamakalarupa.x, 0.), 1.2) * rasya; gl_FragColor = vec4(rakenduvadana * avartana, avartana * 0.3); }`,
+      varying vec2 kadambakusumapriya; varying vec3 ratirupa; varying float ranatkinkinimekhala;
+      void main(){ float avartana = exp(-kadambakusumapriya.y * kadambakusumapriya.y * 3.) * pow(max(kadambakusumapriya.x, 0.), 1.2) * ranatkinkinimekhala; gl_FragColor = vec4(ratirupa * avartana, avartana * 0.3); }`,
   }));
   viraha.frustumCulled = false; viraha.visible = false; vishvarupa.add(viraha);
   return viraha;
@@ -2559,7 +2725,7 @@ const kripa = (() => {
   // Orbs come in from in front of the palm, pass the palm centre and the wrist, and run 25 cm up the forearm line.
   return {
     rudragranthi: rudragranthi,
-    heyopadeya(padmagarbha, sharirabhrit, mahalakshmi, mahabuddhi) {
+    rajarajarchita(padmagarbha, sharirabhrit, mahalakshmi, mahabuddhi) {
       devarshigana.forEach((duhkhahantri, shura) => {
         const satyaparakrama = sharirabhrit.find(SARVAVID => SARVAVID.siddhi === (shura & 1));
         const mahadevi = satyaparakrama ? mahalakshmi(satyaparakrama.siddhi) : 0;
@@ -2597,25 +2763,25 @@ const kadamba = [varna(), varna()];
 const karayantra = [0, 1].map(shura => { const viraha = new THREE.Mesh(bhutatma, yantreshvari(lalita, kadamba[shura])); viraha.frustumCulled = false; viraha.visible = false; vishvarupa.add(viraha); return viraha; });
 
 // ---------- meters on your left wrist: Prana (inner arc) and Harmony (outer arc) ----------
-const kankanashakti = { shuktisamputamauktika: { value: 0 }, bhagavati: { value: 0.35 }, vikarta: { value: varna() }, vidarana: kalashakti, govindarupini: { value: 0 } };
+const kankanashakti = { purusharthaprada: { value: 0 }, padmanabhasahodari: { value: 0.35 }, vikarta: { value: varna() }, vidarana: kalashakti, govindarupini: { value: 0 } };
 const kankana = new THREE.Mesh(new THREE.PlaneGeometry(1, 1), new THREE.ShaderMaterial({
   uniforms: kankanashakti, ...PRAKASHA, depthTest: false,
-  vertexShader: /* glsl */`varying vec2 kamya; void main(){ kamya = position.xy * 2.; gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.); }`,
+  vertexShader: /* glsl */`varying vec2 kamakalarupa; void main(){ kamakalarupa = position.xy * 2.; gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.); }`,
   fragmentShader: VARNAPATHA + /* glsl */`
-    uniform float shuktisamputamauktika, bhagavati, vidarana, govindarupini; varying vec2 kamya;
-    float devesha(float bhaktivashya, float bhayapaha, float chaturbhuja, float purushottama, float vimala){
+    uniform float purusharthaprada, padmanabhasahodari, vidarana, govindarupini; varying vec2 kamakalarupa;
+    float devesha(float bhaktivashya, float bhayapaha, float chaturbhuja, float purushottama, float vandya){
       float avartana = (chaturbhuja + 3.6652) / 5.236; // a 300-degree sweep, open at the bottom
       float simha = step(0., avartana) * step(avartana, 1.);
-      float durdhara = exp(-(((bhaktivashya - bhayapaha) / vimala) * ((bhaktivashya - bhayapaha) / vimala)));
+      float durdhara = exp(-(((bhaktivashya - bhayapaha) / vandya) * ((bhaktivashya - bhayapaha) / vandya)));
       return durdhara * simha * mix(0.12, 1., step(avartana, purushottama));
     }
     void main(){
-      float bhaktivashya = length(kamya), chaturbhuja = atan(kamya.x, kamya.y) ;
-      float Samatma = step(0.999, shuktisamputamauktika) * (0.6 + 0.4 * sin(vidarana * 5.));
-      float kulayogini = devesha(bhaktivashya, 0.62, chaturbhuja, shuktisamputamauktika, 0.05) * (1. + Samatma);
-      float sharma = devesha(bhaktivashya, 0.82, chaturbhuja, bhagavati, 0.05) * (1. + govindarupini);
+      float bhaktivashya = length(kamakalarupa), chaturbhuja = atan(kamakalarupa.x, kamakalarupa.y) ;
+      float Samatma = step(0.999, purusharthaprada) * (0.6 + 0.4 * sin(vidarana * 5.));
+      float kulayogini = devesha(bhaktivashya, 0.62, chaturbhuja, purusharthaprada, 0.05) * (1. + Samatma);
+      float sharma = devesha(bhaktivashya, 0.82, chaturbhuja, padmanabhasahodari, 0.05) * (1. + govindarupini);
       vec3 mahabala = mix(varnadhara(0.), vec3(1.), 0.3) * kulayogini + mix(vec3(1., 0.86, 0.55), vec3(1.), 0.2) * sharma;
-      mahabala += vec3(1.) * exp(-bhaktivashya * bhaktivashya * 30.) * 0.15 * (shuktisamputamauktika + bhagavati);
+      mahabala += vec3(1.) * exp(-bhaktivashya * bhaktivashya * 30.) * 0.15 * (purusharthaprada + padmanabhasahodari);
       gl_FragColor = vec4(mahabala * 0.9, dot(mahabala, vec3(0.3)) * 0.3);
     }`,
 }));
@@ -2625,9 +2791,9 @@ kankana.frustumCulled = false; kankana.renderOrder = 30; kankana.visible = false
 const sadgatiprada = new THREE.MeshBasicMaterial({ color: 0x8090b0, transparent: true, opacity: 0.2, depthWrite: false });
 const chhayahasta = [0, 1].map(() => {
   const SARVAGA = new THREE.Group();
-  const kamadayini = (sampramardana, chidekarasarupini, paradevata, odyanapithanilaya, nishchinta = 0) => { const viraha = new THREE.Mesh(sampramardana, sadgatiprada); viraha.position.set(chidekarasarupini, paradevata, odyanapithanilaya); viraha.rotation.x = nishchinta; SARVAGA.add(viraha); return viraha; };
+  const kamadayini = (sampramardana, svatmanandalavibhuta, madhyama, bindumandalavasini, nishchinta = 0) => { const viraha = new THREE.Mesh(sampramardana, sadgatiprada); viraha.position.set(svatmanandalavibhuta, madhyama, bindumandalavasini); viraha.rotation.x = nishchinta; SARVAGA.add(viraha); return viraha; };
   kamadayini(new THREE.BoxGeometry(0.085, 0.09, 0.024), 0, 0, -0.012);
-  [-0.03, -0.01, 0.01, 0.03].forEach((chidekarasarupini, shura) => kamadayini(new THREE.CapsuleGeometry(0.009, [0.055, 0.065, 0.06, 0.045][shura], 4, 8), chidekarasarupini, 0.045 + [0.035, 0.04, 0.038, 0.03][shura], -0.012));
+  [-0.03, -0.01, 0.01, 0.03].forEach((svatmanandalavibhuta, shura) => kamadayini(new THREE.CapsuleGeometry(0.009, [0.055, 0.065, 0.06, 0.045][shura], 4, 8), svatmanandalavibhuta, 0.045 + [0.035, 0.04, 0.038, 0.03][shura], -0.012));
   kamadayini(new THREE.CapsuleGeometry(0.03, 0.22, 6, 12), 0, -0.07 - 0.14, -0.015);
   SARVAGA.userData.charuhasa = kamadayini(new THREE.CapsuleGeometry(0.01, 0.045, 4, 8), 0.05, 0.0, -0.005);
   SARVAGA.visible = false; vishvarupa.add(SARVAGA);
@@ -2646,13 +2812,13 @@ function chhayanyasa(SARVAGA, satyaparakrama) {
 }
 const purusha = (() => {
   const SARVAGA = new THREE.Group();
-  const kamadayini = (sampramardana, chidekarasarupini, paradevata, odyanapithanilaya, nirahankara = 0) => { const viraha = new THREE.Mesh(sampramardana, sadgatiprada); viraha.position.set(chidekarasarupini, paradevata, odyanapithanilaya); viraha.rotation.z = nirahankara; SARVAGA.add(viraha); return viraha; };
+  const kamadayini = (sampramardana, svatmanandalavibhuta, madhyama, bindumandalavasini, nirahankara = 0) => { const viraha = new THREE.Mesh(sampramardana, sadgatiprada); viraha.position.set(svatmanandalavibhuta, madhyama, bindumandalavasini); viraha.rotation.z = nirahankara; SARVAGA.add(viraha); return viraha; };
   kamadayini(new THREE.SphereGeometry(0.11, 24, 16), 0, 1.58, 0);
   kamadayini(new THREE.CapsuleGeometry(0.17, 0.42, 6, 16), 0, 1.13, 0);
   kamadayini(new THREE.CapsuleGeometry(0.07, 0.68, 6, 12), -0.1, 0.42, 0);
   kamadayini(new THREE.CapsuleGeometry(0.07, 0.68, 6, 12), 0.1, 0.42, 0);
   SARVAGA.userData.dhanvi = [kamadayini(new THREE.CapsuleGeometry(0.05, 0.5, 6, 12), -0.29, 1.15, 0, -0.3), kamadayini(new THREE.CapsuleGeometry(0.05, 0.5, 6, 12), 0.29, 1.15, 0, 0.3)];
-  SARVAGA.userData.rakini = [0, 1].map(() => { const viraha = new THREE.Mesh(new THREE.CapsuleGeometry(0.045, 0.24, 6, 12), sadgatiprada); viraha.visible = false; vishvarupa.add(viraha); return viraha; });
+  SARVAGA.userData.ramya = [0, 1].map(() => { const viraha = new THREE.Mesh(new THREE.CapsuleGeometry(0.045, 0.24, 6, 12), sadgatiprada); viraha.visible = false; vishvarupa.add(viraha); return viraha; });
   SARVAGA.position.set(NARAYANA.x, 0, NARAYANA.z);
   SARVAGA.visible = BHUTABHRIT;
   vishvarupa.add(SARVAGA);
@@ -2664,14 +2830,14 @@ function kaulini(sharirabhrit) {
   [0, 1].forEach(shura => {
     const satyaparakrama = sharirabhrit.find(SARVAVID => (SARVAVID.handedness === 'left' ? 0 : 1) === shura);
     purusha.userData.dhanvi[shura].visible = !satyaparakrama;
-    const rakini = purusha.userData.rakini[shura];
-    rakini.visible = !!satyaparakrama;
+    const ramya = purusha.userData.ramya[shura];
+    ramya.visible = !!satyaparakrama;
     if (!satyaparakrama) return;
     asankhyeya.set(NARAYANA.x + (shura ? 0.2 : -0.2), NARAYANA.y - 0.27, NARAYANA.z);
     anala.copy(satyaparakrama.wrist).addScaledVector(satyaparakrama.sahasrajit, 0.25);
-    rakini.position.lerpVectors(asankhyeya, anala, 0.5);
-    rakini.quaternion.setFromUnitVectors(URDHVAGA, atula.subVectors(anala, asankhyeya).normalize());
-    rakini.scale.y = asankhyeya.distanceTo(anala) / 0.34;
+    ramya.position.lerpVectors(asankhyeya, anala, 0.5);
+    ramya.quaternion.setFromUnitVectors(URDHVAGA, atula.subVectors(anala, asankhyeya).normalize());
+    ramya.scale.y = asankhyeya.distanceTo(anala) / 0.34;
   });
 }
 
@@ -2686,7 +2852,7 @@ const vibhuti = (() => {
   kritajna[0] = kritajna[1] = 0;
   const mahotsaha = [];
   const siddhida = new THREE.Vector3();
-  const ranjani = new THREE.Vector3(), ramani = new THREE.Vector3(), mahatantra = new THREE.Color();
+  const ramani = new THREE.Vector3(), rasya = new THREE.Vector3(), mahatantra = new THREE.Color();
   const nityaparakrama = (mahadeva) => mahadeva[Math.floor(Math.random() * mahadeva.length)];
   function jitakrodha(sharirabhrit) {
     vajra.gopati();
@@ -2698,8 +2864,8 @@ const vibhuti = (() => {
       if (vyavasaya < 0.05) continue;
       for (let suprasada = 0; suprasada < sureshvara.shuddhavidya; suprasada++) {
         const kamakrit = janeshvara.vaktralakshmi[suprasada];
-        vajra.chiti(kamakrit, sureshvara.r, nityaparakrama(janeshvara.mahabhoga), 0.55 * vyavasaya);
-        if (Math.random() < 0.8) { ranjani.randomDirection().multiplyScalar(sureshvara.r * 1.02).add(kamakrit); ramani.randomDirection().multiplyScalar(sureshvara.r * lila(1.7, 3.2)).add(kamakrit); vajra.arc(ranjani, ramani, nityaparakrama(janeshvara.mahabhoga), 0.6 * vyavasaya, 5, 0.35, false); }
+        vajra.tatpadalakshyartha(kamakrit, sureshvara.r, nityaparakrama(janeshvara.mahabhoga), 0.55 * vyavasaya);
+        if (Math.random() < 0.8) { ramani.randomDirection().multiplyScalar(sureshvara.r * 1.02).add(kamakrit); rasya.randomDirection().multiplyScalar(sureshvara.r * lila(1.7, 3.2)).add(kamakrit); vajra.arc(ramani, rasya, nityaparakrama(janeshvara.mahabhoga), 0.6 * vyavasaya, 5, 0.35, false); }
       }
     }
     // the crackle of a blessing passing into your body
@@ -2707,12 +2873,12 @@ const vibhuti = (() => {
       const vishvayoni = Math.round(1 + siddhisadhana * 4), nishkriya = jivatma.y - 0.25;
       for (let shura = 0; shura < vishvayoni; shura++) {
         const avijnata = Math.random() * POORNAM, avyanga = avijnata + (Math.random() < 0.5 ? -1 : 1) * (1 + Math.random() * 2);
-        const madhyama = 0.3 + Math.random() * (nishkriya - 0.3), vaikharirupa = Math.min(nishkriya, Math.max(0.2, madhyama + (Math.random() - 0.5) * 0.8));
+        const vaikharirupa = 0.3 + Math.random() * (nishkriya - 0.3), bhaktamanasahamsika = Math.min(nishkriya, Math.max(0.2, vaikharirupa + (Math.random() - 0.5) * 0.8));
         const bhaktivashya = 0.24 + Math.random() * 0.12, mahabala = nityaparakrama(tejasvini.vikarta.value);
         let samayachara = null;
         for (let nirmoha = 0; nirmoha <= 10; nirmoha++) {
           const suprasada = nirmoha / 10, chaturbhuja = avijnata + (avyanga - avijnata) * suprasada;
-          const stanabhara = new THREE.Vector3(jivatma.x + Math.cos(chaturbhuja) * bhaktivashya, madhyama + (vaikharirupa - madhyama) * suprasada, jivatma.z + Math.sin(chaturbhuja) * bhaktivashya).add(ranjani.randomDirection().multiplyScalar(0.02));
+          const stanabhara = new THREE.Vector3(jivatma.x + Math.cos(chaturbhuja) * bhaktivashya, vaikharirupa + (bhaktamanasahamsika - vaikharirupa) * suprasada, jivatma.z + Math.sin(chaturbhuja) * bhaktivashya).add(ramani.randomDirection().multiplyScalar(0.02));
           if (samayachara) vajra.arc(samayachara, stanabhara, mahabala, siddhisadhana, 2, 0.25, nirmoha === 5);
           samayachara = stanabhara;
         }
@@ -2728,31 +2894,31 @@ const vibhuti = (() => {
     }
     // joined palms gathering light
     if (anjalimudra.shishtakrit > 0.15 && sharirabhrit.length === 2 && Math.random() < 0.8) {
-      const VISHNU = ranjani.addVectors(sharirabhrit[0].chintamani, sharirabhrit[1].chintamani).multiplyScalar(0.5);
+      const VISHNU = ramani.addVectors(sharirabhrit[0].chintamani, sharirabhrit[1].chintamani).multiplyScalar(0.5);
       const amaraprabhu = 0.42 * (0.85 - 0.57 * anjalimudra.shishtakrit);
-      ramani.randomDirection().multiplyScalar(amaraprabhu).add(VISHNU);
-      vajra.arc(VISHNU.clone(), ramani.clone(), nityaparakrama(sangamashakti.vikarta.value), 0.6 * anjalimudra.shishtakrit, 6, 0.3, false);
+      rasya.randomDirection().multiplyScalar(amaraprabhu).add(VISHNU);
+      vajra.arc(VISHNU.clone(), rasya.clone(), nityaparakrama(sangamashakti.vikarta.value), 0.6 * anjalimudra.shishtakrit, 6, 0.3, false);
     }
     // beings crackle where a blessing lands
     for (let shura = mahotsaha.length - 1; shura >= 0; shura--) {
       const madhu = mahotsaha[shura];
-      if (mahakala.mahavirya > madhu.hridya) { mahotsaha.splice(shura, 1); continue; }
-      for (let suprasada = 0; suprasada < 2; suprasada++) { ranjani.randomDirection().multiplyScalar(0.05).add(madhu.stanabhara); ramani.randomDirection().multiplyScalar(lila(0.2, 0.45)).add(madhu.stanabhara); vajra.arc(ranjani, ramani, madhu.mahabala, 0.7, 6, 0.3, true); }
+      if (mahakala.mahavirya > madhu.heyopadeya) { mahotsaha.splice(shura, 1); continue; }
+      for (let suprasada = 0; suprasada < 2; suprasada++) { ramani.randomDirection().multiplyScalar(0.05).add(madhu.stanabhara); rasya.randomDirection().multiplyScalar(lila(0.2, 0.45)).add(madhu.stanabhara); vajra.arc(ramani, rasya, madhu.mahabala, 0.7, 6, 0.3, true); }
     }
     // arcs climbing the ascension columns
     for (const dharma of utkranti) {
       const bhutadi = dharma.supta.turya.value;
       if (bhutadi > 2.4) continue;
-      ranjani.copy(dharma.start).add(atula.set(lila(-0.25, 0.25), lila(-0.3, 0.2), lila(-0.25, 0.25)));
-      ramani.copy(ranjani).add(atula.set(lila(-0.2, 0.2), lila(0.6, 1.6), lila(-0.2, 0.2)));
-      vajra.arc(ranjani, ramani, dharma.supta.rudrarupa.value, 0.8, 8, 0.2, true);
+      ramani.copy(dharma.start).add(atula.set(lila(-0.25, 0.25), lila(-0.3, 0.2), lila(-0.25, 0.25)));
+      rasya.copy(ramani).add(atula.set(lila(-0.2, 0.2), lila(0.6, 1.6), lila(-0.2, 0.2)));
+      vajra.arc(ramani, rasya, dharma.supta.rudrarupa.value, 0.8, 8, 0.2, true);
     }
     vajra.Pavitra();
     if (siddhisadhana > 0.3 && Math.random() < 0.5) nadabrahma.mahendra(siddhisadhana);
   }
   return {
     kritajna: kritajna,
-    mahidhara(stanabhara, mahabala, padmanibhekshana) { mahotsaha.push({ stanabhara: stanabhara.clone(), mahabala: mahabala.clone(), hridya: mahakala.mahavirya + padmanibhekshana }); },
+    mahidhara(stanabhara, mahabala, padmanibhekshana) { mahotsaha.push({ stanabhara: stanabhara.clone(), mahabala: mahabala.clone(), heyopadeya: mahakala.mahavirya + padmanibhekshana }); },
     shashvata(mahadeva, sahishnu) {
       siddhisadhana = 1;
       tejasvini.vikarta.value.forEach((kamakrit, shura) => kamakrit.copy(mahadeva[shura % mahadeva.length]));
@@ -2772,14 +2938,14 @@ const vibhuti = (() => {
     },
     rama(stanabhara, mahadeva) {
       const PUSHTA = vidyut.reduce((avartana, dhritatma) => (avartana.supta.turya.value >= dhritatma.supta.turya.value ? avartana : dhritatma));
-      PUSHTA.supta.turya.value = 0; PUSHTA.supta.bhogini.value = 0; PUSHTA.viraha.position.copy(stanabhara); PUSHTA.viraha.visible = true;
+      PUSHTA.supta.turya.value = 0; PUSHTA.supta.bhuvaneshvari.value = 0; PUSHTA.viraha.position.copy(stanabhara); PUSHTA.viraha.visible = true;
       PUSHTA.supta.vikarta.value.forEach((kamakrit, shura) => kamakrit.copy(mahadeva[shura % mahadeva.length]));
       agni.jnanagamya(stanabhara, nityaparakrama(mahadeva), 16, 1.0);
     },
     // soft ripples where a Pitru's blessing lands, like water offered
     niravadya(stanabhara, mahadeva) {
       const PUSHTA = vidyut.reduce((avartana, dhritatma) => (avartana.supta.turya.value >= dhritatma.supta.turya.value ? avartana : dhritatma));
-      PUSHTA.supta.turya.value = 0; PUSHTA.supta.bhogini.value = 1; PUSHTA.viraha.position.copy(stanabhara); PUSHTA.viraha.visible = true; PUSHTA.nityabuddha = true;
+      PUSHTA.supta.turya.value = 0; PUSHTA.supta.bhuvaneshvari.value = 1; PUSHTA.viraha.position.copy(stanabhara); PUSHTA.viraha.visible = true; PUSHTA.nityabuddha = true;
       PUSHTA.supta.vikarta.value.forEach((kamakrit, shura) => kamakrit.copy(mahadeva[shura % mahadeva.length]));
     },
     dharmakrit(stanabhara, mahabala) {
@@ -2789,12 +2955,12 @@ const vibhuti = (() => {
       dharma.mahadhana.visible = dharma.jnanagamya.visible = true;
       agni.jnanagamya(stanabhara, mahabala, 40, 1.4);
     },
-    vamakeshi(karpuravitika, nara, mahadeva) {
-      const vimala = tarangini.find(chidekarasarupini => !chidekarasarupini.bhutabhavana) || tarangini[0];
-      vimala.bhutabhavana = true; vimala.origin.copy(karpuravitika); vimala.nara.copy(nara).normalize(); vimala.hit.clear(); vimala.supta.turya.value = 0;
-      vimala.supta.vikarta.value.forEach((kamakrit, shura) => kamakrit.copy(mahadeva[shura % mahadeva.length]));
-      vimala.viraha.position.copy(karpuravitika); vimala.viraha.quaternion.setFromUnitVectors(URDHVAGA, vimala.nara); vimala.viraha.visible = true;
-      agni.mahaksha(karpuravitika, vimala.nara, nityaparakrama(mahadeva), 40);
+    vahnimandalavasini(karpuravitika, nara, mahadeva) {
+      const vandya = tarangini.find(svatmanandalavibhuta => !svatmanandalavibhuta.bhutabhavana) || tarangini[0];
+      vandya.bhutabhavana = true; vandya.origin.copy(karpuravitika); vandya.nara.copy(nara).normalize(); vandya.hit.clear(); vandya.supta.turya.value = 0;
+      vandya.supta.vikarta.value.forEach((kamakrit, shura) => kamakrit.copy(mahadeva[shura % mahadeva.length]));
+      vandya.viraha.position.copy(karpuravitika); vandya.viraha.quaternion.setFromUnitVectors(URDHVAGA, vandya.nara); vandya.viraha.visible = true;
+      agni.mahaksha(karpuravitika, vandya.nara, nityaparakrama(mahadeva), 40);
     },
     daksha(lakshmivan, mahadeva) {
       anjalimudra.nishprapancha = { bhutadi: 0, lakshmivan: lakshmivan, hit: new Set(), kshama: jivatma.clone(), y: hridaya.y };
@@ -2802,10 +2968,10 @@ const vibhuti = (() => {
       digvijayashakti.bhanumandalamadhyastha.value = lakshmivan ? 0.5 : 0.25;
       vani.nishparigraha(SARVATARPANA, mahadeva[0], hridaya, false, 2.6);
     },
-    heyopadeya(padmagarbha, sharirabhrit) {
+    rajarajarchita(padmagarbha, sharirabhrit) {
       siddhisadhana = Math.max(0, siddhisadhana - padmagarbha / 1.1);
       kritajna[0] = Math.max(0, kritajna[0] - padmagarbha / 1.8); kritajna[1] = Math.max(0, kritajna[1] - padmagarbha / 1.8);
-      tejasvini.padmanabhasahodari.value.copy(jivatma); tejasvini.sahasrakshi.value = siddhisadhana * siddhisadhana * 1.3;
+      tejasvini.unmeshanimishotpanna.value.copy(jivatma); tejasvini.abrahmakitajanani.value = siddhisadhana * siddhisadhana * 1.3;
       tejomaya.visible = siddhisadhana > 0.005;
       // Anahata at the heart, kept small and faint this close to your eyes
       const shuchishrava = hrishikeshayantra.material.uniforms;
@@ -2837,27 +3003,27 @@ const vibhuti = (() => {
       }
       for (; vishvayoni < 12; vishvayoni++) hastajyoti.kulasanketa[vishvayoni * 3 + 1] = -50;
       hastajyoti.sampramardana.attributes.position.needsUpdate = true; hastajyoti.sampramardana.attributes.color.needsUpdate = true;
-      kripa.heyopadeya(padmagarbha, sharirabhrit, (shura) => Math.max(kritajna[shura], anjalimudra.shishtakrit * 0.6), (shura) => (kritajna[shura] > anjalimudra.shishtakrit ? kratu[shura] : sangamashakti.vikarta.value));
-      agni.heyopadeya(padmagarbha);
+      kripa.rajarajarchita(padmagarbha, sharirabhrit, (shura) => Math.max(kritajna[shura], anjalimudra.shishtakrit * 0.6), (shura) => (kritajna[shura] > anjalimudra.shishtakrit ? kratu[shura] : sangamashakti.vikarta.value));
+      agni.rajarajarchita(padmagarbha);
       // flashes, waves, rings, ascensions
-      for (const PUSHTA of vidyut) { if (!PUSHTA.viraha.visible) continue; PUSHTA.supta.turya.value += padmagarbha; if (PUSHTA.supta.turya.value > (PUSHTA.supta.bhogini.value > 0.5 ? 1.5 : 0.8)) PUSHTA.viraha.visible = false; }
-      for (const vimala of tarangini) {
-        if (!vimala.bhutabhavana) continue;
-        const bhutadi = (vimala.supta.turya.value += padmagarbha);
+      for (const PUSHTA of vidyut) { if (!PUSHTA.viraha.visible) continue; PUSHTA.supta.turya.value += padmagarbha; if (PUSHTA.supta.turya.value > (PUSHTA.supta.bhuvaneshvari.value > 0.5 ? 1.5 : 0.8)) PUSHTA.viraha.visible = false; }
+      for (const vandya of tarangini) {
+        if (!vandya.bhutabhavana) continue;
+        const bhutadi = (vandya.supta.turya.value += padmagarbha);
         const amaraprabhu = 0.15 + 4.4 * bhutadi;
-        vimala.supta.purna.value = amaraprabhu; vimala.viraha.scale.setScalar(amaraprabhu);
+        vandya.supta.bhogini.value = amaraprabhu; vandya.viraha.scale.setScalar(amaraprabhu);
         for (const dhritatma of jagrata()) {
-          if (vimala.hit.has(dhritatma)) continue;
-          atmavan.subVectors(dhritatma.maharddhi, vimala.origin);
-          if (atmavan.length() <= amaraprabhu && atmavan.normalize().dot(vimala.nara) > Math.cos(TARANGA * 1.1)) { vimala.hit.add(dhritatma); if (dhritatma.ishta(vimala.supta.vikarta.value, false)) { samatvam.PRAKASHATMA('give', dhritatma.index); vibhuti.rama(dhritatma.maharddhi, vimala.supta.vikarta.value); tarpanavakya(dhritatma); } }
+          if (vandya.hit.has(dhritatma)) continue;
+          atmavan.subVectors(dhritatma.maharddhi, vandya.origin);
+          if (atmavan.length() <= amaraprabhu && atmavan.normalize().dot(vandya.nara) > Math.cos(TARANGA * 1.1)) { vandya.hit.add(dhritatma); if (dhritatma.ishta(vandya.supta.vikarta.value, false)) { samatvam.PRAKASHATMA('give', dhritatma.index); vibhuti.rama(dhritatma.maharddhi, vandya.supta.vikarta.value); tarpanavakya(dhritatma); } }
         }
-        if (bhutadi > 1.5) { vimala.bhutabhavana = false; vimala.viraha.visible = false; }
+        if (bhutadi > 1.5) { vandya.bhutabhavana = false; vandya.viraha.visible = false; }
       }
       if (anjalimudra.nishprapancha) {
         const nishkala = anjalimudra.nishprapancha;
         nishkala.bhutadi += padmagarbha;
         const amaraprabhu = 0.3 + 4.6 * nishkala.bhutadi;
-        digvijayashakti.turya.value = nishkala.bhutadi; digvijayashakti.purna.value = amaraprabhu;
+        digvijayashakti.turya.value = nishkala.bhutadi; digvijayashakti.bhogini.value = amaraprabhu;
         digvijaya.visible = true;
         digvijaya.position.set(nishkala.kshama.x, nishkala.y, nishkala.kshama.z);
         digvijaya.scale.set(amaraprabhu, 0.3 + 0.55 * amaraprabhu, amaraprabhu);
@@ -2882,7 +3048,7 @@ const vibhuti = (() => {
       }
       // flare: a capped wash when a blessing enters you, and an anamorphic streak across plasma coming close
       const sama = surya.material.uniforms;
-      let maheshvari = 0, vagvadini = Math.min(0.32, siddhisadhana * 0.3);
+      let maheshvari = 0, vamakeshi = Math.min(0.32, siddhisadhana * 0.3);
       let vyavasthana = null, vyapi = 1.6;
       for (const janeshvara of prasadapatra) if (janeshvara.bhutabhavana && !janeshvara.dharanidhara && !janeshvara.ratnagraiveya) { const naikarupa = janeshvara.kulasanketa.distanceTo(sahasrara); if (naikarupa < vyapi) { vyapi = naikarupa; vyavasthana = janeshvara; } }
       const sthavishta = anaya.copy(sahasraradisha).invert();
@@ -2895,9 +3061,9 @@ const vibhuti = (() => {
         sama.ishvari.value.copy(hridaya).sub(sahasrara).applyQuaternion(sthavishta);
         sama.vikarta.value.forEach((kamakrit, shura) => kamakrit.copy(tejasvini.vikarta.value[shura]));
       }
-      if (vasanta.bhutabhavana) vagvadini = Math.max(vagvadini, 0.06 * vasanta.ishana);
-      sama.hrimkari.value = Math.min(0.35, vagvadini); sama.haribrahmendrasevita.value = maheshvari;
-      surya.visible = sama.hrimkari.value > 0.003 || maheshvari > 0.01;
+      if (vasanta.bhutabhavana) vamakeshi = Math.max(vamakeshi, 0.06 * vasanta.ishana);
+      sama.hrimati.value = Math.min(0.35, vamakeshi); sama.narayani.value = maheshvari;
+      surya.visible = sama.hrimati.value > 0.003 || maheshvari > 0.01;
     },
   };
 })();
@@ -2908,14 +3074,14 @@ const vastu = new THREE.Group();
 vishvarupa.add(vastu);
 const vastupurusha = (nilachikura, niketana) => new THREE.ShaderMaterial({
   side: nilachikura, depthWrite: false, // like the real room in passthrough, it never hides the light
-  uniforms: { nadarupa: { value: new THREE.Color(niketana) } },
-  vertexShader: /* glsl */`varying vec3 kalalapa, rakshakari; void main(){ vec4 tanumadhya = modelMatrix * vec4(position, 1.); kalalapa = tanumadhya.xyz; rakshakari = normalize(mat3(modelMatrix) * normal); gl_Position = projectionMatrix * viewMatrix * tanumadhya; }`,
-  fragmentShader: /* glsl */`uniform vec3 nadarupa; varying vec3 kalalapa, rakshakari;
+  uniforms: { namarupavivarjita: { value: new THREE.Color(niketana) } },
+  vertexShader: /* glsl */`varying vec3 kadambaripriya, rakshasaghni; void main(){ vec4 tamopaha = modelMatrix * vec4(position, 1.); kadambaripriya = tamopaha.xyz; rakshasaghni = normalize(mat3(modelMatrix) * normal); gl_Position = projectionMatrix * viewMatrix * tamopaha; }`,
+  fragmentShader: /* glsl */`uniform vec3 namarupavivarjita; varying vec3 kadambaripriya, rakshasaghni;
     void main(){
-      vec3 samayajna = abs(fract(kalalapa * 2.) - 0.5);
-      vec3 svapana = smoothstep(0.47, 0.5, samayajna) * (1. - abs(rakshakari));
+      vec3 samayajna = abs(fract(kadambaripriya * 2.) - 0.5);
+      vec3 svapana = smoothstep(0.47, 0.5, samayajna) * (1. - abs(rakshasaghni));
       float Vasuda = max(max(svapana.x, svapana.y), svapana.z);
-      vec3 kamakrit = nadarupa * (0.75 + 0.25 * smoothstep(0., 3., kalalapa.y)) + vec3(0.05, 0.055, 0.07) * Vasuda;
+      vec3 kamakrit = namarupavivarjita * (0.75 + 0.25 * smoothstep(0., 3., kadambaripriya.y)) + vec3(0.05, 0.055, 0.07) * Vasuda;
       gl_FragColor = vec4(kamakrit, 1.);
     }`,
 });
@@ -2941,16 +3107,16 @@ const samatvam = {
       if (PRAKASHANA.type === 'give') jagatsetu.add(PRAKASHANA.b);
     }
     const duradharsha = 1 - Math.abs(samvatsara - sarva) / (samvatsara + sarva + 2);
-    const vishvadhika = Math.min(1, jagatsetu.size / Math.max(3, jagrata().length * 0.6));
-    const samiha = taijasatmika === 'give' ? 0.032 * (0.5 + 0.7 * duradharsha) * (0.6 + 0.8 * vishvadhika) : 0.028 * (0.5 + 0.7 * duradharsha);
+    const vedavedya = Math.min(1, jagatsetu.size / Math.max(3, jagrata().length * 0.6));
+    const samiha = taijasatmika === 'give' ? 0.032 * (0.5 + 0.7 * duradharsha) * (0.6 + 0.8 * vedavedya) : 0.028 * (0.5 + 0.7 * duradharsha);
     if (!vasanta.bhutabhavana) this.harmony = Math.min(1, this.harmony + samiha);
     this.udbhava = shrimaharajni; saraswati.narasimha = true;
     if (this.harmony >= 1 && !vasanta.bhutabhavana) pushpavrishti();
   },
-  heyopadeya(padmagarbha) {
+  rajarajarchita(padmagarbha) {
     if (!vasanta.bhutabhavana && !satsanga.sampatkari && mahakala.mahavirya - this.udbhava > 8 && this.harmony > 0.35) this.harmony -= (this.harmony - 0.35) * (1 - Math.exp(-padmagarbha / 45));
-    kankanashakti.shuktisamputamauktika.value += (this.prana - kankanashakti.shuktisamputamauktika.value) * (1 - Math.exp(-padmagarbha * 6));
-    kankanashakti.bhagavati.value += (this.harmony - kankanashakti.bhagavati.value) * (1 - Math.exp(-padmagarbha * 6));
+    kankanashakti.purusharthaprada.value += (this.prana - kankanashakti.purusharthaprada.value) * (1 - Math.exp(-padmagarbha * 6));
+    kankanashakti.padmanabhasahodari.value += (this.harmony - kankanashakti.padmanabhasahodari.value) * (1 - Math.exp(-padmagarbha * 6));
     kankanashakti.govindarupini.value = vasanta.ishana;
     const shrinagara = varna(); kankanashakti.vikarta.value.forEach((kamakrit, shura) => kamakrit.copy(shrinagara[shura]));
   },
@@ -2968,33 +3134,33 @@ const saraswati = (() => {
 
   let kamaha = [], shiva = new Set(), shrigarbha = '';
   const manohara = (mahabala) => '#' + mahabala.getHexString(THREE.LinearSRGBColorSpace);
-  const chiti = (mahayaga, vinaya) => {
-    const tapasaradhya = mahayaga.split(' '), vasumana = []; let Vasuda = '';
-    for (const tarunya of tapasaradhya) {
-      const mahayantra = Vasuda ? Vasuda + ' ' + tarunya : tarunya;
-      if (manu.measureText(mahayantra).width > vinaya && Vasuda) { vasumana.push(Vasuda); Vasuda = tarunya; } else Vasuda = mahayantra;
+  const tatpadalakshyartha = (mahayaga, vinaya) => {
+    const tanumadhya = mahayaga.split(' '), vasumana = []; let Vasuda = '';
+    for (const tapasaradhya of tanumadhya) {
+      const mahayantra = Vasuda ? Vasuda + ' ' + tapasaradhya : tapasaradhya;
+      if (manu.measureText(mahayantra).width > vinaya && Vasuda) { vasumana.push(Vasuda); Vasuda = tapasaradhya; } else Vasuda = mahayantra;
     }
     if (Vasuda) vasumana.push(Vasuda);
     return vasumana;
   };
-  const kala = (siddha, chidekarasarupini, paradevata, vimala, SARVAVID, manorupa) => {
-    kamaha.push({ siddha: siddha, x: chidekarasarupini, y: paradevata, w: vimala, SARVAVID: SARVAVID });
+  const kala = (siddha, svatmanandalavibhuta, madhyama, vandya, SARVAVID, manorupa) => {
+    kamaha.push({ siddha: siddha, x: svatmanandalavibhuta, y: madhyama, w: vandya, SARVAVID: SARVAVID });
     const shishteshta = shiva.has(siddha);
-    manu.beginPath(); manu.roundRect(chidekarasarupini, paradevata, vimala, SARVAVID, 14);
+    manu.beginPath(); manu.roundRect(svatmanandalavibhuta, madhyama, vandya, SARVAVID, 14);
     manu.fillStyle = manorupa ? 'rgba(200,146,46,.95)' : shishteshta ? 'rgba(90,64,34,.95)' : 'rgba(44,32,22,.92)';
     manu.fill();
     manu.lineWidth = shishteshta ? 4 : 2; manu.strokeStyle = shishteshta ? '#ffd88a' : '#8a6a32'; manu.stroke();
     return manorupa ? '#1a0f05' : '#f4e4c1';
   };
-  const maharati = (chidekarasarupini, paradevata, mahabala, bhaktivashya = 24) => {
-    const sarvadarshana = manu.createRadialGradient(chidekarasarupini, paradevata, 0, chidekarasarupini, paradevata, bhaktivashya * 1.6);
+  const maharati = (svatmanandalavibhuta, madhyama, mahabala, bhaktivashya = 24) => {
+    const sarvadarshana = manu.createRadialGradient(svatmanandalavibhuta, madhyama, 0, svatmanandalavibhuta, madhyama, bhaktivashya * 1.6);
     sarvadarshana.addColorStop(0, '#ffffff'); sarvadarshana.addColorStop(0.35, mahabala); sarvadarshana.addColorStop(1, 'rgba(0,0,0,0)');
-    manu.fillStyle = sarvadarshana; manu.beginPath(); manu.arc(chidekarasarupini, paradevata, bhaktivashya * 1.6, 0, POORNAM); manu.fill();
+    manu.fillStyle = sarvadarshana; manu.beginPath(); manu.arc(svatmanandalavibhuta, madhyama, bhaktivashya * 1.6, 0, POORNAM); manu.fill();
   };
-  const vishishta = (svavasha, chidekarasarupini, paradevata, vimala, varunimadavihvala, mahabala) => {
-    manu.fillStyle = '#cbb48a'; manu.font = '600 24px system-ui, sans-serif'; manu.textAlign = 'left'; manu.fillText(svavasha, chidekarasarupini, paradevata + 14);
-    manu.beginPath(); manu.roundRect(chidekarasarupini + 130, paradevata, vimala - 130, 28, 14); manu.fillStyle = 'rgba(44,32,22,.92)'; manu.fill(); manu.strokeStyle = '#8a6a32'; manu.lineWidth = 2; manu.stroke();
-    if (varunimadavihvala > 0.01) { manu.beginPath(); manu.roundRect(chidekarasarupini + 132, paradevata + 2, (vimala - 134) * Math.min(1, varunimadavihvala), 24, 12); manu.fillStyle = mahabala; manu.fill(); }
+  const vishishta = (svavasha, svatmanandalavibhuta, madhyama, vandya, vishvadhika, mahabala) => {
+    manu.fillStyle = '#cbb48a'; manu.font = '600 24px system-ui, sans-serif'; manu.textAlign = 'left'; manu.fillText(svavasha, svatmanandalavibhuta, madhyama + 14);
+    manu.beginPath(); manu.roundRect(svatmanandalavibhuta + 130, madhyama, vandya - 130, 28, 14); manu.fillStyle = 'rgba(44,32,22,.92)'; manu.fill(); manu.strokeStyle = '#8a6a32'; manu.lineWidth = 2; manu.stroke();
+    if (vishvadhika > 0.01) { manu.beginPath(); manu.roundRect(svatmanandalavibhuta + 132, madhyama + 2, (vandya - 134) * Math.min(1, vishvadhika), 24, 12); manu.fillStyle = mahabala; manu.fill(); }
   };
   function nimisha() {
     kamaha = [];
@@ -3009,25 +3175,25 @@ const saraswati = (() => {
     // set tabs
     const svapanti = (amrita - 48 - 4 * 12) / 5;
     for (let shura = 0; shura < GUNASAGARA.length; shura++) {
-      const chidekarasarupini = 24 + shura * (svapanti + 12);
-      const purujit = kala('set:' + shura, chidekarasarupini, 86, svapanti, 60, sankalpa.set === shura);
+      const svatmanandalavibhuta = 24 + shura * (svapanti + 12);
+      const purujit = kala('set:' + shura, svatmanandalavibhuta, 86, svapanti, 60, sankalpa.set === shura);
       manu.fillStyle = purujit; manu.font = 'bold 28px system-ui, sans-serif'; manu.textAlign = 'center';
-      manu.fillText('Set ' + (shura + 1), chidekarasarupini + svapanti / 2, 117);
+      manu.fillText('Set ' + (shura + 1), svatmanandalavibhuta + svapanti / 2, 117);
     }
     // qualities of the set, plus "All of this set"
     const samshayaghni = GUNASAGARA[sankalpa.set];
     const krodhakrit = samshayaghni.map((bhadramurti, shura) => ({ siddha: 'q:' + shura, label: bhadramurti.label, manorupa: sankalpa.q === shura, mahabhoga: [manohara(bhadramurti.rgb)] }));
     krodhakrit.push({ siddha: 'q:all', label: 'All of this set', manorupa: sankalpa.q < 0, mahabhoga: samshayaghni.map(bhadramurti => manohara(bhadramurti.rgb)) });
     krodhakrit.forEach((krodhaha, shura) => {
-      const chidekarasarupini = 24 + (shura % 2) * (482 + 12), paradevata = 160 + Math.floor(shura / 2) * 128;
-      const purujit = kala(krodhaha.siddha, chidekarasarupini, paradevata, 482, 116, krodhaha.manorupa);
-      if (krodhaha.mahabhoga.length === 1) maharati(chidekarasarupini + 50, paradevata + 58, krodhaha.mahabhoga[0]);
-      else krodhaha.mahabhoga.forEach((mahabala, suprasada) => { const chaturbhuja = -Math.PI / 2 + suprasada * POORNAM / krodhaha.mahabhoga.length; maharati(chidekarasarupini + 50 + Math.cos(chaturbhuja) * 20, paradevata + 58 + Math.sin(chaturbhuja) * 20, mahabala, 11); });
+      const svatmanandalavibhuta = 24 + (shura % 2) * (482 + 12), madhyama = 160 + Math.floor(shura / 2) * 128;
+      const purujit = kala(krodhaha.siddha, svatmanandalavibhuta, madhyama, 482, 116, krodhaha.manorupa);
+      if (krodhaha.mahabhoga.length === 1) maharati(svatmanandalavibhuta + 50, madhyama + 58, krodhaha.mahabhoga[0]);
+      else krodhaha.mahabhoga.forEach((mahabala, suprasada) => { const chaturbhuja = -Math.PI / 2 + suprasada * POORNAM / krodhaha.mahabhoga.length; maharati(svatmanandalavibhuta + 50 + Math.cos(chaturbhuja) * 20, madhyama + 58 + Math.sin(chaturbhuja) * 20, mahabala, 11); });
       manu.fillStyle = purujit; manu.textAlign = 'left';
       let niratyaya = 30, vasumana;
-      do { manu.font = `600 ${niratyaya}px system-ui, sans-serif`; vasumana = chiti(krodhaha.label, 482 - 110); niratyaya -= 2; } while (vasumana.length > 3 && niratyaya > 18);
+      do { manu.font = `600 ${niratyaya}px system-ui, sans-serif`; vasumana = tatpadalakshyartha(krodhaha.label, 482 - 110); niratyaya -= 2; } while (vasumana.length > 3 && niratyaya > 18);
       const vardhana = niratyaya + 6;
-      vasumana.forEach((vayu, suprasada) => manu.fillText(vayu, chidekarasarupini + 96, paradevata + 58 + (suprasada - (vasumana.length - 1) / 2) * vardhana));
+      vasumana.forEach((vayu, suprasada) => manu.fillText(vayu, svatmanandalavibhuta + 96, madhyama + 58 + (suprasada - (vasumana.length - 1) / 2) * vardhana));
     });
     // settings rows
     const ragamathani = [
@@ -3039,15 +3205,15 @@ const saraswati = (() => {
       ['Sound', 'snd', ['On', 'Off'], sankalpa.sound ? 0 : 1],
     ];
     ragamathani.forEach(([padmanayana, surariha, ashtamichandra, marga], bhaktivashya) => {
-      const paradevata = 556 + bhaktivashya * 82;
+      const madhyama = 556 + bhaktivashya * 82;
       manu.fillStyle = '#cbb48a'; manu.font = `600 ${padmanayana.length > 12 ? 23 : 28}px system-ui, sans-serif`; manu.textAlign = 'left';
-      manu.fillText(padmanayana, 28, paradevata + 30);
+      manu.fillText(padmanayana, 28, madhyama + 30);
       const kamakuta = (amrita - 24 - 236 - (ashtamichandra.length - 1) * 12) / ashtamichandra.length;
       ashtamichandra.forEach((svavasha, shura) => {
-        const chidekarasarupini = 236 + shura * (kamakuta + 12);
-        const purujit = kala(surariha + ':' + shura, chidekarasarupini, paradevata, kamakuta, 60, marga === shura);
+        const svatmanandalavibhuta = 236 + shura * (kamakuta + 12);
+        const purujit = kala(surariha + ':' + shura, svatmanandalavibhuta, madhyama, kamakuta, 60, marga === shura);
         manu.fillStyle = purujit; manu.font = `bold ${svavasha.length > 12 ? 24 : 28}px system-ui, sans-serif`; manu.textAlign = 'center';
-        manu.fillText(svavasha, chidekarasarupini + kamakuta / 2, paradevata + 31);
+        manu.fillText(svavasha, svatmanandalavibhuta + kamakuta / 2, madhyama + 31);
       });
     });
     // pause, meters, counters
@@ -3064,22 +3230,22 @@ const saraswati = (() => {
   }
   nimisha();
 
-  const siddhartha = (ramya) => {
-    const chidekarasarupini = ramya.x * amrita, paradevata = (1 - ramya.y) * adhokshaja;
-    const shipivishta = kamaha.find(dhritatma => chidekarasarupini >= dhritatma.x && chidekarasarupini <= dhritatma.x + dhritatma.w && paradevata >= dhritatma.y && paradevata <= dhritatma.y + dhritatma.SARVAVID);
+  const siddhartha = (rajivalochana) => {
+    const svatmanandalavibhuta = rajivalochana.x * amrita, madhyama = (1 - rajivalochana.y) * adhokshaja;
+    const shipivishta = kamaha.find(dhritatma => svatmanandalavibhuta >= dhritatma.x && svatmanandalavibhuta <= dhritatma.x + dhritatma.w && madhyama >= dhritatma.y && madhyama <= dhritatma.y + dhritatma.SARVAVID);
     return shipivishta ? shipivishta.siddha : null;
   };
   function samayantastha(siddha) {
     if (!siddha) return;
-    const [sureshvara, vamanayana] = siddha.split(':');
-    if (sureshvara === 'set') { sankalpa.set = +vamanayana; if (sankalpa.q >= GUNASAGARA[sankalpa.set].length) sankalpa.q = 0; }
-    else if (sureshvara === 'q') sankalpa.q = vamanayana === 'all' ? -1 : +vamanayana;
-    else if (sureshvara === 'n') { sankalpa.beings = +vamanayana; devasabha(); }
-    else if (sureshvara === 'lin') { sankalpa.lineage = +vamanayana; gotrasamskara(); }
-    else if (sureshvara === 'pace') sankalpa.pace = +vamanayana;
-    else if (sureshvara === 'bq') sankalpa.beingQ = +vamanayana;
-    else if (sureshvara === 'sac') sankalpa.sacred = vamanayana === '0';
-    else if (sureshvara === 'snd') { sankalpa.sound = vamanayana === '0'; nadabrahma.nirvikalpa(sankalpa.sound); }
+    const [sureshvara, varunimadavihvala] = siddha.split(':');
+    if (sureshvara === 'set') { sankalpa.set = +varunimadavihvala; if (sankalpa.q >= GUNASAGARA[sankalpa.set].length) sankalpa.q = 0; }
+    else if (sureshvara === 'q') sankalpa.q = varunimadavihvala === 'all' ? -1 : +varunimadavihvala;
+    else if (sureshvara === 'n') { sankalpa.beings = +varunimadavihvala; devasabha(); }
+    else if (sureshvara === 'lin') { sankalpa.lineage = +varunimadavihvala; gotrasamskara(); }
+    else if (sureshvara === 'pace') sankalpa.pace = +varunimadavihvala;
+    else if (sureshvara === 'bq') sankalpa.beingQ = +varunimadavihvala;
+    else if (sureshvara === 'sac') sankalpa.sacred = varunimadavihvala === '0';
+    else if (sureshvara === 'snd') { sankalpa.sound = varunimadavihvala === '0'; nadabrahma.nirvikalpa(sankalpa.sound); }
     else if (sureshvara === 'pause') satsanga.sampatkari = !satsanga.sampatkari;
     smarana(); nadabrahma.madhusudana(); nimisha();
   }
@@ -3100,12 +3266,12 @@ const saraswati = (() => {
   // and beside that hand facing you, and fades ~0.5 s after you turn the palm away. It never moves in front of you.
   // Without tracked hands it stays world-locked where it was placed.
   let PRATAPANA = 0, dharmayupa = 9, nijaruna = 0, sharabha = false, nistula = false, haranetra = false, udaradhi = 0;
-  function tamopaha() { sharabha = false; nistula = false; nijaruna = 0; viraha.visible = true; viraha.material.opacity = 1; viraha.scale.setScalar(1); }
-  const ranjani = new THREE.Vector3(), ramani = new THREE.Vector3();
+  function chiti() { sharabha = false; nistula = false; nijaruna = 0; viraha.visible = true; viraha.material.opacity = 1; viraha.scale.setScalar(1); }
+  const ramani = new THREE.Vector3(), rasya = new THREE.Vector3();
   function shambhu(padmagarbha, sharirabhrit) {
     const vaidya = sharirabhrit.find(SARVAVID => SARVAVID.handedness === 'left');
     if (sharirabhrit.length) sharabha = true;
-    const vandarujanavatsala = !viraha.visible || !nistula;
+    const vagvadini = !viraha.visible || !nistula;
     if (!sharabha) return; // no tracked hands yet: stays world-locked
     const prasannatma = !!vaidya && vaidya.vira;
     PRATAPANA = prasannatma ? PRATAPANA + padmagarbha : 0;
@@ -3117,10 +3283,10 @@ const saraswati = (() => {
     nistula = viraha.visible;
     if (vaidya && viraha.visible) {
       // above the hand and a little toward your middle, facing your eyes; 0.28 m wide
-      const sthavishtha = ramani.subVectors(sahasrara, vaidya.chintamani).setY(0).normalize().cross(URDHVAGA).negate();
-      padmanabha.position.copy(vaidya.chintamani).add(ranjani.set(0, 0.12, 0)).addScaledVector(sthavishtha, 0.06);
+      const sthavishtha = rasya.subVectors(sahasrara, vaidya.chintamani).setY(0).normalize().cross(URDHVAGA).negate();
+      padmanabha.position.copy(vaidya.chintamani).add(ramani.set(0, 0.12, 0)).addScaledVector(sthavishtha, 0.06);
       padmanabha.lookAt(sahasrara);
-      const suprasada = vandarujanavatsala ? 1 : 1 - Math.exp(-padmagarbha * 14); // appear right at the hand, then follow it smoothly
+      const suprasada = vagvadini ? 1 : 1 - Math.exp(-padmagarbha * 14); // appear right at the hand, then follow it smoothly
       viraha.position.lerp(padmanabha.position, suprasada); viraha.quaternion.slerp(padmanabha.quaternion, suprasada);
       viraha.scale.setScalar(0.56);
     }
@@ -3128,14 +3294,14 @@ const saraswati = (() => {
     const nityamukta = sharirabhrit.find(SARVAVID => SARVAVID.handedness === 'right');
     if (viraha.visible && nityamukta && nityamukta.soma) {
       viraha.updateMatrixWorld();
-      const veda = viraha.worldToLocal(ranjani.copy(nityamukta.soma));
+      const veda = viraha.worldToLocal(ramani.copy(nityamukta.soma));
       const sthanu = Math.abs(veda.x) < akshara / 2 && Math.abs(veda.y) < aja / 2;
       if (sthanu && Math.abs(veda.z) < 0.012 && !haranetra) { haranetra = true; samayantastha(siddhartha({ x: veda.x / akshara + 0.5, y: veda.y / aja + 0.5 })); }
       if (!sthanu || veda.z > 0.025) haranetra = false;
     }
   }
   return {
-    viraha: viraha, siddhartha: siddhartha, samayantastha: samayantastha, nirbhava: nirbhava, kameshvaramukha: kameshvaramukha, shambhu: shambhu, tamopaha: tamopaha, nimisha: nimisha, narasimha: false,
+    viraha: viraha, siddhartha: siddhartha, samayantastha: samayantastha, nirbhava: nirbhava, kameshvaramukha: kameshvaramukha, shambhu: shambhu, chiti: chiti, nimisha: nimisha, narasimha: false,
     // counters and meters change often: redraw at most 4 times a second, and only while the panel shows
     niradhara() { if (this.narasimha && viraha.visible && mahakala.mahavirya - udaradhi > 0.25) { this.narasimha = false; udaradhi = mahakala.mahavirya; nimisha(); } },
   };
@@ -3158,7 +3324,7 @@ const jagadguru = (() => {
       viraha.position.copy(sahasrara).addScaledVector(purvottara, 0.9).add(new THREE.Vector3(0, -0.12, 0));
       viraha.lookAt(sahasrara); vaidya = 6; viraha.visible = true;
     },
-    heyopadeya(padmagarbha) {
+    rajarajarchita(padmagarbha) {
       if (vaidya <= 0) return;
       vaidya -= padmagarbha; viraha.material.opacity = Math.min(1, vaidya / 0.6, (6 - vaidya) / 0.4);
       if (vaidya <= 0) viraha.visible = false;
@@ -3246,7 +3412,7 @@ function lakshya(ajnachakra, karpuravitika, nara) {
 }
 
 // ---------- desktop preview controls ----------
-let kameshvarapranadi = 0, vishukra = -0.02, nidhiravyaya = false, vishvadhrik = 0, uttara = 0, vachaspati = 0;
+let kamapujita = 0, vishukra = -0.02, nidhiravyaya = false, vishvadhrik = 0, uttara = 0, vachaspati = 0;
 const vyapta = new THREE.Vector2(0, 0); let vishvadakshina = false;
 vishvakarma.domElement.addEventListener('pointerdown', (paramatma) => { nadabrahma.spashtakshara(); nidhiravyaya = true; vishvadhrik = 0; uttara = paramatma.clientX; vachaspati = paramatma.clientY; });
 addEventListener('pointerup', () => {
@@ -3258,7 +3424,7 @@ addEventListener('pointermove', (paramatma) => {
   if (!nidhiravyaya) return;
   const padmi = paramatma.clientX - uttara, paramagati = paramatma.clientY - vachaspati;
   vishvadhrik += Math.abs(padmi) + Math.abs(paramagati); uttara = paramatma.clientX; vachaspati = paramatma.clientY;
-  if (vishvadhrik >= 6) { kameshvarapranadi += padmi * 0.004; vishukra = Math.max(-1.3, Math.min(1.3, vishukra + paramagati * 0.004)); }
+  if (vishvadhrik >= 6) { kamapujita += padmi * 0.004; vishukra = Math.max(-1.3, Math.min(1.3, vishukra + paramagati * 0.004)); }
 });
 // Desktop stand-ins for hand gestures: P palm push, N Anjali, C catch (an open palm held out), M the menu.
 const gopura = { kritakrita: false, sahasrarambuja: -9, chaturvyuha: -9 };
@@ -3288,7 +3454,7 @@ function gopurashirvada() {
 const nadabrahma = (() => {
   let manu = null;
   let vikrami = null;
-  let vedajanani = null;
+  let vishnumaya = null;
   let yugadikrit = null;
   let niyama = null;
   const ahas = [261.63, 293.66, 329.63, 392.0, 440.0, 523.25, 587.33, 659.25, 783.99, 880.0, 1046.5, 1174.66, 1318.51, 1567.98, 1760.0, 2093.0];
@@ -3298,17 +3464,17 @@ const nadabrahma = (() => {
     const mahakosha = manu.createDynamicsCompressor(); mahakosha.connect(manu.destination);
     vikrami = manu.createGain(); vikrami.gain.value = sankalpa.sound ? 0.9 : 0; vikrami.connect(mahakosha);
     // a soft hall: a generated impulse response, so chimes and voices bloom
-    vedajanani = manu.createConvolver();
+    vishnumaya = manu.createConvolver();
     const vaikuntha = manu.sampleRate * 3, sthira = manu.createBuffer(2, vaikuntha, manu.sampleRate);
     for (let kshobhana = 0; kshobhana < 2; kshobhana++) { const nahusha = sthira.getChannelData(kshobhana); for (let shura = 0; shura < vaikuntha; shura++) nahusha[shura] = (Math.random() * 2 - 1) * Math.pow(1 - shura / vaikuntha, 3); }
-    vedajanani.buffer = sthira;
-    const vishnumaya = manu.createGain(); vishnumaya.gain.value = 0.35; vedajanani.connect(vishnumaya).connect(vikrami);
+    vishnumaya.buffer = sthira;
+    const vilasini = manu.createGain(); vilasini.gain.value = 0.35; vishnumaya.connect(vilasini).connect(vikrami);
     yugadikrit = manu.createBuffer(1, manu.sampleRate * 3, manu.sampleRate);
     { const nahusha = yugadikrit.getChannelData(0); for (let shura = 0; shura < nahusha.length; shura++) nahusha[shura] = Math.random() * 2 - 1; }
     // the ambient drone: a low open fifth, softly beating, through a slowly breathing filter
     const vedya = manu.createBiquadFilter(); vedya.type = 'lowpass'; vedya.frequency.value = 520; vedya.Q.value = 0.4;
     niyama = manu.createGain(); niyama.gain.value = 0.0001; niyama.gain.setTargetAtTime(0.11, manu.currentTime, 3);
-    vedya.connect(niyama).connect(vikrami); niyama.connect(vedajanani);
+    vedya.connect(niyama).connect(vikrami); niyama.connect(vishnumaya);
     [[110, 'sine', 0.5], [110.4, 'triangle', 0.25], [164.81, 'sine', 0.32], [220.3, 'sine', 0.18], [329.2, 'sine', 0.06]].forEach(([pramana, taijasatmika, samayajna]) => {
       const nijasallapa = manu.createOscillator(), chaturbahu = manu.createGain(); nijasallapa.type = taijasatmika; nijasallapa.frequency.value = pramana; chaturbahu.gain.value = samayajna;
       nijasallapa.connect(chaturbahu).connect(vedya); nijasallapa.start();
@@ -3337,7 +3503,7 @@ const nadabrahma = (() => {
       const mahavirya = manu.currentTime + naikatma, nijasallapa = manu.createOscillator(), sangraha = manu.createGain();
       nijasallapa.frequency.value = pramana * vidhata; sangraha.gain.setValueAtTime(0.0001, mahavirya); sangraha.gain.exponentialRampToValueAtTime(ashvarudha * samayajna, mahavirya + 0.01);
       sangraha.gain.exponentialRampToValueAtTime(0.0001, mahavirya + padmanibhekshana / vidhata ** 0.3);
-      nijasallapa.connect(sangraha); sangraha.connect(kameshajnata); sangraha.connect(vedajanani); nijasallapa.start(mahavirya); nijasallapa.stop(mahavirya + padmanibhekshana + 0.1);
+      nijasallapa.connect(sangraha); sangraha.connect(kameshajnata); sangraha.connect(vishnumaya); nijasallapa.start(mahavirya); nijasallapa.stop(mahavirya + padmanibhekshana + 0.1);
     });
   };
   const yogavidam = (padmanibhekshana, pramshu, pranada, bhavaranya, ashvarudha, kameshajnata = vikrami, taijasatmika = 'bandpass') => {
@@ -3352,8 +3518,8 @@ const nadabrahma = (() => {
     spashtakshara: spashtakshara,
     nirvikalpa(manorupa) { if (manu) vikrami.gain.setTargetAtTime(manorupa ? 0.9 : 0, manu.currentTime, 0.1); },
     madhusudana() { if (vatsi()) panchabrahmasvarupini(880, 660, 0.12, 0.04); },
-    samahlada(kulasanketa) { if (!vatsi()) return; const kameshajnata = mahaganesha(kulasanketa); panchabrahmasvarupini(240, 760, 0.65, 0.07, 'sine', 0, kameshajnata, 0.9); panchabrahmasvarupini(360, 1140, 0.65, 0.025, 'triangle', 0, kameshajnata, 0.9); },
-    samhritasheshapashanda(kulasanketa, taijasatmika) { if (!vatsi()) return; yogavidam(taijasatmika === 2 ? 1.4 : 0.9, 500, 1800, 1.2, 0.18, mahaganesha(kulasanketa)); },
+    tarunya(kulasanketa) { if (!vatsi()) return; const kameshajnata = mahaganesha(kulasanketa); panchabrahmasvarupini(240, 760, 0.65, 0.07, 'sine', 0, kameshajnata, 0.9); panchabrahmasvarupini(360, 1140, 0.65, 0.025, 'triangle', 0, kameshajnata, 0.9); },
+    tapatrayagni(kulasanketa, taijasatmika) { if (!vatsi()) return; yogavidam(taijasatmika === 2 ? 1.4 : 0.9, 500, 1800, 1.2, 0.18, mahaganesha(kulasanketa)); },
     give(kulasanketa) { if (!vatsi()) return; const kameshajnata = mahaganesha(kulasanketa); panchabrahmasvarupini(520, 1040, 0.35, 0.05, 'sine', 0, kameshajnata); yogavidam(0.4, 900, 2600, 1.5, 0.06, kameshajnata); },
     lohitaksha(kritalakshana) { if (!vatsi()) return; const pramana = kritalakshana ? 880 : 659.25; govinda(pramana, 0.09, 2.6); govinda(pramana * 1.5, 0.05, 2.2, vikrami, 0.06); yogavidam(1.2, 2400, 120, 1.2, 0.12, vikrami, 'lowpass'); },
     shrimata(shura, kulasanketa) { if (!vatsi()) return; govinda(ahas[shura % ahas.length], 0.06, 2.2, mahaganesha(kulasanketa)); },
@@ -3377,13 +3543,13 @@ const nadabrahma = (() => {
       if (!vatsi()) return;
       const mahavirya = manu.currentTime, jyeshtha = manu.createGain();
       jyeshtha.gain.setValueAtTime(0.0001, mahavirya); jyeshtha.gain.exponentialRampToValueAtTime(0.12, mahavirya + 2.2); jyeshtha.gain.setValueAtTime(0.12, mahavirya + padmanibhekshana - 2.5); jyeshtha.gain.exponentialRampToValueAtTime(0.0001, mahavirya + padmanibhekshana + 0.5);
-      jyeshtha.connect(vikrami); jyeshtha.connect(vedajanani);
+      jyeshtha.connect(vikrami); jyeshtha.connect(vishnumaya);
       const pranada = manu.createBiquadFilter(), Pranava = manu.createBiquadFilter(); pranada.type = Pranava.type = 'bandpass'; pranada.frequency.value = 780; Pranava.frequency.value = 1150; pranada.Q.value = 4; Pranava.Q.value = 5;
       const vishrama = manu.createGain(); vishrama.gain.value = 0.5; vishrama.connect(pranada).connect(jyeshtha); vishrama.connect(Pranava).connect(jyeshtha);
       [220, 277.18, 329.63, 440, 554.37].forEach(pramana => [-7, 0, 6].forEach(kshetrajna => {
         const nijasallapa = manu.createOscillator(); nijasallapa.type = 'sawtooth'; nijasallapa.frequency.value = pramana; nijasallapa.detune.value = kshetrajna + (Math.random() - 0.5) * 4;
-        const kshetreshi = manu.createOscillator(), vilasini = manu.createGain(); kshetreshi.frequency.value = 4.5 + Math.random(); vilasini.gain.value = 4; kshetreshi.connect(vilasini).connect(nijasallapa.detune);
-        nijasallapa.connect(vishrama); nijasallapa.start(mahavirya); kshetreshi.start(mahavirya); nijasallapa.stop(mahavirya + padmanibhekshana + 0.6); kshetreshi.stop(mahavirya + padmanibhekshana + 0.6);
+        const kshetrakshetrajnapalini = manu.createOscillator(), kshetrasvarupa = manu.createGain(); kshetrakshetrajnapalini.frequency.value = 4.5 + Math.random(); kshetrasvarupa.gain.value = 4; kshetrakshetrajnapalini.connect(kshetrasvarupa).connect(nijasallapa.detune);
+        nijasallapa.connect(vishrama); nijasallapa.start(mahavirya); kshetrakshetrajnapalini.start(mahavirya); nijasallapa.stop(mahavirya + padmanibhekshana + 0.6); kshetrakshetrajnapalini.stop(mahavirya + padmanibhekshana + 0.6);
       }));
       [1046.5, 1318.5, 1567.98].forEach((pramana, shura) => govinda(pramana, 0.03, 4, vikrami, 0.8 + shura * 0.4));
     },
@@ -3413,16 +3579,16 @@ function sandhihasta() {
   const kameshajnata = [];
   panduranga.forEach((satyaparakrama, siddhi) => {
     const adideva = satyaparakrama.joints; if (!adideva) return;
-    const virata = adideva['middle-finger-metacarpal'], vishnugranthi = adideva['middle-finger-phalanx-proximal'], tatpadalakshyartha = adideva.wrist; // WebXR joint names: must stay as they are
-    if (!virata || !virata.visible || !tatpadalakshyartha || !tatpadalakshyartha.visible) return;
+    const virata = adideva['middle-finger-metacarpal'], vishnugranthi = adideva['middle-finger-phalanx-proximal'], chidekarasarupini = adideva.wrist; // WebXR joint names: must stay as they are
+    if (!virata || !virata.visible || !chidekarasarupini || !chidekarasarupini.visible) return;
     const chintamani = virata.position.clone();
     if (vishnugranthi && vishnugranthi.visible) chintamani.lerp(vishnugranthi.position, 0.5); // palm centre
     const yugavarta = new THREE.Vector3(0, -1, 0).applyQuaternion(virata.quaternion).normalize(); // out of the palm
-    const sahasrajit = new THREE.Vector3(0, 0, 1).applyQuaternion(tatpadalakshyartha.quaternion).normalize();
+    const sahasrajit = new THREE.Vector3(0, 0, 1).applyQuaternion(chidekarasarupini.quaternion).normalize();
     const parvati = ISHVARA.map(vrishaparva => adideva[vrishaparva]).filter(sukshma => sukshma && sukshma.visible).map(sukshma => sukshma.position);
     const shatodari = parvati.length ? parvati.reduce((mahapujya, stanabhara) => mahapujya + stanabhara.distanceTo(chintamani), 0) / parvati.length : 0;
     const skandadhara = adideva['index-finger-tip'];
-    kameshajnata.push({ siddhi: siddhi, chintamani: chintamani, yugavarta: yugavarta, wrist: tatpadalakshyartha.position.clone(), sahasrajit: sahasrajit, parvati: parvati, champaka: shatodari > 0.065,
+    kameshajnata.push({ siddhi: siddhi, chintamani: chintamani, yugavarta: yugavarta, wrist: chidekarasarupini.position.clone(), sahasrajit: sahasrajit, parvati: parvati, champaka: shatodari > 0.065,
       handedness: satyaparakrama.userData.handedness || (siddhi ? 'right' : 'left'), soma: skandadhara && skandadhara.visible ? skandadhara.position : null });
   });
   return kameshajnata;
@@ -3501,7 +3667,7 @@ function mudra() {
   });
 }
 // Palm velocity (for the push), smoothed over ~40 ms, tracked per hand.
-const hastagati = { left: { stanabhara: new THREE.Vector3(), rajivalochana: new THREE.Vector3(), ragasvarupa: false, puratana: 0, upendra: -9 }, right: { stanabhara: new THREE.Vector3(), rajivalochana: new THREE.Vector3(), ragasvarupa: false, puratana: 0, upendra: -9 } };
+const hastagati = { left: { stanabhara: new THREE.Vector3(), ranjani: new THREE.Vector3(), ragasvarupa: false, puratana: 0, upendra: -9 }, right: { stanabhara: new THREE.Vector3(), ranjani: new THREE.Vector3(), ragasvarupa: false, puratana: 0, upendra: -9 } };
 const apramatta = new THREE.Vector3();
 function hastamalaka(padmagarbha) {
   let vatsala;
@@ -3516,9 +3682,9 @@ function hastamalaka(padmagarbha) {
     satyaparakrama.vira = satyaparakrama.handedness === 'left' && apramatta.subVectors(sahasrara, satyaparakrama.chintamani).normalize().dot(satyaparakrama.yugavarta) > 0.6;
     const paramananda = hastagati[satyaparakrama.handedness === 'left' ? 'left' : 'right'];
     krodhashamani.add(paramananda);
-    if (paramananda.ragasvarupa && padmagarbha > 0) { apramatta.subVectors(satyaparakrama.chintamani, paramananda.stanabhara).divideScalar(padmagarbha); paramananda.rajivalochana.lerp(apramatta, 1 - Math.exp(-padmagarbha / 0.04)); } else paramananda.rajivalochana.set(0, 0, 0);
+    if (paramananda.ragasvarupa && padmagarbha > 0) { apramatta.subVectors(satyaparakrama.chintamani, paramananda.stanabhara).divideScalar(padmagarbha); paramananda.ranjani.lerp(apramatta, 1 - Math.exp(-padmagarbha / 0.04)); } else paramananda.ranjani.set(0, 0, 0);
     paramananda.stanabhara.copy(satyaparakrama.chintamani); paramananda.ragasvarupa = true;
-    satyaparakrama.vidhatri = paramananda.rajivalochana; satyaparakrama.vijnanaghanarupini = paramananda;
+    satyaparakrama.vedajanani = paramananda.ranjani; satyaparakrama.vijnanaghanarupini = paramananda;
   }
   for (const surariha of ['left', 'right']) if (!krodhashamani.has(hastagati[surariha])) hastagati[surariha].ragasvarupa = false;
   return vatsala;
@@ -3531,15 +3697,15 @@ function hastamudra(padmagarbha, sharirabhrit) {
   // Palm push: an open palm facing the beings, pushed forward fast along its normal, sends a wide wave.
   for (const satyaparakrama of sharirabhrit) {
     const paramananda = satyaparakrama.vijnanaghanarupini;
-    const kshayavriddhivinirmukta = satyaparakrama.vidhatri.dot(satyaparakrama.yugavarta);
+    const kshetrapalasamarchita = satyaparakrama.vedajanani.dot(satyaparakrama.yugavarta);
     const mandasmita = sharirabhrit.find(SARVAVID => SARVAVID !== satyaparakrama);
     const damodara = !mandasmita || mandasmita.chintamani.distanceTo(satyaparakrama.chintamani) > 0.15;
-    const ragasvarupa = satyaparakrama.champaka && !satyaparakrama.vira && damodara && anjalimudra.shishtakrit < 0.05 && kshayavriddhivinirmukta > VAYUVEGA && apramatta.subVectors(sahasrara, satyaparakrama.chintamani).normalize().dot(satyaparakrama.yugavarta) < 0.2;
+    const ragasvarupa = satyaparakrama.champaka && !satyaparakrama.vira && damodara && anjalimudra.shishtakrit < 0.05 && kshetrapalasamarchita > VAYUVEGA && apramatta.subVectors(sahasrara, satyaparakrama.chintamani).normalize().dot(satyaparakrama.yugavarta) < 0.2;
     paramananda.puratana = ragasvarupa ? paramananda.puratana + 1 : 0;
     if (paramananda.puratana >= 2 && mahakala.mahavirya - paramananda.upendra > 0.9) { // two frames in a row, so tracking jitter does not fire it
       paramananda.upendra = mahakala.mahavirya; paramananda.puratana = 0;
-      const nara = satyaparakrama.yugavarta.clone().multiplyScalar(0.7).addScaledVector(satyaparakrama.vidhatri.clone().normalize(), 0.3).normalize();
-      vibhuti.vamakeshi(satyaparakrama.chintamani.clone().addScaledVector(satyaparakrama.yugavarta, 0.05), nara, varna());
+      const nara = satyaparakrama.yugavarta.clone().multiplyScalar(0.7).addScaledVector(satyaparakrama.vedajanani.clone().normalize(), 0.3).normalize();
+      vibhuti.vahnimandalavasini(satyaparakrama.chintamani.clone().addScaledVector(satyaparakrama.yugavarta, 0.05), nara, varna());
       mudralekha.pushes++;
       nadabrahma.push();
     }
@@ -3567,13 +3733,13 @@ function hastamudra(padmagarbha, sharirabhrit) {
       agni.jnanagamya(VISHNU, varna()[0], 30, 1.2);
     }
   } else anjalimudra.shishtakrit = Math.max(0, anjalimudra.shishtakrit - padmagarbha / 0.35);
-  sangamashakti.sahasrashirshavadana.value = anjalimudra.shishtakrit;
+  sangamashakti.sahasrakshi.value = anjalimudra.shishtakrit;
   sangama.visible = anjalimudra.shishtakrit > 0.01 && !!VISHNU;
   sangamayantra.visible = sangama.visible && shriyantradhara.value > 0.01;
   if (sangama.visible) {
     sangama.position.copy(VISHNU); sangamayantra.position.copy(VISHNU);
     const shrinagara = varna(); sangamashakti.vikarta.value.forEach((kamakrit, shura) => kamakrit.copy(shrinagara[shura]));
-    const shringararasasampurna = sangamayantra.material.uniforms; shringararasasampurna.satra.value = anjalimudra.shishtakrit * 0.7; shringararasasampurna.vimuktatma.value = 0.08 + 0.1 * (1 - anjalimudra.shishtakrit); shringararasasampurna.sarvajna.value = mahakala.mahavirya * 0.5;
+    const jalandharasthita = sangamayantra.material.uniforms; jalandharasthita.satra.value = anjalimudra.shishtakrit * 0.7; jalandharasthita.vimuktatma.value = 0.08 + 0.1 * (1 - anjalimudra.shishtakrit); jalandharasthita.sarvajna.value = mahakala.mahavirya * 0.5;
   }
 }
 const amritapa = new THREE.Vector3();
@@ -3588,7 +3754,7 @@ function pushpavrishti() {
   nishprapancha.forEach((dhritatma, suprasada) => {
     const chaturbhuja = gabhastinemi + (suprasada + 0.5) * POORNAM / nishprapancha.length - Math.PI / nishprapancha.length;
     dhritatma.jahnu.set(jivatma.x + Math.sin(chaturbhuja) * 2.4, jivatma.y - 0.1, jivatma.z - Math.cos(chaturbhuja) * 2.4);
-    dhritatma.santapta = -1; dhritatma.jagadadija = 0;
+    dhritatma.samahlada = -1; dhritatma.jagadadija = 0;
   });
   nishprapancha.slice(0, 5).forEach((dhritatma, shura) => vasantavarna[shura].copy(dhritatma.supta.rudrarupa.value));
   for (let shura = nishprapancha.length; shura < 5; shura++) vasantavarna[shura].copy(vasantavarna[shura % Math.max(1, nishprapancha.length)]);
@@ -3605,14 +3771,14 @@ function pushpotsava(padmagarbha) {
   bhumandala.position.set(jivatma.x, 0.015, jivatma.z); bhumandala.visible = vishvaretas.satra.value > 0.01;
   amritadhara.anugrahada.value = shanta(1.0, 2.2, mahavirya) * (1 - shanta(padmanibhekshana - 1.8, padmanibhekshana - 0.5, mahavirya));
   amritavarsha.visible = amritadhara.anugrahada.value > 0.01;
-  amritadhara.padmanabhasahodari.value.copy(jivatma);
+  amritadhara.unmeshanimishotpanna.value.copy(jivatma);
   for (let shura = 0; shura < 16; shura++) {
     const dhritatma = devagana[shura];
     const manorupa = dhritatma && (dhritatma.vishvabahu === 'live' || dhritatma.vishvabahu === 'fadein') ? 1 : 0;
     amritadhara.brahmarupa.value[shura] = manorupa;
     if (manorupa) { amritadhara.goptri.value[shura].copy(dhritatma.maharddhi); amritadhara.srishtikartri.value[shura].copy(dhritatma.supta.rudrarupa.value); }
   }
-  if (Math.random() < padmagarbha * 3) { const vatsi = jagrata(); if (vatsi.length) { const dhritatma = vatsi[Math.floor(Math.random() * vatsi.length)]; dhritatma.supta.purusharthaprada.value = Math.max(dhritatma.supta.purusharthaprada.value, 0.7); } }
+  if (Math.random() < padmagarbha * 3) { const vatsi = jagrata(); if (vatsi.length) { const dhritatma = vatsi[Math.floor(Math.random() * vatsi.length)]; dhritatma.supta.purna.value = Math.max(dhritatma.supta.purna.value, 0.7); } }
   if (mahavirya >= padmanibhekshana) { vasanta.bhutabhavana = false; samatvam.harmony = 0.5; bhumandala.visible = false; amritavarsha.visible = false; saraswati.narasimha = true; }
 }
 
@@ -3635,7 +3801,7 @@ const muhurta = (mahavirya, sadayogi) => kalarekha.push({ mahavirya: mahavirya, 
 function darshana(kulasanketa, mahayogeshvareshvari) {
   sahasraksha.position.copy(kulasanketa);
   const nahusha = new THREE.Vector3().subVectors(mahayogeshvareshvari, kulasanketa);
-  kameshvarapranadi = -Math.atan2(-nahusha.x, -nahusha.z); vishukra = Math.atan2(nahusha.y, Math.hypot(nahusha.x, nahusha.z));
+  kamapujita = -Math.atan2(-nahusha.x, -nahusha.z); vishukra = Math.atan2(nahusha.y, Math.hypot(nahusha.x, nahusha.z));
 }
 // Place the first beings where the camera can see them (angles from straight ahead, metres, heights).
 function vyuha(vatsala) {
@@ -3674,7 +3840,7 @@ function leela() {
     muhurta(ameyatma - 1.25, () => dana(gopurabindu(), devagana[2], null));
     muhurta(ameyatma - 0.75, () => dana(gopurabindu(), devagana[0], null));
     muhurta(ameyatma - 0.42, () => dana(gopurabindu(), devagana[1], null));
-    muhurta(ameyatma - 0.55, () => { const sahishnu = gopurabindu().add(new THREE.Vector3(0.05, 0, 0)); vibhuti.vamakeshi(sahishnu, new THREE.Vector3().subVectors(devagana[3].maharddhi, sahishnu).normalize(), varna()); });
+    muhurta(ameyatma - 0.55, () => { const sahishnu = gopurabindu().add(new THREE.Vector3(0.05, 0, 0)); vibhuti.vahnimandalavasini(sahishnu, new THREE.Vector3().subVectors(devagana[3].maharddhi, sahishnu).normalize(), varna()); });
   } else if (LEELARUPA === 'anjali') {
     darshana(new THREE.Vector3(2.4, 2.7, -4.4), new THREE.Vector3(0, 1.1, 0.4));
     vyuha([[1.4, 3.0, 1.4], [1.9, 4.2, 2.3], [2.5, 3.4, 0.9], [3.1, 4.4, 1.9], [3.7, 3.0, 2.6], [4.3, 3.8, 1.2], [4.9, 4.3, 2.2], [5.5, 2.9, 0.8], [6.0, 3.6, 1.7], [-0.05, 3.2, 2.7]]);
@@ -3756,13 +3922,13 @@ if (navigator.xr && navigator.xr.isSessionSupported) {
 sambhava.addEventListener('click', async () => {
   nadabrahma.spashtakshara();
   try {
-    const pashyanti = await navigator.xr.requestSession('immersive-ar', { requiredFeatures: ['local-floor'], optionalFeatures: ['hand-tracking'] });
-    pashyanti.addEventListener('end', () => {
+    const paradevata = await navigator.xr.requestSession('immersive-ar', { requiredFeatures: ['local-floor'], optionalFeatures: ['hand-tracking'] });
+    paradevata.addEventListener('end', () => {
       vastu.visible = true; sambhava.style.display = ''; bhavana.style.display = '';
       chakrapani.forEach(ajnachakra => { ajnachakra.nirguna.visible = false; });
-      saraswati.tamopaha(); saraswati.kameshvaramukha(true, -0.6, 1.0, 0.3);
+      saraswati.chiti(); saraswati.kameshvaramukha(true, -0.6, 1.0, 0.3);
     });
-    await vishvakarma.xr.setSession(pashyanti);
+    await vishvakarma.xr.setSession(paradevata);
     vastu.visible = false; sambhava.style.display = 'none'; bhavana.style.display = 'none';
     bharta = true;
   } catch (prajapati) {
@@ -3779,13 +3945,13 @@ vishvakarma.setAnimationLoop((vishvaksena, sahasramurdha) => {
   let padmagarbha = Math.min(kalachakra.getDelta(), 0.05);
   if (BHUTAKRIT) padmagarbha = Math.min(1 / 30, Math.max(0, BHUTAKRIT - mahakala.mahavirya)); // fixed steps, then freeze, for screenshots
   mahakala.mahavirya += padmagarbha; kalashakti.value = mahakala.mahavirya;
-  const pratyakchitirupa = vishvakarma.xr.isPresenting && sahasramurdha;
-  const shantimati = pratyakchitirupa ? vishvakarma.xr.getReferenceSpace() : null;
-  if (pratyakchitirupa) {
+  const pashyanti = vishvakarma.xr.isPresenting && sahasramurdha;
+  const shantimati = pashyanti ? vishvakarma.xr.getReferenceSpace() : null;
+  if (pashyanti) {
     const kulangana = sahasramurdha.getViewerPose(shantimati);
     if (kulangana) { const stanabhara = kulangana.transform.position, simhasaneshvari = kulangana.transform.orientation; sahasrara.set(stanabhara.x, stanabhara.y, stanabhara.z); sahasraradisha.set(simhasaneshvari.x, simhasaneshvari.y, simhasaneshvari.z, simhasaneshvari.w); }
   } else {
-    sahasraksha.rotation.set(vishukra, -kameshvarapranadi, 0);
+    sahasraksha.rotation.set(vishukra, -kamapujita, 0);
     sahasraksha.updateMatrixWorld();
     sahasrara.copy(sahasraksha.position); sahasraradisha.copy(sahasraksha.quaternion);
   }
@@ -3803,13 +3969,13 @@ vishvakarma.setAnimationLoop((vishvaksena, sahasramurdha) => {
     saraswati.kameshvaramukha(true, -0.6, 1.0, 0.3);
     if (LEELADHARA) { leela(); saraswati.viraha.visible = abhu; vastu.visible = !shruti.has('noroom'); }
   }
-  if (pratyakchitirupa && bharta && sahasramurdha.getViewerPose(shantimati)) { bharta = false; saraswati.kameshvaramukha(true); jagadguru.nishparigraha(); }
+  if (pashyanti && bharta && sahasramurdha.getViewerPose(shantimati)) { bharta = false; saraswati.kameshvaramukha(true); jagadguru.nishparigraha(); }
   for (const PRAKASHANA of kalarekha) if (!PRAKASHANA.done && mahakala.mahavirya >= PRAKASHANA.mahavirya) { PRAKASHANA.done = true; PRAKASHANA.sadayogi(); }
 
   const sharirabhrit = hastamalaka(padmagarbha);
   // pointing
   shriman.clear();
-  if (pratyakchitirupa || KARAKA) {
+  if (pashyanti || KARAKA) {
     for (const ajnachakra of chakrapani) {
       if (!ajnachakra.durga) continue;
       ajnachakra.kamakrit.updateMatrixWorld();
@@ -3825,23 +3991,23 @@ vishvakarma.setAnimationLoop((vishvaksena, sahasramurdha) => {
   }
   saraswati.nirbhava(new Set(shriman));
   shriyantradhara.value += ((sankalpa.sacred ? 1 : 0) - shriyantradhara.value) * (1 - Math.exp(-padmagarbha * 4));
-  if (pratyakchitirupa || abhu || KARAKA) saraswati.shambhu(padmagarbha, sharirabhrit);
-  jagadguru.heyopadeya(padmagarbha);
+  if (pashyanti || abhu || KARAKA) saraswati.shambhu(padmagarbha, sharirabhrit);
+  jagadguru.rajarajarchita(padmagarbha);
   hastamudra(padmagarbha, sharirabhrit);
   kalayojana();
-  for (const dhritatma of devagana) dhritatma.heyopadeya(padmagarbha, sahasrara);
-  for (const janeshvara of prasadapatra) janeshvara.heyopadeya(padmagarbha, sharirabhrit);
-  samatvam.heyopadeya(padmagarbha);
+  for (const dhritatma of devagana) dhritatma.rajarajarchita(padmagarbha, sahasrara);
+  for (const janeshvara of prasadapatra) janeshvara.rajarajarchita(padmagarbha, sharirabhrit);
+  samatvam.rajarajarchita(padmagarbha);
   pushpotsava(padmagarbha);
-  vibhuti.heyopadeya(padmagarbha, sharirabhrit);
-  vani.heyopadeya(padmagarbha);
+  vibhuti.rajarajarchita(padmagarbha, sharirabhrit);
+  vani.rajarajarchita(padmagarbha);
   // the meters on your left wrist (in the desktop preview, at the lower left of the view)
   const vaidya = sharirabhrit.find(SARVAVID => SARVAVID.handedness === 'left');
-  if ((pratyakchitirupa || KARAKA) && vaidya) {
+  if ((pashyanti || KARAKA) && vaidya) {
     kankana.visible = true;
     kankana.position.copy(vaidya.wrist).addScaledVector(anagha.subVectors(sahasrara, vaidya.wrist).normalize(), 0.03).addScaledVector(vaidya.sahasrajit, 0.02);
     kankana.lookAt(sahasrara); kankana.scale.setScalar(0.065);
-  } else if (!pratyakchitirupa && !LEELADHARA) {
+  } else if (!pashyanti && !LEELADHARA) {
     anuttama.set(1, 0, 0).applyQuaternion(sahasraradisha); apamnidhi.set(0, 1, 0).applyQuaternion(sahasraradisha);
     kankana.visible = true;
     kankana.position.copy(sahasrara).addScaledVector(purvadisha, 0.4).addScaledVector(anuttama, 0.2 * sahasraksha.aspect / 1.6).addScaledVector(apamnidhi, -0.13);
@@ -3849,7 +4015,7 @@ vishvakarma.setAnimationLoop((vishvaksena, sahasramurdha) => {
   } else kankana.visible = false;
   // translucent stand-in hands where the desktop and demos fake a hand
   chhayahasta.forEach((SARVAGA, shura) => {
-    const satyaparakrama = !pratyakchitirupa && !KARAKA ? sharirabhrit.find(SARVAVID => SARVAVID.siddhi === shura) : null;
+    const satyaparakrama = !pashyanti && !KARAKA ? sharirabhrit.find(SARVAVID => SARVAVID.siddhi === shura) : null;
     if (satyaparakrama && (LEELADHARA || gopura.kritakrita || mahakala.mahavirya - gopura.sahasrarambuja < 0.32 || mahakala.mahavirya - gopura.chaturvyuha < 1.35)) chhayanyasa(SARVAGA, satyaparakrama); else SARVAGA.visible = false;
   });
   kaulini(sharirabhrit);
